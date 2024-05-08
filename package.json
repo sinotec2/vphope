@@ -1,0 +1,173 @@
+{
+  "name": "vuepress-theme-hope-root",
+  "version": "2.0.0-rc.38",
+  "private": true,
+  "description": "A VuePress theme with tons of features",
+  "type": "module",
+  "workspaces": [
+    "demo/*",
+    "docs/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "cross-env NODE_ENV=production pnpm run --stream -r build",
+    "build:no-bundle": "concurrently \"tsc -b tsconfig.build.json\" \"pnpm run copy\"",
+    "clean": "pnpm run --stream -r clean",
+    "commit": "pnpm git-cz",
+    "copy": "pnpm run --parallel -r copy",
+    "dev": "concurrently \"tsc -b tsconfig.build.json --watch\" \"pnpm run dev:copy\"",
+    "dev:copy": "pnpm run --parallel -r dev:copy",
+    "docs:vite-build": "pnpm run -r docs:vite-build",
+    "docs:webpack-build": "pnpm run -r docs:vite-build",
+    "lint": "pnpm lint:prettier --write && pnpm lint:eslint --fix && pnpm lint:stylelint --fix",
+    "lint:check": "pnpm lint:prettier && pnpm lint:eslint && pnpm lint:stylelint",
+    "lint:eslint": "eslint .",
+    "lint:md": "markdownlint-cli2 '**/*.md'",
+    "lint:prettier": "prettier --check .",
+    "lint:stylelint": "stylelint packages/*/src/**/*.{css,scss}",
+    "packages:bootstrap": "tsx scripts/bootstrap.ts",
+    "packages:check-update": "pnpm dlx npm-check-updates -u --deep --timeout 600000",
+    "packages:update": "pnpm up -r",
+    "prepare": "husky",
+    "release": "pnpm clean && pnpm build && pnpm release:bump && pnpm release:publish && pnpm release:sync",
+    "release:publish": "lerna publish from-package --yes",
+    "release:sync": "cross-env NODE_OPTIONS=\"--experimental-json-modules\" tsx scripts/sync.ts",
+    "release:version": "lerna version",
+    "test": "cross-env TZ=Etc/UTC vitest --coverage"
+  },
+  "nano-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "*.vue": "eslint --fix",
+    "*.{js,ts}": [
+      "eslint --fix",
+      "cross-env TZ=Etc/UTC vitest related --run"
+    ],
+    "*.md": "markdownlint-cli2 --fix",
+    "*.scss": "stylelint --fix",
+    "package.json": "sort-package-json"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-git"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "19.3.0",
+    "@commitlint/config-conventional": "19.2.2",
+    "@lerna-lite/cli": "3.3.3",
+    "@lerna-lite/publish": "3.3.3",
+    "@rollup/plugin-alias": "5.1.0",
+    "@rollup/plugin-commonjs": "25.0.7",
+    "@rollup/plugin-node-resolve": "15.2.3",
+    "@rollup/plugin-replace": "5.0.5",
+    "@types/inquirer": "9.0.7",
+    "@types/node": "20.12.8",
+    "@vitest/coverage-v8": "1.6.0",
+    "@vue/eslint-config-typescript": "13.0.0",
+    "concurrently": "8.2.2",
+    "cpx2": "7.0.1",
+    "cross-env": "7.0.3",
+    "cz-git": "1.9.1",
+    "esbuild": "0.20.2",
+    "eslint": "8.57.0",
+    "eslint-config-mister-hope": "0.0.8",
+    "eslint-plugin-vue": "9.25.0",
+    "execa": "8.0.1",
+    "gulp": "5.0.0",
+    "http-server": "14.1.1",
+    "husky": "9.0.11",
+    "markdownlint-cli2": "0.13.0",
+    "nano-staged": "0.8.0",
+    "ora": "8.0.1",
+    "prettier": "3.2.5",
+    "rimraf": "5.0.5",
+    "rollup": "4.17.2",
+    "rollup-plugin-copy": "3.5.0",
+    "rollup-plugin-dts": "6.1.0",
+    "rollup-plugin-esbuild": "6.1.1",
+    "rollup-plugin-resolve-shebang": "1.0.1",
+    "sort-package-json": "2.10.0",
+    "stylelint": "16.5.0",
+    "stylelint-config-hope": "6.0.1",
+    "through2": "4.0.2",
+    "tslib": "2.6.2",
+    "tsx": "4.9.1",
+    "typescript": "5.4.5",
+    "vitest": "1.6.0"
+  },
+  "packageManager": "pnpm@9.0.6",
+  "engines": {
+    "node": ">=20"
+  },
+  "pnpm": {
+    "overrides": {
+      "@types/markdown-it": "14.1.1"
+    }
+  },
+  "commit-and-tag-version": {
+    "header": "# Change Log\n\nAll notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.\n\n<!-- #region recent-change -->\n",
+    "releaseCommitMessageFormat": "chore(release): publish v{{currentTag}}",
+    "types": [
+      {
+        "type": "feat",
+        "section": "Features"
+      },
+      {
+        "type": "feature",
+        "section": "Features"
+      },
+      {
+        "type": "fix",
+        "section": "Bug Fixes"
+      },
+      {
+        "type": "perf",
+        "section": "Performance Improvements"
+      },
+      {
+        "type": "revert",
+        "section": "Reverts"
+      },
+      {
+        "type": "docs",
+        "section": "Documentation",
+        "hidden": true
+      },
+      {
+        "type": "style",
+        "section": "Styles",
+        "hidden": true
+      },
+      {
+        "type": "chore",
+        "section": "Miscellaneous Chores",
+        "hidden": true
+      },
+      {
+        "type": "refactor",
+        "section": "Code Refactoring",
+        "hidden": true
+      },
+      {
+        "type": "test",
+        "section": "Tests",
+        "hidden": true
+      },
+      {
+        "type": "build",
+        "section": "Build System",
+        "hidden": true
+      },
+      {
+        "type": "ci",
+        "section": "Continuous Integration",
+        "hidden": true
+      }
+    ],
+    "skip": {
+      "bump": true,
+      "commit": true,
+      "tag": true
+    }
+  }
+}
