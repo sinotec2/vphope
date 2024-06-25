@@ -20,6 +20,11 @@ export default theme("md-enhance", {
   },
 
   plugins: {
+    docsearch: false,
+    searchPro: {
+      searchDelay: 800,
+      suggestDelay: 300,
+    },
     components: {
       components: ["Badge", "VPCard"],
     },

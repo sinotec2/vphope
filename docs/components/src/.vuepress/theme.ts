@@ -77,6 +77,11 @@ export default theme("components", {
   },
 
   plugins: {
+    docsearch: false,
+    searchPro: {
+      searchDelay: 800,
+      suggestDelay: 300,
+    },
     components: {
       components: [
         "ArtPlayer",

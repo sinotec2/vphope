@@ -84,7 +84,12 @@ export default theme(
       blog: {
         excerptLength: 0,
       },
-
+      docsearch: false,
+      searchPro: {
+        searchDelay: 800,
+        suggestDelay: 300,
+      },
+      
       components: {
         components: [
           "ArtPlayer",

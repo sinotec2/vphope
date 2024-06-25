@@ -17,6 +17,11 @@ export default theme("shared", {
   },
 
   plugins: {
+    docsearch: false,
+    searchPro: {
+      searchDelay: 800,
+      suggestDelay: 300,
+    },
     mdEnhance: {
       codetabs: true,
       imgMark: true,

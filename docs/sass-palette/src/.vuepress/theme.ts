@@ -17,6 +17,11 @@ export default theme("sass-palette", {
   },
 
   plugins: {
+    docsearch: false,
+    searchPro: {
+      searchDelay: 800,
+      suggestDelay: 300,
+    },
     mdEnhance: {
       codetabs: true,
       imgMark: true,
