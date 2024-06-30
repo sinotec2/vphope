@@ -2,7 +2,7 @@ export interface DocsRepoLocaleOptions {
   /**
    * Pattern of edit link, we provide built-in support for GitHub, Gitlab, Gitee, Bitbucket
    *
-   * 编辑链接的匹配，我们已经为 GitHub、Gitlab、Gitee 和 Bitbucket 提供了内置支持
+   * 編輯連結的匹配，我們已經為 GitHub、Gitlab、Gitee 和 Bitbucket 提供了内置支持
    *
    * @example ":repo/edit/:branch/:path"
    */
@@ -11,7 +11,7 @@ export interface DocsRepoLocaleOptions {
   /**
    * The repo of your docs
    *
-   * 文档仓库
+   * 文檔倉庫
    *
    * @default themeConfig.repo
    */
@@ -20,7 +20,7 @@ export interface DocsRepoLocaleOptions {
   /**
    * The branch of your docs
    *
-   * 文档所在分支
+   * 文檔所在分支
    *
    * @default "main"
    */
@@ -29,7 +29,7 @@ export interface DocsRepoLocaleOptions {
   /**
    * Docs dir location in repo
    *
-   * 文档在仓库中的目录
+   * 文檔在倉庫中的目錄
    *
    * @default ""
    */

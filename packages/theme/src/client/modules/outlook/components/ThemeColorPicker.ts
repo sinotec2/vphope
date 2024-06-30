@@ -13,7 +13,7 @@ export default defineComponent({
     /**
      * Theme color picker config
      *
-     * 主题色选择器配置
+     * 主題色選擇器配置
      */
     themeColor: {
       type: Object as PropType<Record<string, string>>,

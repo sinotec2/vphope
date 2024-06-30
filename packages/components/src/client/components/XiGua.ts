@@ -15,7 +15,7 @@ export default defineComponent({
     /**
      * XiGua video id
      *
-     * 西瓜视频 ID
+     * 西瓜視頻 ID
      */
     id: {
       type: String,
@@ -25,7 +25,7 @@ export default defineComponent({
     /**
      * XiGua video title
      *
-     * 西瓜视频标题
+     * 西瓜視頻標題
      */
     title: {
       type: String,
@@ -35,7 +35,7 @@ export default defineComponent({
     /**
      * Component width
      *
-     * 组件宽度
+     * 元件寬度
      */
     width: {
       type: [String, Number],
@@ -45,7 +45,7 @@ export default defineComponent({
     /**
      * Component height
      *
-     * 组件高度
+     * 元件高度
      */
     height: {
       type: [String, Number],
@@ -55,7 +55,7 @@ export default defineComponent({
     /**
      * Component width / height ratio
      *
-     * 组件长宽比
+     * 元件長寬比
      */
     ratio: {
       type: [String, Number],
@@ -65,7 +65,7 @@ export default defineComponent({
     /**
      * Start time in seconds
      *
-     * 基于秒数的开始时间
+     * 基於秒數的開始時間
      */
     time: {
       type: [String, Number],
@@ -75,7 +75,7 @@ export default defineComponent({
     /**
      * Auto play
      *
-     * 自动播放
+     * 自動播放
      */
     autoplay: Boolean,
   },

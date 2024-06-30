@@ -19,7 +19,7 @@ export default defineComponent({
     /**
      * Navbar Screen nav-screen-menu list config
      *
-     * 导航栏下拉列表配置
+     * 導航欄下拉列表配置
      */
     config: {
       type: Object as PropType<NavGroup<AutoLinkType | NavGroup<AutoLinkType>>>,

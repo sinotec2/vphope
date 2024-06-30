@@ -23,7 +23,7 @@ export default defineComponent({
     /**
      * Playground title
      *
-     * 演示标题
+     * 範例標題
      */
     title: {
       type: String,
@@ -33,14 +33,14 @@ export default defineComponent({
     /**
      * Playground file data
      *
-     * 演示文件数据
+     * 範例文件數據
      */
     files: { type: String, required: true },
 
     /**
      * Playground settings
      *
-     * 演示设置
+     * 範例設置
      */
     settings: { type: String, default: "{}" },
   },

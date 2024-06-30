@@ -18,7 +18,7 @@ export default defineComponent({
     /**
      * Category information
      *
-     * 分类信息
+     * 分類資訊
      */
     category: {
       type: Array as PropType<PageCategory[]>,
@@ -28,7 +28,7 @@ export default defineComponent({
     /**
      * Whether in pure mode
      *
-     * 是否处于纯净模式
+     * 是否處於纯净模式
      */
     pure: Boolean,
   },

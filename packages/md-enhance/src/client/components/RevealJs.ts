@@ -44,21 +44,21 @@ export default defineComponent({
     /**
      * Presentation id
      *
-     * 幻灯片 id
+     * 投影片 id
      */
     id: { type: String, required: true },
 
     /**
      * Presentation code
      *
-     * 幻灯片代码
+     * 投影片程式碼
      */
     code: { type: String, required: true },
 
     /**
      * Presentation theme
      *
-     * 幻灯片主题
+     * 投影片主題
      */
     theme: { type: String as PropType<ThemeType>, default: "auto" },
   },

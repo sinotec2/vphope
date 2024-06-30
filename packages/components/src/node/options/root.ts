@@ -7,14 +7,14 @@ export interface RootComponentOptions {
    *
    * Back to top button config
    *
-   * 返回顶部按钮配置
+   * 返回頂部按鈕配置
    */
   backToTop?: BackToTopOptions | boolean;
 
   /**
    * Global notice config
    *
-   * 全局通知配置
+   * 全面通知配置
    */
   notice?: NoticeOptions[];
 }

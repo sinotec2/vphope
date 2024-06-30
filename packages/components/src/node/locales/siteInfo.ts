@@ -3,9 +3,9 @@ import type { SiteInfoLocaleConfig } from "../../shared/index.js";
 export const siteInfoLocaleConfig: SiteInfoLocaleConfig = {
   "/en/": { source: "Source" },
 
-  "/zh/": { source: "源代码" },
+  "/zh/": { source: "程式碼" },
 
-  "/zh-tw/": { source: "源代碼" },
+  "/zh-tw/": { source: "程式碼" },
 
   "/de-at/": { source: "Quellcode" },
 

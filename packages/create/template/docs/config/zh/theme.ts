@@ -12,20 +12,29 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "http://iiseng.sinotech-eng.com/sipEng/Content/logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "sinotec2/discuss",
 
   docsDir: "src",
 
-  // 导航栏
+  // 導航欄
   navbar,
 
-  // 侧边栏
+  // 側邊欄
   sidebar,
 
-  // 页脚
-  footer: "默认页脚",
+  // 頁尾
+  footer: {
+    links: [
+      {
+        title: 'View Stats',
+        content: '<script src="https://busuanzi.ibruce.info/jquery/1.11.2/jquery.min.js"></script><script src="https://busuanzi.ibruce.info/pintuer/1.0/pintuer.mini.js"></script><script src="https://busuanzi.ibruce.info/respond/1.4.2/respond.min.js"></script><script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><p class="text-small text-grey-dk-100 mb-0"><i class="fa fa-eye"></i> <span id="busuanzi_container_page_pv">  <span id="busuanzi_value_page_pv"> </span>  views &emsp;</span><i class="fa fa-earth"></i> <span id="busuanzi_container_site_pv"> <span id="busuanzi_value_site_pv"> </span>  site_visits &emsp;</span><i class="fa fa-user"></i><span id="busuanzi_container_site_uv"> <span id="busuanzi_value_site_uv"></span> visitors</span></p>',
+      },
+    ],
+    content: "",
+  },
+
   displayFooter: true,
 
   // 加密配置
@@ -35,30 +44,30 @@ export default hopeTheme({
     },
   },
 
-  // 多语言配置
+  // 多語言配置
   metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
+    editLink: "在 GitHub 上編輯此頁",
   },
 
-  // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
+  // 如果想要實時查看任何改變，啟用它。注: 這對更新性能有很大負面影響
   // hotReload: true,
 
-  // 在这里配置主题提供的插件
+  // 在這裡配置主題提供的外掛程式
   plugins: {
-    // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
+    // 注意: 僅用於測試! 你必須自行生成並在生產環境中使用自己的評論服務
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "sinotec2/discuss",
+      repoId: "R_kgDOL8RFWw",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDOL8RFW84CfZdr",
     },
 
     components: {
       components: ["Badge", "VPCard"],
     },
 
-    // 此处开启了很多功能用于演示，你应仅保留用到的功能。
+    // 此處開啟了很多功能用於範例，你應僅保留用到的功能。
     mdEnhance: {
       align: true,
       attrs: true,
@@ -89,46 +98,46 @@ export default hopeTheme({
       tasklist: true,
       vPre: true,
 
-      // 在启用之前安装 chart.js
+      // 在啟用之前安裝 chart.js
       // chart: true,
 
       // insert component easily
 
-      // 在启用之前安装 echarts
+      // 在啟用之前安裝 echarts
       // echarts: true,
 
-      // 在启用之前安装 flowchart.ts
+      // 在啟用之前安裝 flowchart.ts
       // flowchart: true,
 
       // gfm requires mathjax-full to provide tex support
       // gfm: true,
 
-      // 在启用之前安装 katex
+      // 在啟用之前安裝 katex
       // katex: true,
 
-      // 在启用之前安装 mathjax-full
+      // 在啟用之前安裝 mathjax-full
       // mathjax: true,
 
-      // 在启用之前安装 mermaid
+      // 在啟用之前安裝 mermaid
       // mermaid: true,
 
       // playground: {
       //   presets: ["ts", "vue"],
       // },
 
-      // 在启用之前安装 reveal.js
+      // 在啟用之前安裝 reveal.js
       // revealJs: {
       //   plugins: ["highlight", "math", "search", "notes", "zoom"],
       // },
 
-      // 在启用之前安装 @vue/repl
+      // 在啟用之前安裝 @vue/repl
       // vuePlayground: true,
 
       // install sandpack-vue3 before enabling it
       // sandpack: true,
     },
 
-    // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
+    // 如果你需要 PWA。安裝 @vuepress/plugin-pwa 並取消下方註解
     // pwa: {
     //   favicon: "/favicon.ico",
     //   cacheHTML: true,

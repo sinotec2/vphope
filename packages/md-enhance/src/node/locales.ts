@@ -13,17 +13,17 @@ export const markdownEnhanceLocales: MarkdownEnhanceLocaleConfig = {
 
   "/zh/": {
     important: "重要",
-    info: "相关信息",
+    info: "相關資訊",
     note: "注",
     tip: "提示",
     warning: "注意",
     caution: "警告",
-    details: "详情",
+    details: "詳情",
   },
 
   "/zh-tw/": {
     important: "重要",
-    info: "相關信息",
+    info: "相關資訊",
     note: "注",
     tip: "提示",
     warning: "注意",

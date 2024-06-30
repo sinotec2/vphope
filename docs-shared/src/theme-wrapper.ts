@@ -58,10 +58,10 @@ export const theme = (
     plugins: {
       comment: {
         provider: "Giscus",
-        repo: "vuepress-theme-hope/giscus-discussions",
-        repoId: "R_kgDOG_Pt2A",
+        repo: "sinotec2/discuss",
+        repoId: "R_kgDOL8RFWw",
         category: "Announcements",
-        categoryId: "DIC_kwDOG_Pt2M4COD69",
+        categoryId: "DIC_kwDOL8RFW84CfZdr",
         mapping: "url",
       },
 
@@ -84,12 +84,12 @@ export const theme = (
                 },
                 {
                   path: "/zh/",
-                  title: "新的文档地址",
+                  title: "新的文檔地址",
                   content:
-                    "我们的文档已经迁移至新域名 vuejs.press 下。<br>当前文档是基于主分支最新提交构建的，可能包含<strong>未发布的更改</strong>。",
+                    "我們的文檔已經遷移至新域名 vuejs.press 下。<br>當前文檔是基於主分支最新提交構建的，可能包含<strong>未發布的更改</strong>。",
                   actions: [
                     {
-                      text: "立即访问",
+                      text: "立即訪問",
                       link: `${canonical}/zh/`,
                     },
                   ],

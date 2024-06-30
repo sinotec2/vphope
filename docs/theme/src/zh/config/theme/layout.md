@@ -1,36 +1,36 @@
 ---
-title: 主题布局选项
+title: 主題布局選項
 icon: object-group
 order: 3
 category:
   - 配置
 tag:
-  - 主题配置
+  - 主題配置
   - 布局
 ---
 
-以下选项控制主题布局。
+以下選項控制主題布局。
 
 <!-- more -->
 
-## 导航栏
+## 導航欄
 
-具体介绍详见 [布局 → 导航栏](../../guide/layout/navbar.md)。
+具體介紹詳見 [布局 → 導航欄](../../guide/layout/navbar.md)。
 
-### navbar <Badge text="建议配置" type="tip" />
+### navbar <Badge text="建議配置" type="tip" />
 
-- 类型: `NavbarConfig | false`
-- 默认值: `false`
+- 類型: `NavbarConfig | false`
+- 內設值: `false`
 
-导航栏配置，具体配置方式见上方详情。
+導航欄配置，具體配置方式見上方詳情。
 
 ### navbarLayout
 
-- 类型: `NavbarLayoutOptions`
+- 類型: `NavbarLayoutOptions`
 
   ```ts
   /**
-   * 内置导航栏组件
+   * 内置導航欄元件
    */
   type NavbarComponent =
     | "Brand"
@@ -41,7 +41,7 @@ tag:
     | "Repo";
 
   /**
-   * 导航栏布局选项
+   * 導航欄布局選項
    */
   interface NavbarLayoutOptions {
     start?: (NavbarComponent | string)[];
@@ -50,86 +50,86 @@ tag:
   }
   ```
 
-- 默认值: `{ start: ["Brand"], center: ["Links"], end: ["Language", "Repo", "Outlook", "Search"] }`
+- 內設值: `{ start: ["Brand"], center: ["Links"], end: ["Language", "Repo", "Outlook", "Search"] }`
 
-自定义导航栏布局
+自定義導航欄布局
 
-### logo <Badge text="建议配置" type="tip" />
+### logo <Badge text="建議配置" type="tip" />
 
-- 类型: `string`
+- 類型: `string`
 - 必填: 否
 
-导航栏图标，应为基于 `.vuepress/public` 文件夹的绝对路径。
+導航欄圖標，應為基於 `.vuepress/public` 文件目錄的絕對路徑。
 
 ### logoDark
 
-- 类型: `string`
-- 默认值: `logo`
+- 類型: `string`
+- 內設值: `logo`
 
-夜间模式下导航栏图标，应为基于 `.vuepress/public` 文件夹的绝对路径。
+夜間模式下導航欄圖標，應為基於 `.vuepress/public` 文件目錄的絕對路徑。
 
 ### navbarTitle
 
-- 类型: `string`
-- 默认值: `$siteLocale.title`
+- 類型: `string`
+- 內設值: `$siteLocale.title`
 
-导航栏标题，你可以设置为 `''` 来隐藏它。
+導航欄標題，你可以設置為 `''` 來隱藏它。
 
 ### repo
 
-- 类型: `string`
+- 類型: `string`
 - 必填: 否
 
-仓库配置，用于在导航栏中显示仓库链接。
+倉庫配置，用於在導航欄中顯示倉庫連結。
 
 ### repoDisplay
 
-- 类型: `boolean`
-- 默认值: `true`
+- 類型: `boolean`
+- 內設值: `true`
 
-是否在导航栏显示仓库链接。
+是否在導航欄顯示倉庫連結。
 
 ### repoLabel
 
-- 类型: `string`
+- 類型: `string`
 - 必填: 否
 
-用于导航栏仓库按钮的无障碍标签。
+用於導航欄倉庫按鈕的無障礙標籤。
 
 ::: note
 
-主题可以正确识别 GitHub, Gitlab, Gitee, Bitbucket 的链接。
+主題可以正確識别 GitHub, Gitlab, Gitee, Bitbucket 的連結。
 
 :::
 
 ### navbarAutoHide
 
-- 类型: `"always" | "mobile" | "none"`
-- 默认值: `"mobile"`
+- 類型: `"always" | "mobile" | "none"`
+- 內設值: `"mobile"`
 
-是否在向下滚动时自动隐藏导航栏。
+是否在向下滾動時自動隱藏導航欄。
 
 ### hideSiteNameOnMobile
 
-- 类型: `boolean`
-- 默认值: `true`
+- 類型: `boolean`
+- 內設值: `true`
 
-是否在移动视图下隐藏站点名称。
+是否在移動視圖下隱藏網站名稱。
 
-## 侧边栏
+## 側邊欄
 
-关于配置指南，详见 [布局 → 侧边栏](../../guide/layout/sidebar.md)。
+關於配置指引，詳見 [布局 → 側邊欄](../../guide/layout/sidebar.md)。
 
-### sidebar <Badge text="建议配置" type="tip" />
+### sidebar <Badge text="建議配置" type="tip" />
 
-- 类型: `SidebarConfig | "structure" | false`
-- 默认值: `"structure"`
+- 類型: `SidebarConfig | "structure" | false`
+- 內設值: `"structure"`
 
-侧边栏配置。
+側邊欄配置。
 
-### sidebarSorter <Badge text="仅限 Root" type="warning" />
+### sidebarSorter <Badge text="僅限 Root" type="warning" />
 
-- 类型: `SidebarSorter`
+- 類型: `SidebarSorter`
 
   ```ts
   interface SidebarFileInfo {
@@ -184,187 +184,187 @@ tag:
     | SidebarSorterKeyword[];
   ```
 
-- 默认值: `["readme", "order", "title", "filename"]`
+- 內設值: `["readme", "order", "title", "filename"]`
 
-结构侧边栏排序器。
+結構側邊欄排序器。
 
 你可以:
 
-- 填写自定义函数
-- 提供一个排序器关键字
-- 提供一组自定义函数或排序器关键字
+- 填寫自定義函數
+- 提供一個排序器關鍵字
+- 提供一組自定義函數或排序器關鍵字
 
-可用的关键字有:
+可用的關鍵字有:
 
 - `readme`: `README.md` 或 `readme.md` 在前
-- `order`: 正序在前并按其值升序排列，负序在后并按其值降序排列
+- `order`: 正序在前並按其值升序排列，負序在後並按其值降序排列
 - `date`: 按日期升序排序
 - `date-desc`: 按日期降序排序
-- `title`: 按标题字母顺序排序
-- `filename`: 按文件名字母顺序排序
+- `title`: 按標題字母順序排序
+- `filename`: 按文件名字母順序排序
 
 ### headerDepth
 
-- 类型: `number`
-- 默认值: `2`
+- 類型: `number`
+- 內設值: `2`
 
-侧边栏嵌套的标题深度。
+側邊欄嵌套的標題深度。
 
-## 路径导航
+## 路徑導航
 
 ### breadcrumb
 
-- 类型: `boolean`
-- 默认值: `true`
+- 類型: `boolean`
+- 內設值: `true`
 
-是否全局启用路径导航。
+是否全面啟用路徑導航。
 
 ### breadcrumbIcon
 
-- 类型: `boolean`
-- 默认值: `true`
+- 類型: `boolean`
+- 內設值: `true`
 
-是否在路径导航显示图标。
+是否在路徑導航顯示圖標。
 
 ### prevLink
 
-- 类型: `boolean`
-- 默认值: `true`
+- 類型: `boolean`
+- 內設值: `true`
 
-是否在页面底部显示上一篇链接。
+是否在頁面底部顯示上一篇連結。
 
 ### nextLink
 
-- 类型: `boolean`
-- 默认值: `true`
+- 類型: `boolean`
+- 內設值: `true`
 
-是否在页面底部显示下一篇链接。
+是否在頁面底部顯示下一篇連結。
 
-## 标题
+## 標題
 
 ### titleIcon
 
-- 类型: `boolean`
-- 默认值: `true`
+- 類型: `boolean`
+- 內設值: `true`
 
-是否在页面标题旁显示图标。
+是否在頁面標題旁顯示圖標。
 
 ### pageInfo
 
-- 类型: `ArticleInfo[] | false`
-- 默认值: `["Author", "Original", "Date", "Category", "Tag", "ReadingTime"]`
+- 類型: `ArticleInfo[] | false`
+- 內設值: `["Author", "Original", "Date", "Category", "Tag", "ReadingTime"]`
 
-文章信息，可以填入数组，数组的顺序是各条目显示的顺序。填入 `false` 使其被禁用。
+文章資訊，可以填入數組，數組的順序是各條目顯示的順序。填入 `false` 使其被停用。
 
-可以填入的条目如下:
+可以填入的條目如下:
 
 - `"Author"`: 作者
-- `"Date"`: 写作日期
-- `"Original"`: 是否原创
-- `"Category"`: 分类
-- `"Tag"`: 标签
-- `"ReadingTime"`: 预计阅读时间
-- `"Word"`: 字数
-- `"PageView"`: 页面浏览量
+- `"Date"`: 寫作日期
+- `"Original"`: 是否原創
+- `"Category"`: 分類
+- `"Tag"`: 標籤
+- `"ReadingTime"`: 預計閱讀時間
+- `"Word"`: 字數
+- `"PageView"`: 頁面瀏覽量
 
 ## Meta
 
 ### lastUpdated
 
-- 类型: `boolean`
-- 默认值: `true`
+- 類型: `boolean`
+- 內設值: `true`
 
-是否显示页面最后更新时间
+是否顯示頁面最後更新時間
 
 ### contributors
 
-- 类型: `boolean`
-- 默认值: `true`
+- 類型: `boolean`
+- 內設值: `true`
 
-是否显示页面贡献者
+是否顯示頁面貢獻者
 
 ### editLink
 
-- 类型: `boolean`
-- 默认值: `true`
+- 類型: `boolean`
+- 內設值: `true`
 
-是否展示编辑此页链接
+是否展示編輯此頁連結
 
 ### editLinkPattern
 
-- 类型: `string`
+- 類型: `string`
 
-编辑链接的匹配。其中 `:repo` `:branch` `:path` 会被自动替换为 `docsRepo` `docsBranch` 和 `docsDir + filePath`。
+編輯連結的匹配。其中 `:repo` `:branch` `:path` 會被自動替換為 `docsRepo` `docsBranch` 和 `docsDir + filePath`。
 
 ::: note
 
-主题已经为 GitHub、Gitlab、Gitee 和 Bitbucket 提供了内置支持。
+主題已經為 GitHub、Gitlab、Gitee 和 Bitbucket 提供了内置支持。
 
 :::
 
 ### docsRepo
 
-- 类型: `string`
-- 默认值: `repo`
+- 類型: `string`
+- 內設值: `repo`
 
-文档仓库
+文檔倉庫
 
 ### docsBranch
 
-- 类型: `string`
-- 默认值: `"main"`
+- 類型: `string`
+- 內設值: `"main"`
 
-文档所在分支
+文檔所在分支
 
 ### docsDir
 
-- 类型: `string`
-- 默认值: `""`
+- 類型: `string`
+- 內設值: `""`
 
-文档在仓库中的目录
+文檔在倉庫中的目錄
 
-## 页脚
+## 頁尾
 
 ### footer
 
-- 类型: `string`
+- 類型: `string`
 - 必填: 否
 
-页脚的默认内容，可输入 HTMLString。
+頁尾的內設内容，可輸入 HTMLString。
 
 ### copyright
 
-- 类型: `string | false`
-- 默认值: `"Copyright © <作者>"`
+- 類型: `string | false`
+- 內設值: `"Copyright © <作者>"`
 
-默认的版权信息，设置为 `false` 来默认禁用它。
+內設的版權資訊，設置為 `false` 來內設停用它。
 
 ### displayFooter
 
-- 类型: `boolean`
-- 默认值: `false`
+- 類型: `boolean`
+- 內設值: `false`
 
-是否默认显示页脚
+是否內設顯示頁尾
 
-## 杂项
+## 杂項
 
 ### home
 
-- 类型: `string`
-- 默认值: 当前 `locale` 的键名
+- 類型: `string`
+- 內設值: 當前 `locale` 的鍵名
 
-当前语言的主页路径，用于导航栏图标和返回主页按钮的链接。
+當前語言的主頁路徑，用於導航欄圖標和返回主頁按鈕的連結。
 
 ### rtl
 
-- 类型: `boolean`
-- 默认值: `false`
+- 類型: `boolean`
+- 內設值: `false`
 
 是否使用 RTL 布局
 
 ### toc {#toc-heading}
 
-- 类型: `boolean`
-- 默认值: `true`
+- 類型: `boolean`
+- 內設值: `true`
 
-是否显示标题列表
+是否顯示標題列表

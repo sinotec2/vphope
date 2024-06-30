@@ -4,7 +4,7 @@ export interface ShareOptions {
   /**
    * Service to be enabled
    *
-   * 需要被启用的服务
+   * 需要被啟用的服務
    */
   services: ShareService[];
 
@@ -13,9 +13,9 @@ export interface ShareOptions {
    *
    * @description used to select page content
    *
-   * 主要内容选择器
+   * 主要内容選擇器
    *
-   * @description 用于选择页面内容
+   * @description 用於選擇頁面内容
    *
    * @default '.theme-default-content'
    */

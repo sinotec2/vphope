@@ -14,7 +14,7 @@ export default defineComponent({
     /**
      * Date information
      *
-     * 日期信息
+     * 日期資訊
      */
     date: {
       type: Object as PropType<Date | null>,
@@ -34,7 +34,7 @@ export default defineComponent({
     /**
      * Whether in pure mode
      *
-     * 是否处于纯净模式
+     * 是否處於纯净模式
      */
     pure: Boolean,
   },

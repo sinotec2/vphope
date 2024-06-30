@@ -1,5 +1,5 @@
 ---
-title: 样式化
+title: 樣式化
 icon: code
 dir:
   collapsible: false
@@ -8,7 +8,7 @@ dir:
 category:
   - Markdown
 tag:
-  - 样式化
+  - 樣式化
   - Markdown
 ---
 

@@ -5,19 +5,19 @@ export interface BlogLocaleData extends Record<string, string> {
   article: string;
   /** 文章列表文字 */
   articleList: string;
-  /** 分类文字 */
+  /** 分類文字 */
   category: string;
-  /** 标签文字 */
+  /** 標籤文字 */
   tag: string;
-  /** 时间轴文字 */
+  /** 時間軸文字 */
   timeline: string;
-  /** 时间轴标题文字 */
+  /** 時間軸標題文字 */
   timelineTitle: string;
   /** 全部文字 */
   all: string;
-  /** 个人介绍 */
+  /** 個人介紹 */
   intro: string;
-  /** 星标文章 */
+  /** 星標文章 */
   star: string;
   /** 空文字 */
   empty: string;
@@ -27,28 +27,28 @@ export interface PaginationLocaleData {
   /**
    * Previous page button label text
    *
-   * 上一页文字
+   * 上一頁文字
    */
   prev: string;
 
   /**
    * Next page button label text
    *
-   * 下一页文字
+   * 下一頁文字
    */
   next: string;
 
   /**
    * Navigation hint label text
    *
-   * 跳转提示文字
+   * 跳轉提示文字
    */
   navigate: string;
 
   /**
    * Navigation button label text
    *
-   * 跳转按钮文字
+   * 跳轉按鈕文字
    */
   action: string;
 
@@ -57,15 +57,15 @@ export interface PaginationLocaleData {
    *
    * @description `$page` will be replaced by total page number automatically
    *
-   * 页码错误文字
+   * 頁碼錯誤文字
    *
-   * @description 其中 `$page` 会自动替换为当前的总页数
+   * @description 其中 `$page` 會自動替換為當前的總頁數
    */
   errorText: string;
 }
 
 /**
- * 博客选项
+ * 網誌選項
  *
  * Blog configuration
  *
@@ -75,7 +75,7 @@ export interface BlogLocaleOptions {
   /**
    * Name of the Blogger
    *
-   * 博主名称
+   * 部落客名稱
    *
    * @default themeConfig.author
    */
@@ -84,7 +84,7 @@ export interface BlogLocaleOptions {
   /**
    * Blogger avatar, must be an absolute path
    *
-   * 博主头像，应为绝对路径
+   * 部落客頭像，應為絕對路徑
    *
    * @default themeConfig.navbar.logo
    */
@@ -93,19 +93,19 @@ export interface BlogLocaleOptions {
   /**
    * Motto, slogan or a short description
    *
-   * 口号、座右铭或介绍语
+   * 口號、座右銘或介紹語
    */
   description?: string;
 
   /**
    * Blogger introduction page link
    *
-   * 博主的个人介绍页地址
+   * 部落客的個人介紹頁地址
    */
   intro?: string;
 
   /**
-   * 媒体链接配置
+   * 媒體連結配置
    *
    * Media links configuration
    *
@@ -127,7 +127,7 @@ export interface BlogLocaleOptions {
   /**
    * Whether to display blogger info in sidebar
    *
-   * 是否在侧边栏展示博主信息
+   * 是否在側邊欄展示部落客資訊
    *
    * @default "mobile"
    */
@@ -136,7 +136,7 @@ export interface BlogLocaleOptions {
   /**
    * Custom text for timeline
    *
-   * 时间轴自定义文字
+   * 時間軸自定義文字
    *
    * @default "Yesterday once more"
    */
@@ -145,7 +145,7 @@ export interface BlogLocaleOptions {
   /**
    * Article number per page
    *
-   * 每页的文章数量
+   * 每頁的文章數量
    *
    * @default 10
    */
@@ -154,7 +154,7 @@ export interface BlogLocaleOptions {
   /**
    * Article info displayed in article list
    *
-   * 文章列表中展示的文章信息
+   * 文章列表中展示的文章資訊
    *
    * @default ["Author", "Original", "Date", "PageView", "ReadingTime", "Category", "Tag"]
    */

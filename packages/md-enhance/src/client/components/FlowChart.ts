@@ -18,21 +18,21 @@ export default defineComponent({
     /**
      * Flowchart code content
      *
-     * 流程图代码内容
+     * 流程圖程式碼内容
      */
     code: { type: String, required: true },
 
     /**
      * Flowchart id
      *
-     * 流程图 id
+     * 流程圖 id
      */
     id: { type: String, required: true },
 
     /**
      * Flowchart preset
      *
-     * 流程图预设
+     * 流程圖預設
      */
     preset: {
       type: String as PropType<"ant" | "pie" | "vue">,

@@ -17,7 +17,7 @@ export interface LightGalleryPluginOptions {
   /**
    * Image selector
    *
-   * 图片选择器
+   * 圖片選擇器
    *
    * @default ".theme-default-content :not(a) > img:not([no-view])"
    */
@@ -26,9 +26,9 @@ export interface LightGalleryPluginOptions {
   /**
    * Light Gallery Plugins to enable
    *
-   * 想要启用的 Light Gallery 插件。
+   * 想要啟用的 Light Gallery 外掛程式。
    *
-   * 可选值 / Optional Values:
+   * 可選值 / Optional Values:
    *
    * - "autoplay"
    * - "fullscreen"
@@ -48,9 +48,9 @@ export interface LightGalleryPluginOptions {
    *
    * If the theme you are using has a switching animation, it is recommended to configure this option to `Switch animation duration + 200`.
    *
-   * lightgallery 抓取页面图片的延时，单位 ms。
+   * lightgallery 抓取頁面圖片的延時，單位 ms。
    *
-   * 如果你使用的主题有切换动画，建议配置此选项为 `切换动画时长 + 200`。
+   * 如果你使用的主題有切換動畫，建議配置此選項為 `切換動畫時長 + 200`。
    *
    * @default 800
    */

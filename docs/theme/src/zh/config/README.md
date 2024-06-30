@@ -9,44 +9,44 @@ tag:
   - 配置
 ---
 
-## 配置介绍
+## 配置介紹
 
-- [查看详情](intro.md)
+- [查看詳情](intro.md)
 
-## 多语言支持
+## 多語言支持
 
-- [查看详情](i18n.md)
+- [查看詳情](i18n.md)
 
-## 主题配置
+## 主題配置
 
-- [主题基本配置](theme/basic.md)
+- [主題基本配置](theme/basic.md)
 
-- [主题功能配置](theme/feature.md)
+- [主題功能配置](theme/feature.md)
 
-- [主题布局配置](theme/layout.md)
+- [主題布局配置](theme/layout.md)
 
-- [主题外观配置](theme/appearance.md)
+- [主題外觀配置](theme/appearance.md)
 
-## 插件配置
+## 外掛程式配置
 
-- [主题插件介绍](plugins/intro.md)
+- [主題外掛程式介紹](plugins/intro.md)
 
-- [博客插件配置](plugins/blog.md)
+- [網誌外掛程式配置](plugins/blog.md)
 
-- [Feed 插件配置](plugins/feed.md)
+- [Feed 外掛程式配置](plugins/feed.md)
 
-- [Markdown 增强插件配置](plugins/md-enhance.md)
+- [Markdown 增强外掛程式配置](plugins/md-enhance.md)
 
-- [其他插件](plugins/others.md)
+- [其他外掛程式](plugins/others.md)
 
 ## Frontmatter 配置
 
-- [信息 Frontmatter 配置](frontmatter/info.md)
+- [資訊 Frontmatter 配置](frontmatter/info.md)
 
 - [布局 Frontmatter 配置](frontmatter/layout.md)
 
-- [插件 Frontmatter 配置](frontmatter/plugins.md)
+- [外掛程式 Frontmatter 配置](frontmatter/plugins.md)
 
-## 样式配置
+## 樣式配置
 
-- [样式配置](style.md)
+- [樣式配置](style.md)

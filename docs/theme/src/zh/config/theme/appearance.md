@@ -1,27 +1,27 @@
 ---
-title: 主题外观选项
+title: 主題外觀選項
 icon: palette
 order: 4
 category:
   - 配置
 tag:
-  - 主题配置
-  - 外观
+  - 主題配置
+  - 外觀
 ---
 
-以下选项控制主题的外观，一般情况下你无需关注他们，它们仅为有相关配置需求的少数用户提供。
+以下選項控制主題的外觀，一般情况下你無需關注他們，它們僅為有相關配置需求的少數用户提供。
 
 <!-- more -->
 
 ::: warning
 
-这些选项**仅支持在主题配置中直接配置**，而不支持在各语言中分别配置。
+這些選項**僅支持在主題配置中直接配置**，而不支持在各語言中分别配置。
 
 :::
 
-## iconAssets <Badge text="仅限 Root" type="warning" />
+## iconAssets <Badge text="僅限 Root" type="warning" />
 
-- 类型: `FontIconAssets`
+- 類型: `FontIconAssets`
 
   ```ts
   type Link =
@@ -36,65 +36,65 @@ tag:
   ```
 
 - 必填: 否
-- 详情: [界面 → 图标](../../guide/interface/icon.md)
+- 詳情: [界面 → 圖標](../../guide/interface/icon.md)
 
-字体图标资源链接，支持 `'iconify'` `'fontawesome'` 和 `'fontawesome-with-brands'` 关键字。
+字體圖標資源連結，支持 `'iconify'` `'fontawesome'` 和 `'fontawesome-with-brands'` 關鍵字。
 
-## darkmode <Badge text="默认启用" /> <Badge text="仅限 Root" type="warning" />
+## darkmode <Badge text="內設啟用" /> <Badge text="僅限 Root" type="warning" />
 
-- 类型: `"switch" | "toggle" | "auto" | "enable" | "disable"`
-- 默认值: `"switch"`
-- 详情: [界面 → 深色模式](../../guide/interface/darkmode.md)
+- 類型: `"switch" | "toggle" | "auto" | "enable" | "disable"`
+- 內設值: `"switch"`
+- 詳情: [界面 → 深色模式](../../guide/interface/darkmode.md)
 
-深色模式支持选项:
+深色模式支持選項:
 
-- `"switch"`: 在深色模式，浅色模式和自动之间切换
-- `"toggle"`: 在深色模式和浅色模式之间切换
-- `"auto"`: 自动根据用户设备主题或当前时间决定是否应用深色模式
+- `"switch"`: 在深色模式，淺色模式和自動之間切換
+- `"toggle"`: 在深色模式和淺色模式之間切換
+- `"auto"`: 自動根據用户設備主題或當前時間决定是否應用深色模式
 - `"enable"`: 强制深色模式
-- `"disable"`: 禁用深色模式
+- `"disable"`: 停用深色模式
 
 ::: note
 
-如果你不需要这项功能，请设置 `darkmode: "disable"` 将其禁用。
+如果你不需要這項功能，請設置 `darkmode: "disable"` 將其停用。
 
 :::
 
 ## fullscreen
 
-- 类型: `boolean`
-- 默认值: `false`
-- 详情: [界面 → 全屏按钮](../../guide/interface/others.md#全屏按钮)
+- 類型: `boolean`
+- 內設值: `false`
+- 詳情: [界面 → 全螢幕按鈕](../../guide/interface/others.md#全螢幕按鈕)
 
-是否显示全屏按钮。
+是否顯示全螢幕按鈕。
 
-## pure <Badge text="仅限 Root" type="warning" />
+## pure <Badge text="僅限 Root" type="warning" />
 
-- 类型: `boolean`
-- 默认值: `false`
-- 详情: [界面 → 纯净模式](../../guide/interface/pure.md)
+- 類型: `boolean`
+- 內設值: `false`
+- 詳情: [界面 → 纯净模式](../../guide/interface/pure.md)
 
-是否开启纯净模式。
+是否開啟纯净模式。
 
 ::: tip
 
-启用此功能将禁用一些花哨的样式。
+啟用此功能將停用一些花哨的樣式。
 
-当你想提供“纯文档站点”时很有用。
+當你想提供“纯文檔網站”時很有用。
 
 :::
 
-## print <Badge text="仅限 Root" type="warning" />
+## print <Badge text="僅限 Root" type="warning" />
 
-- 类型: `boolean`
-- 默认值: `true`
+- 類型: `boolean`
+- 內設值: `true`
 
-是否在桌面模式下显示打印按钮。
+是否在桌面模式下顯示列印按鈕。
 
-## iconPrefix <Badge text="仅限 Root" type="warning" />
+## iconPrefix <Badge text="僅限 Root" type="warning" />
 
-- 类型: `string`
-- 默认值: 尝试从 iconAssets 推断
-- 详情: [界面 → 图标](../../guide/interface/icon.md)
+- 類型: `string`
+- 內設值: 嘗試從 iconAssets 推斷
+- 詳情: [界面 → 圖標](../../guide/interface/icon.md)
 
-通常情况下，它可以识别 iconAssets 并自动设置，如果识别失败，你可以手动设置图标的 FontClass 前缀。
+通常情况下，它可以識别 iconAssets 並自動設置，如果識别失败，你可以手動設置圖標的 FontClass 前缀。

@@ -7,7 +7,7 @@ export interface ComponentPluginOptions {
   /**
    * Components to be registered
    *
-   * 需要被注册的组件
+   * 需要被註冊的元件
    *
    * @default []
    */
@@ -16,21 +16,21 @@ export interface ComponentPluginOptions {
   /**
    * Global config for components
    *
-   * 组件全局配置
+   * 元件全面配置
    */
   componentOptions?: ComponentGlobalOptions;
 
   /**
    * Root config for components
    *
-   * 根组件配置
+   * 根元件配置
    */
   rootComponents?: RootComponentOptions;
 
   /**
    * Component Locales
    *
-   * 组件多语言
+   * 元件多語言
    */
   locales?: ComponentLocaleOptions;
 }

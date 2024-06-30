@@ -1,9 +1,9 @@
 ---
 home: true
-title: 主页
+title: 主頁
 icon: home
 heroText: vuepress-plugin-sass-palette
-tagline: VuePress2 的 Sass 调色板插件
+tagline: VuePress2 的 Sass 調色板外掛程式
 actions:
   - text: 快速上手
     icon: lightbulb
@@ -14,14 +14,14 @@ actions:
     icon: tools
     link: ./config.html
 
-footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Hope
+footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主題 | MIT 協議, 版權所有 © 2019-present Mr.Hope
 
 copyright: false
 ---
 
-## 使用插件
+## 使用外掛程式
 
-### 安装
+### 安裝
 
 ::: code-tabs#shell
 
@@ -47,13 +47,13 @@ npm i -D vuepress-plugin-sass-palette
 
 ### 使用
 
-你必须在插件初始化期间调用 `useSassPalettePlugin` 函数来使用此插件。。
+你必須在外掛程式初始化期間調用 `useSassPalettePlugin` 函數來使用此外掛程式。。
 
 ::: code-tabs#language
 
 @tab TS
 
-```ts title="你的插件或主题入口"
+```ts title="你的外掛程式或主題入口"
 import { useSassPalettePlugin } from "vuepress-plugin-sass-palette";
 import type { PluginFunction } from "vuepress/core";
 
@@ -61,27 +61,27 @@ export const yourPlugin =
   (options): PluginFunction =>
   (app) => {
     useSassPalettePlugin(app, {
-      // 插件选项
+      // 外掛程式選項
     });
 
     return {
-      // 你的插件 API
+      // 你的外掛程式 API
     };
   };
 ```
 
 @tab JS
 
-```js title="你的插件或主题入口"
+```js title="你的外掛程式或主題入口"
 import { useSassPalettePlugin } from "vuepress-plugin-sass-palette";
 
 const yourPlugin = (options) => (app) => {
   useSassPalettePlugin(app, {
-    // 插件选项
+    // 外掛程式選項
   });
 
   return {
-    // 你的插件 API
+    // 你的外掛程式 API
   };
 };
 ```

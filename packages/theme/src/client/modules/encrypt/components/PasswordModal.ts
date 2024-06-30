@@ -15,7 +15,7 @@ export default defineComponent({
     /**
      * Whether is fullscreen
      *
-     * 是否是全屏
+     * 是否是全螢幕
      */
     full: Boolean,
   },

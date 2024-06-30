@@ -6,7 +6,7 @@ import type { Lang } from "../i18n/index.js";
 import type { PackageManager } from "./index.js";
 
 export interface RegistryAnswer {
-  registry: "国内镜像源" | "当前源";
+  registry: "國内镜像源" | "當前源";
 }
 
 const NPM_MIRROR_REGISTRY = "https://registry.npmmirror.com/";
@@ -48,12 +48,12 @@ export const getRegistry = async (
       {
         name: "registry",
         type: "list",
-        message: "选择你想使用的源",
-        choices: ["国内镜像源", "当前源"],
+        message: "選擇你想使用的源",
+        choices: ["國内镜像源", "當前源"],
       },
     ]);
 
-    return registry === "国内镜像源" ? NPM_MIRROR_REGISTRY : userRegistry;
+    return registry === "國内镜像源" ? NPM_MIRROR_REGISTRY : userRegistry;
   }
 
   return userRegistry;

@@ -22,7 +22,7 @@ export default defineComponent({
      *
      * StackBlitz ID
      *
-     * @description 也支持完整的 StackBlitz 链接
+     * @description 也支持完整的 StackBlitz 連結
      */
     id: {
       type: String,
@@ -32,7 +32,7 @@ export default defineComponent({
     /**
      * StackBlitz type
      *
-     * StackBlitz 类型
+     * StackBlitz 類型
      */
     type: {
       type: String as PropType<"project" | "github">,
@@ -42,7 +42,7 @@ export default defineComponent({
     /**
      * Component width
      *
-     * 组件宽度
+     * 元件寬度
      */
     width: {
       type: [String, Number],
@@ -52,7 +52,7 @@ export default defineComponent({
     /**
      * Component height
      *
-     * 组件高度
+     * 元件高度
      */
     height: {
       type: [String, Number],
@@ -62,7 +62,7 @@ export default defineComponent({
     /**
      * Component width / height ratio
      *
-     * 组件长宽比
+     * 元件長寬比
      */
     ratio: {
       type: [String, Number],
@@ -72,7 +72,7 @@ export default defineComponent({
     /**
      * The default file to open in the editor
      *
-     * 默认打开的文件
+     * 內設打開的文件
      */
     file: {
       type: [String, Array] as PropType<string | string[]>,
@@ -82,7 +82,7 @@ export default defineComponent({
     /**
      * The initial URL path the preview should open
      *
-     * 预览的初始 URL 路径
+     * 預覽的初始 URL 路徑
      */
     initialPath: {
       type: String,
@@ -92,21 +92,21 @@ export default defineComponent({
     /**
      * Embed editor
      *
-     * 嵌入编辑器
+     * 嵌入編輯器
      */
     embed: Boolean,
 
     /**
      * Whether load embed demo directly
      *
-     * 是否直接加载嵌入演示
+     * 是否直接加載嵌入範例
      */
     load: Boolean,
 
     /**
      * Which view to open by default
      *
-     * 默认打开的视图
+     * 內設打開的視圖
      */
     view: {
       type: String as PropType<UiViewOption>,
@@ -116,21 +116,21 @@ export default defineComponent({
     /**
      * Hide file explorer panel in embed view
      *
-     * 在嵌入视图中隐藏文件资源管理器面板
+     * 在嵌入視圖中隱藏文件資源管理器面板
      */
     hideExplorer: Boolean,
 
     /**
      * Hide file explorer panel in embed view
      *
-     * 在嵌入视图中隐藏文件资源管理器面板
+     * 在嵌入視圖中隱藏文件資源管理器面板
      */
     hideNavigation: Boolean,
 
     /**
      * Hide the debugging console in the editor preview
      *
-     * 隐藏编辑器预览中的调试控制台
+     * 隱藏編輯器預覽中的調試控制台
      */
     hideDevtools: Boolean,
 
@@ -153,7 +153,7 @@ export default defineComponent({
     /**
      * Button text
      *
-     * 按钮文字
+     * 按鈕文字
      */
     text: {
       type: String,
@@ -163,7 +163,7 @@ export default defineComponent({
     /**
      * Theme
      *
-     * 主题
+     * 主題
      */
     theme: {
       type: String as PropType<UiThemeOption>,

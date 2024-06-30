@@ -14,21 +14,21 @@ export interface FeatureLocaleData {
   /**
    * Blog related i18n config
    *
-   * 博客相关多语言配置
+   * 網誌相關多語言配置
    */
   blogLocales: BlogLocaleData;
 
   /**
    * Pagination related i18n config
    *
-   * 分页相关多语言配置
+   * 分頁相關多語言配置
    */
   paginationLocales: PaginationLocaleData;
 
   /**
    * Encrypt related i18n config
    *
-   * 加密相关多语言配置
+   * 加密相關多語言配置
    */
   encryptLocales: EncryptLocaleData;
 }
@@ -37,7 +37,7 @@ export interface FeatureLocaleOptions {
   /**
    * Blog feature options
    *
-   * 博客功能配置
+   * 網誌功能配置
    */
   blog?: BlogLocaleOptions;
 }
@@ -62,9 +62,9 @@ export interface FeatureOptions {
    *
    * @description These features includes blog support and structure sidebar feature
    *
-   * 是否为需要重启整个 app 的功能启用热更新
+   * 是否為需要重啟整個 app 的功能啟用熱更新
    *
-   * @description 这些功能包括博客支持和结构侧边栏功能
+   * @description 這些功能包括網誌支持和結構側邊欄功能
    *
    * @default app.env.isDebug
    */

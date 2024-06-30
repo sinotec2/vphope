@@ -77,6 +77,6 @@ describe("timeTransformer", () => {
         timezone: "Asia/Shanghai",
         lang: "zh-TW",
       }),
-    ).toEqual("2020年4月4日上午10点00分");
+    ).toEqual("2020年4月4日上午10點00分");
   });
 });

@@ -31,7 +31,7 @@ export default defineComponent({
     /**
      * Articles
      *
-     * 文章项目
+     * 文章項目
      */
     items: {
       type: Array as PropType<

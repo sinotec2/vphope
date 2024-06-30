@@ -1,0 +1,119 @@
+---
+title: 轉錄小精靈使用說明
+icon: fab fa-chrome
+sticky: 6
+order: 410
+footer: '<script data-embed-id="5b4257af-3002-4486-9147-62c56de40822" data-base-api-url="https://eng06.sinotech-eng.com:3015/api/embed" data-position="bottom-left" data-chat-icon="support"  src="anythingllm-chat-widget.min.js"></script><script src="https://busuanzi.ibruce.info/pintuer/1.0/pintuer.mini.js"></script><script src="https://busuanzi.ibruce.info/respond/1.4.2/respond.min.js"></script><script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><p class="text-small text-grey-dk-100 mb-0"><i class="fa fa-eye"></i> <span id="busuanzi_container_page_pv">  <span id="busuanzi_value_page_pv"> </span>  views &emsp;</span><i class="fa fa-earth"></i> <span id="busuanzi_container_site_pv"> <span id="busuanzi_value_site_pv"> </span>  site_visits &emsp;</span><i class="fa fa-user"></i><span id="busuanzi_container_site_uv"> <span id="busuanzi_value_site_uv"></span> visitors</span></p>'
+---
+
+
+# 轉錄小精靈 使用說明
+
+## 背景
+
+### 使用時機
+
+- 需要將音訊檔轉換成文字，例如：需使用會議錄音檔製作會議記錄
+- 需將影片上字幕時
+
+
+### 語言及模型
+
+- 此處僅服務「**音訊檔**」的轉錄工作。
+- 此服務使用模型為OpenAI [Whisper](https://platform.openai.com/docs/guides/speech-to-text)。
+- 如有其他模型的需求，請另按章提出申請([人力支援/軟體需求單](http://iiseng.sinotech-eng.com/SinoForm/download/0689004))。
+
+
+### 服務系統特色
+
+- 免特殊界面、檔案總管隨丟隨轉錄
+- 免預約、免人工、機器排程管理(10分鐘後轉錄、7天後自動刪除)
+- 免費(研資部研發計畫經費支應)
+- 同時提供具有<u>**時間戳**</u>以及<u>**純文字**</u>兩種轉錄文件
+
+|![alt text](emb_pngs/image.png)|![alt text](emb_pngs/image-1.png)|
+|:-:|:-:|
+|具<u>**時間戳**</u>轉錄文件|<u>**純文字**</u>轉錄文件|
+
+## 服務路徑與使用說明
+
+### 服務位址
+
+```
+S:\16資訊\轉錄小精靈
+```
+
+|![alt text](emb_pngs/image-2.png)|
+|:-:|
+|轉錄小精靈服務位址|
+
+
+### 欲轉錄音訊檔案放置位址
+
+- 將欲轉錄之<u>**音訊檔**</u>放入：
+
+  ```
+  S:\16資訊\轉錄小精靈\音訊檔放置處
+  ```
+
+|![alt text](emb_pngs/image-3.png)|
+|:-:|
+|音訊檔放置位址|
+
+
+### 轉錄後文件獲取位址
+
+- 翻譯結果會按照<u>**音訊檔名稱**</u>分別放在不同目錄
+
+  ```
+  S:\16資訊\轉錄小精靈\轉錄完成認領區\[音訊檔名稱資料夾]
+  ```
+
+
+### 原始音訊檔改放位址
+
+- 原始音訊檔轉錄完後，會與轉錄後文件移動至同一資料夾<u>**音訊檔名稱資料夾**</u>
+
+  ```
+  S:\16資訊\轉錄小精靈\轉錄完成認領區\[音訊檔名稱資料夾]
+  ```
+
+
+### 操作示例
+
+- 以<u>**test.mp3**</u>為例:
+|![alt text](emb_pngs/image-4.png)|![alt text](emb_pngs/image-5.png)|
+|:-:|:-:|
+|欲轉錄之音訊檔|轉錄後文件獲取位址|
+
+1. 打開檔案總管，點選`S:\16資訊\轉錄小精靈`
+2. 存入欲轉錄之音訊檔案，並按照[規則](#檔名中需加入員編與計畫編號)命名
+3. 等候5~20分鐘(轉錄時間視提供檔案總時間而定)。
+
+
+## 檔案命名規則
+
+- 為追蹤檔案的來源、提供正確的服務，請同仁配合按照規則來命名文件。
+
+
+### 檔名中需加入員編與計畫編號
+
+-	欲翻譯之檔案名稱格式為`[員編]-[計畫編號]_[檔名].[副檔名]`
+
+  ```
+  Ex.	8765-2009Z_chap1.mp3
+  ```
+
+
+### 正確的格式及副檔名
+
+- 目前可接受翻譯的檔案格式：
+  - [.mp3](https://zh.wikipedia.org/zh-tw/MP3) 
+  - [.wav](https://zh.wikipedia.org/zh-tw/WAV)
+
+
+## 專案負責人
+
+- 謝天霖
+- 分機：10468
+- email：tienlin@mail.sinotech-eng.com

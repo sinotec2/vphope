@@ -23,7 +23,7 @@ export default defineComponent({
     /**
      * PDF link, should be absolute url
      *
-     * PDF 文件链接，应为完整链接
+     * PDF 文件連結，應為完整連結
      */
     url: {
       type: String,
@@ -33,7 +33,7 @@ export default defineComponent({
     /**
      * PDF title
      *
-     * PDF 标题
+     * PDF 標題
      */
     title: {
       type: String,
@@ -43,7 +43,7 @@ export default defineComponent({
     /**
      * Component width
      *
-     * 组件宽度
+     * 元件寬度
      */
     width: {
       type: [String, Number],
@@ -53,7 +53,7 @@ export default defineComponent({
     /**
      * Component height
      *
-     * 组件高度
+     * 元件高度
      */
     height: {
       type: [String, Number],
@@ -63,7 +63,7 @@ export default defineComponent({
     /**
      * Component width / height ratio
      *
-     * 组件长宽比
+     * 元件長寬比
      */
     ratio: {
       type: [String, Number],
@@ -73,7 +73,7 @@ export default defineComponent({
     /**
      * PDF initial page number
      *
-     * PDF 初始页码
+     * PDF 初始頁碼
      *
      * @description Chrome only
      */
@@ -85,7 +85,7 @@ export default defineComponent({
     /**
      * Whether show toolbar
      *
-     * 是否显示工具栏
+     * 是否顯示工具欄
      *
      * @description Chrome only
      */
@@ -94,14 +94,14 @@ export default defineComponent({
     /**
      * Whether disable fullscreen button
      *
-     * 是否禁用全屏按钮
+     * 是否停用全螢幕按鈕
      */
     noFullscreen: Boolean,
 
     /**
      * Initial zoom level (in percent)
      *
-     * 初始缩放比率 (百分比)
+     * 初始縮放比率 (百分比)
      */
     zoom: {
       type: [String, Number],
@@ -111,7 +111,7 @@ export default defineComponent({
     /**
      * Whether use pdfjs viewer by force
      *
-     * 是否强制使用 pdfjs 阅读器
+     * 是否强制使用 pdfjs 閱讀器
      */
     viewer: Boolean,
   },

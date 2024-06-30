@@ -9,98 +9,98 @@ export interface MetaLocateData {
   /**
    * Writing date label text
    *
-   * 写作日期文字
+   * 寫作日期文字
    */
   date: string;
 
   /**
    * Label text marked as original
    *
-   * 标记原创的文字
+   * 標記原創的文字
    */
   origin: string;
 
   /**
    * Page views label text
    *
-   * 访问量文字
+   * 訪問量文字
    */
   views: string;
 
   /**
    * Tag label text
    *
-   * 标签文字
+   * 標籤文字
    */
   tag: string;
 
   /**
    * Category label text
    *
-   * 分类文字
+   * 分類文字
    */
   category: string;
 
   /**
    * Expect reading time label text
    *
-   * 期望阅读时间文字
+   * 期望閱讀時間文字
    */
   readingTime: string;
 
   /**
    * Words label Text
    *
-   * 文章字数
+   * 文章字數
    */
   words: string;
 
   /**
    * Table of contents
    *
-   * 此页内容
+   * 此頁内容
    */
   toc: string;
 
   /**
    * Previous link
    *
-   * 上一页
+   * 上一頁
    */
   prev: string;
 
   /**
    * Next link
    *
-   * 下一页
+   * 下一頁
    */
   next: string;
 
   /**
    * Last updated Text
    *
-   * 最后更新时间
+   * 最後更新時間
    */
   lastUpdated: string;
 
   /**
    * Contributors text
    *
-   * 贡献者
+   * 貢獻者
    */
   contributors: string;
 
   /**
    * Edit link text
    *
-   * 编辑此页
+   * 編輯此頁
    */
   editLink: string;
 
   /**
    * Print button
    *
-   * 打印按钮
+   * 列印按鈕
    */
   print: string;
 }
@@ -109,7 +109,7 @@ export interface MetaLocaleOptions {
   /**
    * Whether to show "Last Updated" or not
    *
-   * 是否显示页面最后更新时间
+   * 是否顯示頁面最後更新時間
    *
    * @default true
    */
@@ -118,7 +118,7 @@ export interface MetaLocaleOptions {
   /**
    * Whether to show "Contributors" or not
    *
-   * 是否显示页面贡献者
+   * 是否顯示頁面貢獻者
    *
    * @default true
    */
@@ -127,7 +127,7 @@ export interface MetaLocaleOptions {
   /**
    * Whether to show "Edit this page" or not
    *
-   * 是否展示编辑此页链接
+   * 是否展示編輯此頁連結
    *
    * @default true
    */

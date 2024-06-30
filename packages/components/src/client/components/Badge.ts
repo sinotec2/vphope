@@ -7,7 +7,7 @@ export interface BadgeProps {
   /**
    * Badge type
    *
-   * 徽章类型
+   * 徽章類型
    *
    * @default "info"
    */
@@ -24,7 +24,7 @@ export interface BadgeProps {
   /**
    * Badge vertical align
    *
-   * 徽章垂直对齐方式
+   * 徽章垂直對齊方式
    *
    * @default "top"
    */
@@ -33,7 +33,7 @@ export interface BadgeProps {
   /**
    * Badge color
    *
-   * 徽章颜色
+   * 徽章顏色
    */
   color?: string;
 }

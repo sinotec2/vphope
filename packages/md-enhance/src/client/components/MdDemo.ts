@@ -11,7 +11,7 @@ export default defineComponent({
     /**
      * Markdown demo id
      *
-     * Markdown 代码演示 id
+     * Markdown 程式碼範例 id
      */
     id: {
       type: String,
@@ -21,7 +21,7 @@ export default defineComponent({
     /**
      * Markdown demo title
      *
-     * Markdown 演示标题
+     * Markdown 範例標題
      */
     title: {
       type: String,

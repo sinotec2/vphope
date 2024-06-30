@@ -1,17 +1,17 @@
 ---
-title: 代码演示
+title: 程式碼範例
 icon: splotch
 ---
 
-让你的 VuePress 站点中的 Markdown 文件支持代码案例。
+讓你的 VuePress 網站中的 Markdown 文件支持程式碼案例。
 
 <!-- more -->
 
-::: info 什么是代码演示
+::: info 什麼是程式碼範例
 
-代码演示是一项功能，可让你在 Markdown 文件中插入代码片段，插件将为你呈现源代码并在浏览器上运行代码。 如果用户喜欢尝试，可以点击 CodePen 或 JSFiddle 按钮，在 CodePen 或 JSFiddle 中打开 demo，在线编辑。
+程式碼範例是一項功能，可讓你在 Markdown 文件中插入程式碼片段，外掛程式將為你呈現程式碼並在瀏覽器上運行程式碼。 如果用户喜歡嘗試，可以點擊 CodePen 或 JSFiddle 按鈕，在 CodePen 或 JSFiddle 中打開 demo，連線編輯。
 
-因此，这意味着你无权访问项目中的内部组件。我们既不能在用户的浏览器中读取你本地的文件系统， Codepen 和 JSFiddle 也不能访问项目中的 Vue 组件。
+因此，這意味著你無權訪問項目中的内部元件。我們既不能在用户的瀏覽器中讀取你本地的文件系統， Codepen 和 JSFiddle 也不能訪問項目中的 Vue 元件。
 
 :::
 
@@ -23,7 +23,7 @@ import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 export default {
   plugins: [
     mdEnhancePlugin({
-      // 启用代码演示
+      // 啟用程式碼範例
       demo: true,
     }),
   ],
@@ -32,23 +32,23 @@ export default {
 
 <!-- #region syntax -->
 
-## 语法
+## 語法
 
-请使用以下语法:
+請使用以下語法:
 
 ````md
-::: [类型]-demo 可选的标题文字
+::: [類型]-demo 可選的標題文字
 
 ```html
-<!-- ↑ 使用可用的语言 -->
-<!-- 在代码块中放置你对应语言的代码，一个语言不能出现多个块 -->
-<!-- 你可以有多个代码块，并且 html, js, css 都是视情况可选的 -->
+<!-- ↑ 使用可用的語言 -->
+<!-- 在程式碼區塊中放置你對應語言的程式碼，一個語言不能出現多個塊 -->
+<!-- 你可以有多個程式碼區塊，並且 html, js, css 都是視情况可選的 -->
 ```
 
 ```json
-// json block 作为插件配置存放处
+// json block 作為外掛程式配置存放處
 {
-  // 放置你的配置 (可选的)
+  // 放置你的配置 (可選的)
 }
 ```
 
@@ -59,11 +59,11 @@ export default {
 
 ::: tip
 
-JSON 块是可选的，可用的配置详见 [配置](../../../config.md#demo)。
+JSON 塊是可選的，可用的配置詳見 [配置](../../../config.md#demo)。
 
 :::
 
-此插件支持三种类型:
+此外掛程式支持三種類型:
 
 - normal
 - vue
@@ -71,22 +71,22 @@ JSON 块是可选的，可用的配置详见 [配置](../../../config.md#demo)�
 
 <!-- #region language -->
 
-## 可用的语言
+## 可用的語言
 
-你可以在演示块中使用不同语言。
+你可以在範例塊中使用不同語言。
 
-当你设置一些不能在浏览器上直接运行的语言时，由于插件无法解析它们，因此网页演示将被禁用。插件只显示代码。同时提供一个 "在 CodePen 中打开" 按钮允许用户直接在 CodePen 打开并浏览代码。
+當你設置一些不能在瀏覽器上直接運行的語言時，由於外掛程式無法解析它們，因此網頁範例將被停用。外掛程式只顯示程式碼。同時提供一個 "在 CodePen 中打開" 按鈕允許用户直接在 CodePen 打開並瀏覽程式碼。
 
-可用的 HTML 语言:
+可用的 HTML 語言:
 
-- `"html"` (默认)
+- `"html"` (內設)
 - `"slim"`
 - `"haml"`
 - `"markdown"`
 
-> 你也可以在代码块中使用 `md`。
+> 你也可以在程式碼區塊中使用 `md`。
 
-可用的 JS 语言:
+可用的 JS 語言:
 
 - `"javascript"` (default)
 - `"coffeescript"`
@@ -94,9 +94,9 @@ JSON 块是可选的，可用的配置详见 [配置](../../../config.md#demo)�
 - `"livescript"`
 - `"typescript"`
 
-> 你也可以在代码块中使用 `js`, `ts`, `coffee` 和 `ls`。
+> 你也可以在程式碼區塊中使用 `js`, `ts`, `coffee` 和 `ls`。
 
-可用的 CSS 语言:
+可用的 CSS 語言:
 
 - `"css"` (default)
 - `"less"`
@@ -104,20 +104,20 @@ JSON 块是可选的，可用的配置详见 [配置](../../../config.md#demo)�
 - `"sass"`
 - `"stylus"`
 
-> 你也可以在代码块中使用 `styl`。
+> 你也可以在程式碼區塊中使用 `styl`。
 
 <!-- #endregion language -->
 
-### 不支持的语言演示
+### 不支持的語言範例
 
 <!-- #region demo -->
 
 :::: md-demo
 
-::: normal-demo 一个使用浏览器不支持解析语言 Demo
+::: normal-demo 一個使用瀏覽器不支持解析語言 Demo
 
 ```md
-# 标题
+# 標題
 
 十分强大
 ```

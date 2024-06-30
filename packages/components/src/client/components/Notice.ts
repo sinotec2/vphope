@@ -31,7 +31,7 @@ Notice.props = {
   /**
    * Notice locales settings
    *
-   * 通知的多语言设置
+   * 通知的多語言設置
    */
   config: {
     type: Array as PropType<NoticeClientOption[]>,

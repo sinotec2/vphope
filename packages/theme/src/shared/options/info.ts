@@ -4,28 +4,28 @@ export interface InfoOptions {
   /**
    * Site favicon
    *
-   * 站点图标
+   * 網站圖標
    */
   favicon?: string;
 
   /**
    * Global default author
    *
-   * 全局默认作者
+   * 全面內設作者
    */
   author?: Author;
 
   /**
    * Global default license
    *
-   * 全局默认协议
+   * 全面內設協議
    */
   license?: string;
 
   /**
    * Domain which to be deployed to
    *
-   * 网站部署域名
+   * 網站部署域名
    */
   hostname?: string;
 
@@ -34,9 +34,9 @@ export interface InfoOptions {
    *
    * @description key is the name of language, and value is the path of site, `:route` will be replaced by current route
    *
-   * 额外的多语言站点
+   * 額外的多語言網站
    *
-   * @description 键是语言的名称，值是站点的路径，`:route` 会被替换为当前路由
+   * @description 鍵是語言的名稱，值是網站的路徑，`:route` 會被替換為當前路由
    */
   extraLocales?: Record<string, string>;
 }

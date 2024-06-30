@@ -17,7 +17,7 @@ export default defineComponent({
     /**
      * Whether show pageview and it's path
      *
-     * 是否显示浏览量以及其路径
+     * 是否顯示瀏覽量以及其路徑
      */
     pageview: {
       type: [Boolean, String],
@@ -27,7 +27,7 @@ export default defineComponent({
     /**
      * Whether in pure mode
      *
-     * 是否处于纯净模式
+     * 是否處於纯净模式
      */
     pure: Boolean,
   },

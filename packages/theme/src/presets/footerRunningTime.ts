@@ -10,9 +10,9 @@ const millisecondPerDay = 1000 * 60 * 60 * 24;
  * @param locales - The locales of running time, `:day`, `:hour`, `:minute`, `:second` will be replaced by the corresponding value
  * @param [preserveContent=false] - Whether to preserve the original content of the footer
  *
- * @param date - 计算运行时间的日期
- * @param locales - 运行时间的本地化文字， `:day`, `:hour`, `:minute`, `:second` 会被对应的值替换
- * @param [preserveContent=false] - 是否保留页脚的原有内容
+ * @param date - 計算運行時間的日期
+ * @param locales - 运行時間的本地化文字， `:day`, `:hour`, `:minute`, `:second` 會被對應的值替換
+ * @param [preserveContent=false] - 是否保留頁尾的原有内容
  */
 export const setupRunningTimeFooter = (
   date: string | Date,

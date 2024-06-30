@@ -9,7 +9,7 @@ export interface CardProps {
   /**
    * Card title
    *
-   * 卡片标题
+   * 卡片標題
    *
    */
   title: string;
@@ -24,14 +24,14 @@ export interface CardProps {
   /**
    * Card icon
    *
-   * 卡片图标
+   * 卡片圖標
    */
   logo?: string;
 
   /**
    * Card link
    *
-   * 卡片链接
+   * 卡片連結
    */
   link?: string;
 
@@ -45,7 +45,7 @@ export interface CardProps {
   /**
    * Card font color
    *
-   * 卡片字体颜色
+   * 卡片字體顏色
    */
   color?: string;
 }

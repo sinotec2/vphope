@@ -2,7 +2,7 @@ export interface SassPalettePluginOptions {
   /**
    * Identifier for palette, used to avoid duplicate registration.
    *
-   * 调色板的唯一 ID，用于避免重复注册。
+   * 調色板的唯一 ID，用於避免重複註冊。
    */
   id: string;
 
@@ -11,9 +11,9 @@ export interface SassPalettePluginOptions {
    *
    * @description This is the file where user set style variables.
    *
-   * 用户配置文件路径，相对于源文件夹。
+   * 用户配置文件路徑，相對於源文件目錄。
    *
-   * @description 这是用户设置样式变量的文件。
+   * @description 這是用户設置樣式變量的文件。
    *
    * @default `.vuepress/styles/${id}-config.scss`
    */
@@ -24,9 +24,9 @@ export interface SassPalettePluginOptions {
    *
    * @description This is the file you should use to provide default style values with `!default`。
    *
-   * 默认的配置文件路径，应为绝对路径。
+   * 內設的配置文件路徑，應為絕對路徑。
    *
-   * @description 这是你应该通过 `!default` 来提供默认样式变量的文件。
+   * @description 這是你應該通過 `!default` 來提供內設樣式變量的文件。
    *
    * @default "vuepress-plugin-sass-palette/styles/default/config.scss"
    */
@@ -37,9 +37,9 @@ export interface SassPalettePluginOptions {
    *
    * @description This is the file where user control injected css variables. All the variables will be converted in to kebab-case and injected.
    *
-   * 用户的调色板文件路径，相对于源文件夹。
+   * 用户的調色板文件路徑，相對於源文件目錄。
    *
-   * @description 这是用户控制注入 CSS 变量的文件。所有的变量会被转换为连字符格式然后被注入。
+   * @description 這是用户控制注入 CSS 變量的文件。所有的變量會被轉換為连字符格式然後被注入。
    *
    * @default `.vuepress/styles/${id}-palette.scss`
    */
@@ -50,9 +50,9 @@ export interface SassPalettePluginOptions {
    *
    * @description This is the file you should use to provide default css variables with `!default`. All the variable will be converted in to kebab-case and injected.
    *
-   * 默认的调色板文件路径，应为绝对路径。
+   * 內設的調色板文件路徑，應為絕對路徑。
    *
-   * @description 这是你应该通过 `!default` 来提供默认调色板值的文件。所有的变量会被转换为连字符格式然后被注入。
+   * @description 這是你應該通過 `!default` 來提供內設調色板值的文件。所有的變量會被轉換為连字符格式然後被注入。
    *
    * @default "vuepress-plugin-sass-palette/styles/default/palette.scss"
    */
@@ -64,16 +64,16 @@ export interface SassPalettePluginOptions {
    *
    * e.g: You may want to provide a `$theme-color-light` based on `$themeColor`.
    *
-   * 自定义的生成器，用于生成调色板配置的衍生值。
+   * 自定義的生成器，用於生成調色板配置的衍生值。
    *
-   * 如: 你可能想要根据 `$theme-color` 的值提供一个 `$theme-color-light`。
+   * 如: 你可能想要根據 `$theme-color` 的值提供一個 `$theme-color-light`。
    */
   generator?: string;
 
   /**
    * User style file path, relative to source dir.
    *
-   * 用户的样式文件路径，相对于源文件夹。
+   * 用户的樣式文件路徑，相對於源文件目錄。
    */
   style?: string;
 }

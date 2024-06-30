@@ -27,7 +27,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/active-header-links.html
    *
-   * 是否启用 @vuepress/active-header-links 插件
+   * 是否啟用 @vuepress/active-header-links 外掛程式
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/active-header-links.html
    *
@@ -40,7 +40,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/back-to-top.html
    *
-   * 返回顶部插件配置
+   * 返回頂部外掛程式配置
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/back-to-top.html
    */
@@ -49,7 +49,7 @@ export interface PluginsOptions {
   /**
    * Blog plugin options
    *
-   * 博客插件选项
+   * 網誌外掛程式選項
    *
    * @default false
    */
@@ -60,7 +60,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/catalog.html
    *
-   * 自动目录插件选项
+   * 自動目錄外掛程式選項
    *
    * @see https://ecosystem.vuejs.press/plugins/catalog.html
    *
@@ -75,9 +75,9 @@ export interface PluginsOptions {
    *
    * @see https://plugin-components.vuejs.press/config.html
    *
-   * 需要启用的插件
+   * 需要啟用的外掛程式
    *
-   * @description FontIcon 被内部使用，所以它无论如何都会被注册。
+   * @description FontIcon 被内部使用，所以它無論如何都會被註冊。
    *
    * @see https://plugin-components.vuejs.press/zh/config.html
    */
@@ -88,7 +88,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/comment/
    *
-   * 评论插件配置
+   * 評論外掛程式配置
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/comment/
    */
@@ -99,7 +99,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/copy-code.html
    *
-   * 代码复制插件配置
+   * 程式碼複製外掛程式配置
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/copy-code.html
    */
@@ -110,7 +110,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/copyright.html
    *
-   * 版权信息插件配置
+   * 版權資訊外掛程式配置
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/copyright.html
    *
@@ -123,7 +123,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/docsearch.html
    *
-   * @vuepress/docsearch 选项
+   * @vuepress/docsearch 選項
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/docsearch.html
    */
@@ -134,7 +134,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/external-link-icon.html
    *
-   * 是否启用 @vuepress/external-link-icon 插件
+   * 是否啟用 @vuepress/external-link-icon 外掛程式
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/external-link-icon.html
    *
@@ -147,7 +147,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/feed/config.html
    *
-   * Feed 插件配置
+   * Feed 外掛程式配置
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/feed/config.html
    */
@@ -160,9 +160,9 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/git.html
    *
-   * Git 插件配置
+   * Git 外掛程式配置
    *
-   * @description 默认情况下，出于性能原因，此插件仅在生产模式下启用。
+   * @description 內設情况下，出於性能原因，此外掛程式僅在生產模式下啟用。
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/git.html
    */
@@ -173,7 +173,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/links-check.html
    *
-   * @vuepress/links-check 插件配置
+   * @vuepress/links-check 外掛程式配置
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/links-check.html
    */
@@ -184,7 +184,7 @@ export interface PluginsOptions {
    *
    * @see https://plugin-md-enhance.vuejs.press/config/
    *
-   * md-enhance 插件配置
+   * md-enhance 外掛程式配置
    *
    * @see https://plugin-md-enhance.vuejs.press/zh/config/
    */
@@ -201,7 +201,7 @@ export interface PluginsOptions {
          * - caution
          * - details
          *
-         * 是否启用提示容器
+         * 是否啟用提示容器
          *
          * - important
          * - info
@@ -220,7 +220,7 @@ export interface PluginsOptions {
   /**
    * Enable @vuepress/nprogress or not
    *
-   * 是否启用 @vuepress/nprogress 插件
+   * 是否啟用 @vuepress/nprogress 外掛程式
    *
    * @default true
    */
@@ -233,7 +233,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/photo-swipe.html
    *
-   * 图片预览插件配置
+   * 圖片預覽外掛程式配置
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/photo-swipe.html
    *
@@ -246,7 +246,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/prismjs.html
    *
-   * 是否启用 @vuepress/prismjs 插件
+   * 是否啟用 @vuepress/prismjs 外掛程式
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/prismjs.html
    *
@@ -259,7 +259,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/pwa/config.html
    *
-   * PWA 插件配置
+   * PWA 外掛程式配置
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/pwa/config.html
    *
@@ -272,7 +272,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/reading-time.html
    *
-   * 阅读时间插件配置
+   * 閱讀時間外掛程式配置
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/reading-time.html
    *
@@ -285,7 +285,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/redirect.html
    *
-   * 重定向插件配置
+   * 重定向外掛程式配置
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/redirect.html
    */
@@ -296,7 +296,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/search.html
    *
-   * @vuepress/search 插件配置
+   * @vuepress/search 外掛程式配置
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/search.html
    */
@@ -307,7 +307,7 @@ export interface PluginsOptions {
    *
    * @see https://plugin-search-pro.vuejs.press/config/
    *
-   * search-pro 插件配置
+   * search-pro 外掛程式配置
    *
    * @see https://plugin-search-pro.vuejs.press/zh/config/
    */
@@ -318,7 +318,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/seo/config.html
    *
-   * SEO 插件配置
+   * SEO 外掛程式配置
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/seo/config.html
    *
@@ -331,7 +331,7 @@ export interface PluginsOptions {
    *
    * @see https://ecosystem.vuejs.press/plugins/sitemap/config.html
    *
-   * Sitemap 插件配置
+   * Sitemap 外掛程式配置
    *
    * @see https://ecosystem.vuejs.press/zh/plugins/sitemap/config.html
    *

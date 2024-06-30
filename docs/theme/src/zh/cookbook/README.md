@@ -1,5 +1,5 @@
 ---
-title: 基础教程
+title: 基礎教程
 icon: signs-post
 article: false
 index: false

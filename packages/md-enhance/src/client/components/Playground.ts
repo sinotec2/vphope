@@ -9,13 +9,13 @@ export interface PlaygroundProps {
   /**
    * Playground title
    *
-   * 演示标题
+   * 範例標題
    */
   title?: string;
   /**
    * Playground link
    *
-   * 演示链接
+   * 範例連結
    */
   link: string;
 }

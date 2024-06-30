@@ -32,7 +32,7 @@ export default defineComponent({
     /**
      * Sandpack title
      *
-     * 演示标题
+     * 範例標題
      */
     title: {
       type: String,
@@ -42,7 +42,7 @@ export default defineComponent({
     /**
      * Sandpack template
      *
-     * 演示工程模板
+     * 範例工程模板
      */
     template: {
       type: String as PropType<SandpackPredefinedTemplate>,
@@ -52,28 +52,28 @@ export default defineComponent({
     /**
      * Sandpack file data
      *
-     * 演示文件数据
+     * 範例文件數據
      */
     files: { type: String, required: true },
 
     /**
      * Sandpack options
      *
-     * 演示设置
+     * 範例設置
      */
     options: { type: String, default: "{}" },
 
     /**
      * Sandpack customSetup
      *
-     * 自定义设置
+     * 自定義設置
      */
     customSetup: { type: String, default: "{}" },
 
     /**
      * Theme
      *
-     * 主题
+     * 主題
      */
     theme: {
       type: String as PropType<SandpackThemeProp>,

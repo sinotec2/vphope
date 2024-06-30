@@ -19,7 +19,7 @@ export default defineComponent({
     /**
      * Share services
      *
-     * PDF 文件链接，应为完整链接
+     * PDF 文件連結，應為完整連結
      */
     services: {
       type: [String, Array] as PropType<

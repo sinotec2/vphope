@@ -31,7 +31,7 @@ export default defineComponent({
   components: { ArticleIcon, BookIcon, FriendIcon, LinkIcon, ProjectIcon },
 
   props: {
-    /** 项目列表 */
+    /** 項目列表 */
     items: {
       type: Array as PropType<ThemeBlogHomeProjectOptions[]>,
       required: true,

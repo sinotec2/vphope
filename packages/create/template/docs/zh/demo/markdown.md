@@ -3,44 +3,44 @@ title: Markdown 展示
 icon: fab fa-markdown
 order: 2
 category:
-  - 使用指南
+  - 使用指引
 tag:
   - Markdown
 ---
 
-VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。
+VuePress 主要從 Markdown 文件生成頁面。因此，你可以使用它輕鬆生成文檔或網誌網站。
 
-你应该创建和编写 Markdown 文件，以便 VuePress 可以根据文件结构将它们转换为不同的页面。
+你應該創建和編寫 Markdown 文件，以便 VuePress 可以根據文件結構將它們轉換為不同的頁面。
 
 <!-- more -->
 
-## Markdown 介绍
+## Markdown 介紹
 
-如果你是一个新手，还不会编写 Markdown，请先阅读 [Markdown 介绍](https://theme-hope.vuejs.press/zh/cookbook/markdown/) 和 [Markdown 演示](https://theme-hope.vuejs.press/zh/cookbook/markdown/demo.html)。
+如果你是一個新手，還不會編寫 Markdown，請先閱讀 [Markdown 介紹](https://theme-hope.vuejs.press/zh/cookbook/markdown/) 和 [Markdown 範例](https://theme-hope.vuejs.press/zh/cookbook/markdown/demo.html)。
 
 ## Markdown 配置
 
-VuePress 通过 Frontmatter 为每个 Markdown 页面引入配置。
+VuePress 通過 Frontmatter 為每個 Markdown 頁面引入配置。
 
 ::: important Frontmatter
 
-Frontmatter 是 VuePress 中很重要的一个概念，请阅读 [Frontmatter 介绍](https://theme-hope.vuejs.press/zh/cookbook/vuepress/page.html#front-matter) 了解详情。
+Frontmatter 是 VuePress 中很重要的一個概念，請閱讀 [Frontmatter 介紹](https://theme-hope.vuejs.press/zh/cookbook/vuepress/page.html#front-matter) 了解詳情。
 
 :::
 
-## Markdown 扩展
+## Markdown 擴展
 
-VuePress 会使用 [markdown-it](https://github.com/markdown-it/markdown-it) 来解析 Markdown 内容，因此可以借助于 markdown-it 插件来实现 [语法扩展](https://github.com/markdown-it/markdown-it#syntax-extensions) 。
+VuePress 會使用 [markdown-it](https://github.com/markdown-it/markdown-it) 來解析 Markdown 内容，因此可以借助於 markdown-it 外掛程式來實現 [語法擴展](https://github.com/markdown-it/markdown-it#syntax-extensions) 。
 
-### VuePress 扩展
+### VuePress 擴展
 
-为了丰富文档写作，VuePress 对 Markdown 语法进行了扩展。
+為了豐富文檔寫作，VuePress 對 Markdown 語法進行了擴展。
 
-关于这些扩展，请阅读 [VuePress 中的 Markdown 扩展](https://theme-hope.vuejs.press/zh/cookbook/vuepress/markdown.html)。
+關於這些擴展，請閱讀 [VuePress 中的 Markdown 擴展](https://theme-hope.vuejs.press/zh/cookbook/vuepress/markdown.html)。
 
-### 主题扩展
+### 主題擴展
 
-通过 [`vuepress-plugin-md-enhance`][md-enhance]，主题扩展了更多 Markdown 语法，提供更加丰富的写作功能。
+通過 [`vuepress-plugin-md-enhance`][md-enhance]，主題擴展了更多 Markdown 語法，提供更加豐富的寫作功能。
 
 #### 提示容器
 
@@ -50,9 +50,9 @@ VuePress 会使用 [markdown-it](https://github.com/markdown-it/markdown-it) 来
 
 :::
 
-::: info 自定义标题
+::: info 自定義標題
 
-信息容器，包含 `代码` 与 [链接](#提示容器)。
+資訊容器，包含 `程式碼` 與 [連結](#提示容器)。
 
 ```js
 const a = 1;
@@ -60,33 +60,33 @@ const a = 1;
 
 :::
 
-::: tip 自定义标题
+::: tip 自定義標題
 
 提示容器
 
 :::
 
-::: warning 自定义标题
+::: warning 自定義標題
 
 警告容器
 
 :::
 
-::: caution 自定义标题
+::: caution 自定義標題
 
 危险容器
 
 :::
 
-::: details 自定义标题
+::: details 自定義標題
 
-详情容器
+詳情容器
 
 :::
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/hint.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/hint.html)
 
-#### 代码块
+#### 程式碼區塊
 
 ::: code-tabs
 
@@ -110,15 +110,15 @@ npm i -D vuepress-theme-hope
 
 :::
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/code-tabs.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/code-tabs.html)
 
-#### 上下角标
+#### 上下標
 
 19^th^ H~2~O
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/sup-sub.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/sup-sub.html)
 
-#### 自定义对齐
+#### 自定義對齊
 
 ::: center
 
@@ -128,46 +128,46 @@ npm i -D vuepress-theme-hope
 
 ::: right
 
-我在右对齐
+我在右對齊
 
 :::
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/align.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/align.html)
 
 #### Attrs
 
-一个拥有 ID 的 **单词**{#word}。
+一個擁有 ID 的 **單詞**{#word}。
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/attrs.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/attrs.html)
 
-#### 脚注
+#### 註解
 
-此文字有脚注[^first].
+此文字有註解[^first].
 
-[^first]: 这是脚注内容
+[^first]: 這是註解内容
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/footnote.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/footnote.html)
 
-#### 标记
+#### 標記
 
-你可以标记 ==重要的内容== 。
+你可以標記 ==重要的内容== 。
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/mark.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/mark.html)
 
-#### 任务列表
+#### 任務列表
 
-- [x] 计划 1
-- [ ] 计划 2
+- [x] 計划 1
+- [ ] 計划 2
 
-[查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/tasklist.html)
+[查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/tasklist.html)
 
-### 图片增强
+### 圖片增强
 
-支持为图片设置颜色模式和大小
+支持為圖片設置顏色模式和大小
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/image.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/image.html)
 
-#### 组件
+#### 元件
 
 ```component VPCard
 title: Mr.Hope
@@ -177,93 +177,93 @@ link: https://mister-hope.com
 background: rgba(253, 230, 138, 0.15)
 ```
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/component.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/component.html)
 
-#### 导入文件
+#### 導入文件
 
 <!-- @include: ./README.md{11-17} -->
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/include.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/include.html)
 
-#### 样式化
+#### 樣式化
 
-向 Mr.Hope 捐赠一杯咖啡。 _Recommended_
+向 Mr.Hope 捐贈一杯咖啡。 _Recommended_
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/stylize.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/stylize.html)
 
-#### Tex 语法
+#### Tex 語法
 
 $$
 \frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right)
 = \left(\frac {y^{\omega}} {\omega}\right) \left\{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)^{r-i}} {\omega^i} \right\}
 $$
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/tex.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/tex.html)
 
-#### 图表
+#### 圖表
 
 <iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/chartjs.html" width="100%" height="450"/>
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/chartjs.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/chartjs.html)
 
 #### ECharts
 
 <iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/echarts.html" width="100%" height="800"/>
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/echarts.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/echarts.html)
 
-#### 流程图
+#### 流程圖
 
 <iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/flowchart.html" width="100%" height="450"/>
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/flowchart.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/flowchart.html)
 
 #### MarkMap
 
 <iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/markmap.html" width="100%" height="380"/>
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/markmap.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/markmap.html)
 
 #### Mermaid
 
 <iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/mermaid.html" width="100%" height="620"/>
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/mermaid.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/mermaid.html)
 
-#### 代码演示
+#### 程式碼範例
 
 <iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/code-demo.html" width="100%" height="450"/>
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/demo.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/demo.html)
 
-#### 交互演示
+#### 互動範例
 
 <iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/playground.html" width="100%" height="480"/>
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/playground.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/playground.html)
 
-#### Kotlin 交互演示
+#### Kotlin 互動範例
 
 <iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/kotlin-playground.html" width="100%" height="220"/>
 
 - [View Detail](https://theme-hope.vuejs.press/zh/guide/markdown/kotlin-playground.html)
 
-#### Vue 交互演示
+#### Vue 互動範例
 
 <iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/vue-playground.html" width="100%" height="380"/>
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/vue-playground.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/vue-playground.html)
 
-#### Sandpack 交互演示
+#### Sandpack 互動範例
 
 <iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/sandpack.html" width="100%" height="380"/>
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/sandpack.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/sandpack.html)
 
-#### 幻灯片
+#### 投影片
 
 <iframe src="https://plugin-md-enhance-demo.vuejs.press/snippet/revealjs.html" width="100%" height="400"/>
 
-- [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/revealjs.html)
+- [查看詳情](https://theme-hope.vuejs.press/zh/guide/markdown/revealjs.html)
 
 [md-enhance]: https://plugin-md-enhance.vuejs.press/zh/

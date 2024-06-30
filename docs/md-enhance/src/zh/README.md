@@ -1,15 +1,15 @@
 ---
 home: true
-title: 主页
+title: 主頁
 icon: home
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: vuepress-plugin-md-enhance
-tagline: 为 VuePress2 提供更多 Markdown 增强功能
+tagline: 為 VuePress2 提供更多 Markdown 增强功能
 actions:
-  - text: 指南
+  - text: 指引
     icon: lightbulb
     link: ./guide/
     type: primary
@@ -19,39 +19,39 @@ actions:
     link: ./config.html
 
 highlights:
-  - header: 开箱即用
+  - header: 開箱即用
     image: /assets/image/box.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     highlights:
       - title: GFM 支持
         icon: clipboard-check
-        details: 支持 GitHub 风格 Markdown
+        details: 支持 GitHub 風格 Markdown
         link: ./guide/others.html#gfm
 
-  - header: 新语法
+  - header: 新語法
     image: /assets/image/module.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
     highlights:
-      - title: 扩展图片语法
+      - title: 擴展圖片語法
         icon: image
-        details: 指定图片大小与颜色模式，并将它们转化为插图
+        details: 指定圖片大小與顏色模式，並將它們轉化為插圖
         link: ./guide/grammar/image.html
 
-      - title: 上下角标支持
+      - title: 上下標支持
         icon: superscript
-        details: 你的 Markdown 现在将支持上下角标
+        details: 你的 Markdown 現在將支持上下標
         link: ./guide/grammar/sup-sub.html
 
-      - title: 任务列表
+      - title: 任務列表
         icon: square-check
-        details: 在 Markdown 中使用任务列表
+        details: 在 Markdown 中使用任務列表
         link: ./guide/grammar/tasklist.html
 
       - title: TeX
         icon: square-root-variable
-        details: Markdown 现在也可以支持 TeX 语法以显示公式
+        details: Markdown 現在也可以支持 TeX 語法以顯示公式
         link: ./guide/grammar/tex.html
 
   - header: 聚焦内容
@@ -59,32 +59,32 @@ highlights:
     bgImage: https://theme-hope-assets.vuejs.press/bg/10-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/10-dark.svg
     highlights:
-      - title: 脚注
+      - title: 註解
         icon: quote-left
-        details: 你的 Markdown 现在将支持脚注
+        details: 你的 Markdown 現在將支持註解
         link: ./guide/content/footnote.html
 
-      - title: 导入文件
+      - title: 導入文件
         icon: fab fa-markdown
-        details: 将你的文档分段，并在 Markdown 中导入
+        details: 將你的文檔分段，並在 Markdown 中導入
         link: ./guide/content/include.html
 
-      - title: 幻灯片
+      - title: 投影片
         icon: person-chalkboard
-        details: 通过 Reveal.js 在 Markdown 中插入幻灯片
+        details: 通過 Reveal.js 在 Markdown 中插入投影片
         link: ./guide/content/revealjs/
 
-      - title: 选项卡
+      - title: 選項卡
         icon: table-columns
-        details: 使用选项卡对相似内容进行分组
+        details: 使用選項卡對相似内容進行分組
         link: ./guide/content/tabs.html
 
-      - title: 组件
+      - title: 元件
         icon: puzzle-piece
-        details: 在 Markdown 中快速插入组件
+        details: 在 Markdown 中快速插入元件
         link: ./guide/content/component.html
 
-  - header: 内容样式化
+  - header: 内容樣式化
     image: /assets/image/marker.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
@@ -94,115 +94,115 @@ highlights:
     highlights:
       - title: 提示容器
         icon: box-archive
-        details: 用样式装饰 Markdown 内容
+        details: 用樣式裝飾 Markdown 内容
         link: ./guide/stylize/hint.html
 
       - title: GFM 警告
         icon: bell
-        details: GFM 风格的警告容器
+        details: GFM 風格的警告容器
         link: ./guide/stylize/alert.html
 
-      - title: 自定义对齐
+      - title: 自定義對齊
         icon: align-center
-        details: 让你在 Markdown 中对段落进行对齐
+        details: 讓你在 Markdown 中對段落進行對齊
         link: ./guide/stylize/align.html
 
-      - title: 属性
+      - title: 屬性
         icon: code
-        details: 让你为 Markdown 元素添加属性
+        details: 讓你為 Markdown 元素增加屬性
         link: ./guide/stylize/attrs.html
 
-      - title: 标记
+      - title: 標記
         icon: highlighter
-        details: 标记并高亮内容
+        details: 標記並高亮内容
         link: ./guide/stylize/mark.html
 
-      - title: 剧透
+      - title: 遮蔽
         icon: eraser
-        details: 添加剧透标记支持
+        details: 增加遮蔽標記支持
         link: ./guide/stylize/spoiler.html
 
-      - title: 样式化字符
+      - title: 樣式化字符
         icon: wand-magic-sparkles
-        details: 以你想要的方式样式化字符
+        details: 以你想要的方式樣式化字符
         link: ./guide/stylize/stylize.html
 
-  - header: 嵌入图表
+  - header: 嵌入圖表
     image: /assets/image/chart.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
       - title: Chart.js
         icon: chart-simple
-        details: 在 Markdown 中展示 Chart.js 图表
+        details: 在 Markdown 中展示 Chart.js 圖表
         link: ./guide/chart/chartjs.html
 
       - title: ECharts
         icon: bar-chart
-        details: 在 Markdown 中展示 ECharts 图表
+        details: 在 Markdown 中展示 ECharts 圖表
         link: ./guide/chart/echarts.html
 
-      - title: 流程图
+      - title: 流程圖
         icon: route
-        details: 在 Markdown 中添加流程图
+        details: 在 Markdown 中增加流程圖
         link: ./guide/chart/flowchart.html
 
       - title: Markmap
         icon: fab fa-markdown
-        details: 从 Markdown 生成思维导图
+        details: 從 Markdown 生成思维導圖
         link: ./guide/chart/markmap.html
 
       - title: Mermaid
         icon: chart-pie
-        details: 在 Markdown 中添加 Mermaid 图例
+        details: 在 Markdown 中增加 Mermaid 圖例
         link: ./guide/chart/mermaid.html
 
       - title: Plantuml
         icon: diagram-project
-        details: 在 Markdown 中添加 Plantuml
+        details: 在 Markdown 中增加 Plantuml
         link: ./guide/chart/plantuml.html
 
-  - header: 展示你的代码和工作
+  - header: 展示你的程式碼和工作
     image: /assets/image/code.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
     highlights:
-      - title: 代码选项卡
+      - title: 程式碼選項卡
         icon: code
-        details: 使用选项卡对相似代码进行分组
+        details: 使用選項卡對相似程式碼進行分組
         link: ./guide/code/code-tabs.html
 
-      - title: 代码案例
+      - title: 程式碼案例
         icon: laptop-code
-        details: 你可以很方便的插入代码案例
+        details: 你可以很方便的插入程式碼案例
         link: ./guide/code/demo/
 
-      - title: 交互演示
+      - title: 互動範例
         icon: code
-        details: 你可以在 Markdown 中添加交互演示
+        details: 你可以在 Markdown 中增加互動範例
         link: ./guide/code/playground.html
 
-      - title: Kotlin 交互演示
+      - title: Kotlin 互動範例
         icon: fab fa-kickstarter
-        details: 响应式的 Kotlin Playground
+        details: 響應式的 Kotlin Playground
         link: ./guide/code/kotlin-playground.html
 
-      - title: Vue 交互演示
+      - title: Vue 互動範例
         icon: fab fa-vuejs
-        details: 在交互演示中展示 Vue 组件
+        details: 在互動範例中展示 Vue 元件
         link: ./guide/code/vue-playground.html
 
-      - title: Sandpack 交互演示
+      - title: Sandpack 互動範例
         icon: code
-        details: Sandpack 驱动的实时的编码环境
+        details: Sandpack 驱動的實時的編碼環境
         link: ./guide/code/sandpack.html
 
-footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Hope
+footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主題 | MIT 協議, 版權所有 © 2019-present Mr.Hope
 
 copyright: false
 ---
 
-## 安装
+## 安裝
 
 ::: code-tabs#shell
 
@@ -238,7 +238,7 @@ import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 export default {
   plugins: [
     mdEnhancePlugin({
-      // 你的选项
+      // 你的選項
     }),
   ],
 };
@@ -252,7 +252,7 @@ import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 export default {
   plugins: [
     mdEnhancePlugin({
-      // 你的选项
+      // 你的選項
     }),
   ],
 };
@@ -260,6 +260,6 @@ export default {
 
 :::
 
-## 从 V1 迁移
+## 從 V1 遷移
 
-详见 [迁移指南](./migration.md)。
+詳見 [遷移指引](./migration.md)。

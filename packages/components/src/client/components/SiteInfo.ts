@@ -18,7 +18,7 @@ export default defineComponent({
     /**
      * Name of site
      *
-     * 站点名称
+     * 網站名稱
      */
     name: {
       type: String,
@@ -28,7 +28,7 @@ export default defineComponent({
     /**
      * Site description
      *
-     * 站点描述
+     * 網站描述
      */
     desc: {
       type: String,
@@ -38,7 +38,7 @@ export default defineComponent({
     /**
      * Site logo
      *
-     * 站点图标
+     * 網站圖標
      */
     logo: {
       type: String,
@@ -48,7 +48,7 @@ export default defineComponent({
     /**
      * Site link
      *
-     * 站点链接
+     * 網站連結
      */
     url: {
       type: String,
@@ -58,7 +58,7 @@ export default defineComponent({
     /**
      * Site preview image
      *
-     * 站点预览
+     * 網站預覽
      */
     preview: {
       type: String,
@@ -68,7 +68,7 @@ export default defineComponent({
     /**
      * Site repo
      *
-     * 站点仓库
+     * 網站倉庫
      */
     repo: {
       type: String,

@@ -4,7 +4,7 @@ export default navbar([
   "/",
   "/demo/",
   {
-    text: "指南",
+    text: "指引",
     icon: "lightbulb",
     prefix: "/guide/",
     children: [
@@ -23,7 +23,7 @@ export default navbar([
     ],
   },
   {
-    text: "V2 文档",
+    text: "V2 文檔",
     icon: "book",
     link: "https://theme-hope.vuejs.press/zh/",
   },

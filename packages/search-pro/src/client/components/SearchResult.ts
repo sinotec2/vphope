@@ -31,7 +31,7 @@ export default defineComponent({
     /**
      * Query string
      *
-     * 查询字符串
+     * 查詢字符串
      */
     queries: {
       type: Array as PropType<string[]>,

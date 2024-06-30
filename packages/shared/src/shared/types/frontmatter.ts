@@ -6,28 +6,28 @@ export interface BasePageFrontMatter extends PageFrontmatter {
   /**
    * Page icon
    *
-   * 页面图标
+   * 頁面圖標
    */
   icon?: string;
 
   /**
    * Page Author(s)
    *
-   * 页面作者
+   * 頁面作者
    */
   author?: Author | false;
 
   /**
    * Writing Date
    *
-   * 写作日期
+   * 寫作日期
    */
   date?: Date | string;
 
   /**
    * Page Category(ies)
    *
-   * 页面分类
+   * 頁面分類
    */
   category?: string | string[];
   categories?: string[];
@@ -35,7 +35,7 @@ export interface BasePageFrontMatter extends PageFrontmatter {
   /**
    * Page Tag(s)
    *
-   * 页面标签
+   * 頁面標籤
    */
   tag?: string[] | string;
   tags?: string[];
@@ -43,56 +43,56 @@ export interface BasePageFrontMatter extends PageFrontmatter {
   /**
    * Whether the content is original
    *
-   * 是否原创
+   * 是否原創
    */
   isOriginal?: boolean;
 
   /**
    * Whether the page is an article
    *
-   * 页面是否是文章
+   * 頁面是否是文章
    */
   article?: boolean;
 
   /**
    * Page Cover
    *
-   * 页面封面
+   * 頁面封面
    */
   cover?: string;
 
   /**
    * Page Banner
    *
-   * 页面 Banner 图
+   * 頁面 Banner 圖
    */
   banner?: string;
 
   /**
    * Footer text
    *
-   * 页脚文字
+   * 頁尾文字
    */
   footer?: string | boolean;
 
   /**
    * License text
    *
-   * 协议文字
+   * 協議文字
    */
   license?: string;
 
   /**
    * Copyright text
    *
-   * 版权文字
+   * 版權文字
    */
   copyright?: string | false;
 
   /**
    * Whether is home page
    *
-   * 是否是主页
+   * 是否是主頁
    */
   home?: boolean;
 

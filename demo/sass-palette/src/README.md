@@ -11,9 +11,9 @@ actions:
 footer: MIT Licensed | Copyright © 2021-present Mr.Hope
 ---
 
-## 使用插件
+## 使用外掛程式
 
-### 安装
+### 安裝
 
 ```bash
 pnpm add -D vuepress-plugin-sass-palette

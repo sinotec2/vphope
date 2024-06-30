@@ -3,7 +3,7 @@ import type { ExactLocaleConfig } from "@vuepress/helper";
 /**
  * Multi language config for `vuepress-plugin-search-pro` plugin
  *
- * `vuepress-plugin-search-pro` 插件的多语言配置
+ * `vuepress-plugin-search-pro` 外掛程式的多語言配置
  */
 export interface SearchProLocaleData {
   /**
@@ -37,70 +37,70 @@ export interface SearchProLocaleData {
   /**
    * Default title
    *
-   * 默认标题
+   * 內設標題
    */
   defaultTitle: string;
 
   /**
    * Select hint
    *
-   * 选择提示
+   * 選擇提示
    */
   select: string;
 
   /**
    * Choose hint
    *
-   * 选择提示
+   * 選擇提示
    */
   navigate: string;
 
   /**
    * Autocomplete hint
    *
-   * 自动补全提示
+   * 自動補全提示
    */
   autocomplete: string;
 
   /**
    * Close hint
    *
-   * 关闭提示
+   * 關閉提示
    */
   exit: string;
 
   /**
    * Loading hint
    *
-   * 加载提示
+   * 加載提示
    */
   loading: string;
 
   /**
    * Search query history title
    *
-   * 搜索文字历史 标题
+   * 搜索文字歷史 標題
    */
   queryHistory: string;
 
   /**
    * Search result history title
    *
-   * 搜索结果历史 标题
+   * 搜索結果歷史 標題
    */
   resultHistory: string;
 
   /**
    * Search history empty hint
    *
-   * 无搜索历史提示
+   * 無搜索歷史提示
    */
   emptyHistory: string;
 
   /**
    * Empty hint
    *
-   * 无结果提示
+   * 無結果提示
    */
   emptyResult: string;
 }

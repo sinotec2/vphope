@@ -1,23 +1,23 @@
 ---
-title: 博客
+title: 網誌
 icon: blog
 index: false
 dir:
   order: 7
 ---
 
-## 目录
+## 目錄
 
-- [博客功能介绍](intro.md)
+- [網誌功能介紹](intro.md)
 
-- [博客主页](home.md)
+- [網誌主頁](home.md)
 
-- [博主介绍](blogger.md)
+- [部落客介紹](blogger.md)
 
 - [文章列表](article.md)
 
-- [分类与标签](category-and-tags.md)
+- [分類與標籤](category-and-tags.md)
 
-- [时间线](timeline.md)
+- [時間線](timeline.md)
 
-- [路径配置](path.md)
+- [路徑配置](path.md)

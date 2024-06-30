@@ -8,14 +8,14 @@ export interface EChartsConfig {
   /**
    * ECharts global options
    *
-   * ECharts 全局选项
+   * ECharts 全面選項
    */
   option?: EChartsOption;
 
   /**
    * ECharts setup function
    *
-   * ECharts 初始化函数
+   * ECharts 初始化函數
    */
   setup?: () => Promise<void>;
 }

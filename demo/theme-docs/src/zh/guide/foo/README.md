@@ -3,11 +3,11 @@ title: Foo 功能
 icon: lightbulb
 ---
 
-## 介绍
+## 介紹
 
-我们支持 foo 功能，...
+我們支持 foo 功能，...
 
-## 详情
+## 詳情
 
 - [ray](ray.md)
 - ...

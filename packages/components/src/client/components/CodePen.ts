@@ -12,7 +12,7 @@ export default defineComponent({
     /**
      * CodePen link
      *
-     * CodePen 链接
+     * CodePen 連結
      */
     link: { type: String, default: "" },
 
@@ -33,7 +33,7 @@ export default defineComponent({
     /**
      * CodePen title
      *
-     * CodePen 标题
+     * CodePen 標題
      */
     title: { type: String, default: "" },
 
@@ -50,7 +50,7 @@ export default defineComponent({
     /**
      * CodePen theme
      *
-     * CodePen 主题
+     * CodePen 主題
      */
     theme: {
       type: String as PropType<"default" | "light" | "dark">,
@@ -60,7 +60,7 @@ export default defineComponent({
     /**
      * CodePen default tab
      *
-     * CodePen 默认标签
+     * CodePen 內設標籤
      */
     defaultTab: {
       type: Array as PropType<string[]>,
@@ -70,7 +70,7 @@ export default defineComponent({
     /**
      * CodePen loading status
      *
-     * CodePen 加载状态
+     * CodePen 加載狀態
      */
     status: {
       type: String as PropType<"autoload" | "preview" | "clicktorun">,

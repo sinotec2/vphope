@@ -21,7 +21,7 @@ export interface RevealJsOptions {
   /**
    * Reveal.js plugins
    *
-   * 幻灯片插件
+   * 投影片外掛程式
    *
    * @default []
    */
@@ -30,7 +30,7 @@ export interface RevealJsOptions {
   /**
    * Reveal.js themes
    *
-   * 幻灯片主题
+   * 投影片主題
    *
    * @default ["auto"]
    */

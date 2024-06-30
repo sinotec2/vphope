@@ -18,7 +18,7 @@ export interface BannerProps {
   /**
    * Banner title
    *
-   * 横幅标题
+   * 横幅標題
    */
   title: string;
 
@@ -32,7 +32,7 @@ export interface BannerProps {
   /**
    * Banner icon
    *
-   * 横幅图标
+   * 横幅圖標
    */
   logo?: string;
 
@@ -46,7 +46,7 @@ export interface BannerProps {
   /**
    * Banner font color
    *
-   * 横幅字体颜色
+   * 横幅字體顏色
    */
   color?: string;
 

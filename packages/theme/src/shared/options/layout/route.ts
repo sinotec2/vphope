@@ -7,33 +7,33 @@ export interface RouteLocaleData {
   /**
    * 404 page title
    *
-   * 404 页面的标题
+   * 404 頁面的標題
    */
   notFoundTitle: string;
 
   /**
    * 404 page msgs
    *
-   * 404 页面的提示信息
+   * 404 頁面的提示資訊
    */
   notFoundMsg: string[];
   /**
    * Back to homepage
    *
-   * 返回主页
+   * 返回主頁
    */
   home: string;
   /**
    * Back to last page
    *
-   * 返回上一页
+   * 返回上一頁
    */
   back: string;
 
   /**
    * Screen reader only message in `<ExternalLinkIcon>`
    *
-   * 在 `<ExternalLinkIcon>` 中的屏幕阅读器消息
+   * 在 `<ExternalLinkIcon>` 中的屏幕閱讀器消息
    */
   openInNewWindow: string;
 }

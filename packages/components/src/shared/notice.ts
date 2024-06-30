@@ -8,13 +8,13 @@ export interface NoticeActionOption {
   /**
    * Action link
    *
-   * 操作链接
+   * 操作連結
    */
   link?: string;
   /**
    * Action type
    *
-   * 操作类型
+   * 操作類型
    *
    * @default "default"
    */
@@ -25,7 +25,7 @@ export interface NoticeItemOptions {
   /**
    * Notice title
    *
-   * 通知标题
+   * 通知標題
    */
   title: string;
 
@@ -43,14 +43,14 @@ export interface NoticeItemOptions {
    *
    * Notice 的 key
    *
-   * @description 用于标识和存储 notice 的状态
+   * @description 用於標識和儲存 notice 的狀態
    */
   key?: string;
 
   /**
    * Whether show notice only once or show it in every visit
    *
-   * 是否只显示一次通知
+   * 是否只顯示一次通知
    *
    * @default false
    */
@@ -59,7 +59,7 @@ export interface NoticeItemOptions {
   /**
    * Whether the notice shall be confirmed
    *
-   * 通知是否需要确认
+   * 通知是否需要確認
    *
    * @default false
    */
@@ -68,7 +68,7 @@ export interface NoticeItemOptions {
   /**
    * Whether the notice should appear fullscreen
    *
-   * 通知是否应该全屏显示
+   * 通知是否應該全螢幕顯示
    *
    * @default false
    */

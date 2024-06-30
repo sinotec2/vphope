@@ -6,16 +6,16 @@ export interface PlaygroundCodeConfig {
    *
    * @description It's based on filename, not code fence language
    *
-   * 代码块扩展名
+   * 程式碼區塊擴展名
    *
-   * @description 它基于文件名，而不是代码块语言
+   * @description 它基於文件名，而不是程式碼區塊語言
    */
   ext: string;
 
   /**
    * Code block content
    *
-   * 代码块内容
+   * 程式碼區塊内容
    */
   content: string;
 }
@@ -24,7 +24,7 @@ export interface PlaygroundData {
   /**
    * Title of Playground
    *
-   * 交互演示标题
+   * 互動範例標題
    */
   title?: string;
 
@@ -40,7 +40,7 @@ export interface PlaygroundData {
   /**
    * Playground files info
    *
-   * 交互演示文件信息
+   * 互動範例文件資訊
    */
   files: Record<
     /**
@@ -52,7 +52,7 @@ export interface PlaygroundData {
     /**
      * File detail
      *
-     * 文件详情
+     * 文件詳情
      */
     PlaygroundCodeConfig
   >;
@@ -62,16 +62,16 @@ export interface PlaygroundData {
    *
    * @description It's parsed result of json content after setting directive
    *
-   * 交互演示设置
+   * 互動範例設置
    *
-   * @description 它是设置指令后的 json 内容的解析结果
+   * @description 它是設置指令後的 json 内容的解析結果
    */
   settings: Record<string, unknown>;
 
   /**
    * Hash key based on playground content
    *
-   * 根据交互演示内容生成的 hash key
+   * 根據互動範例内容生成的 hash key
    */
   key: string;
 }
@@ -80,14 +80,14 @@ export interface PlaygroundOptions {
   /**
    * Playground container name
    *
-   * 交互演示容器名
+   * 互動範例容器名
    */
   name: string;
 
   /**
    * Playground component name
    *
-   * 交互演示组件名称
+   * 互動範例元件名稱
    *
    * @default "Playground"
    */
@@ -96,7 +96,7 @@ export interface PlaygroundOptions {
   /**
    * Props getter
    *
-   * 属性获取器
+   * 屬性獲取器
    */
   propsGetter: (data: PlaygroundData) => Record<string, string>;
 }
@@ -105,7 +105,7 @@ export interface TSPresetPlaygroundOptions extends CompilerOptions {
   /**
    * External playground service url
    *
-   * 交互演示外部地址
+   * 互動範例外部地址
    *
    * @default "https://www.typescriptlang.org/play"
    */
@@ -116,7 +116,7 @@ export interface VuePresetPlaygroundOptions {
   /**
    * External playground service url
    *
-   * 交互演示外部地址
+   * 互動範例外部地址
    *
    * @default "https://sfc.vuejs.org/"
    */
@@ -125,7 +125,7 @@ export interface VuePresetPlaygroundOptions {
   /**
    * Whether to use dev version
    *
-   * 是否启用开发版本
+   * 是否啟用開發版本
    *
    * @default false
    */
@@ -134,7 +134,7 @@ export interface VuePresetPlaygroundOptions {
   /**
    * Whether to enable SSR
    *
-   * 是否启用 SSR
+   * 是否啟用 SSR
    *
    * @default false
    */
@@ -145,7 +145,7 @@ export interface UnoPresetPlaygroundOptions {
   /**
    * External playground service url
    *
-   * 交互演示外部地址
+   * 互動範例外部地址
    *
    * @default "https://unocss.dev/play"
    */
@@ -158,13 +158,13 @@ export interface PlaygroundGlobalOptions {
   /**
    * Playground presets
    *
-   * 交互演示预设
+   * 互動範例預設
    */
   presets: (BuiltInPlaygroundPreset | PlaygroundOptions)[];
   /**
    * Playground config
    *
-   * 交互演示配置
+   * 互動範例配置
    */
   config?: {
     ts?: TSPresetPlaygroundOptions;

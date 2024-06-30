@@ -1,5 +1,5 @@
 ---
-title: 图表
+title: 圖表
 icon: chart-simple
 dir:
   collapsible: false
@@ -8,7 +8,7 @@ dir:
 category:
   - Markdown
 tag:
-  - 图表
+  - 圖表
   - Markdown
 ---
 

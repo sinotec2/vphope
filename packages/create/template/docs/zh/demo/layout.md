@@ -3,29 +3,29 @@ title: 布局
 icon: object-group
 order: 2
 category:
-  - 指南
+  - 指引
 tag:
   - 布局
 ---
 
 布局包括:
 
-- [导航栏](https://theme-hope.vuejs.press/zh/guide/layout/navbar.html)
-- [侧边栏](https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html)
-- [页脚](https://theme-hope.vuejs.press/zh/guide/layout/footer.html)
+- [導航欄](https://theme-hope.vuejs.press/zh/guide/layout/navbar.html)
+- [側邊欄](https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html)
+- [頁尾](https://theme-hope.vuejs.press/zh/guide/layout/footer.html)
 
-同时每个页面包含:
+同時每個頁面包含:
 
-- [路径导航](https://theme-hope.vuejs.press/zh/guide/layout/breadcrumb.html)
-- [标题和页面信息](https://theme-hope.vuejs.press/zh/guide/feature/page-info.html)
-- [TOC (文章标题列表)](https://theme-hope.vuejs.press/zh/guide/layout/page.html#标题列表)
-- [贡献者、更新时间等页面元信息](https://theme-hope.vuejs.press/guide/feature/meta.html)
-- [评论](https://theme-hope.vuejs.press/zh/guide/feature/comment.html)
+- [路徑導航](https://theme-hope.vuejs.press/zh/guide/layout/breadcrumb.html)
+- [標題和頁面資訊](https://theme-hope.vuejs.press/zh/guide/feature/page-info.html)
+- [TOC (文章標題列表)](https://theme-hope.vuejs.press/zh/guide/layout/page.html#標題列表)
+- [貢獻者、更新時間等頁面元資訊](https://theme-hope.vuejs.press/guide/feature/meta.html)
+- [評論](https://theme-hope.vuejs.press/zh/guide/feature/comment.html)
 
-主题也带有以下元素:
+主題也帶有以下元素:
 
-- [夜间模式按钮](https://theme-hope.vuejs.press/zh/guide/interface/darkmode.html)
-- [返回顶部按钮](https://theme-hope.vuejs.press/guide/interface/others.html#返回顶部按钮)
-- [打印按钮](https://theme-hope.vuejs.press/guide/interface/others.html#打印按钮)
+- [夜間模式按鈕](https://theme-hope.vuejs.press/zh/guide/interface/darkmode.html)
+- [返回頂部按鈕](https://theme-hope.vuejs.press/guide/interface/others.html#返回頂部按鈕)
+- [列印按鈕](https://theme-hope.vuejs.press/guide/interface/others.html#列印按鈕)
 
-你可以在主题选项和页面的 frontmatter 中自定义它们。
+你可以在主題選項和頁面的 frontmatter 中自定義它們。

@@ -24,7 +24,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether enable standard GFM support
    *
-   * 是否启用标准的 GitHub Favor Markdown 支持
+   * 是否啟用標準的 GitHub Favor Markdown 支持
    *
    * @default false
    */
@@ -43,7 +43,7 @@ export interface MarkdownEnhancePluginOptions {
    *
    * ⚠ The last 4 items conflict with default theme and will override it’s style.
    *
-   * 是否启用提示容器
+   * 是否啟用提示容器
    *
    * - important
    * - info
@@ -53,7 +53,7 @@ export interface MarkdownEnhancePluginOptions {
    * - caution
    * - details
    *
-   * ⚠ 最后四个会和默认主题冲突，且会覆盖默认主题的样式与行为。
+   * ⚠ 最後四個會和內設主題衝突，且會覆蓋內設主題的樣式與行為。
    *
    * @default false
    */
@@ -62,7 +62,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable v-pre wrapper.
    *
-   * 是否启用 v-pre 容器。
+   * 是否啟用 v-pre 容器。
    *
    * @default false
    */
@@ -71,7 +71,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether convert `\n` in paragraphs into `<br>`s
    *
-   * 是否将段落中的 `\n` 转换为 `<br>`
+   * 是否將段落中的 `\n` 轉換為 `<br>`
    *
    * @description enabled in gfm mode
    *
@@ -82,7 +82,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether convert URL-like text into links
    *
-   * 是否将文字中的链接格式文字转换为链接
+   * 是否將文字中的連結格式文字轉換為連結
    *
    * @description enabled in gfm mode
    *
@@ -93,7 +93,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Wether enable gfm alerts
    *
-   * 是否启用 gfm 警告
+   * 是否啟用 gfm 警告
    *
    * @default false
    */
@@ -102,7 +102,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable tabs.
    *
-   * 是否启用标签页分组。
+   * 是否啟用標籤頁分組。
    *
    * @default false
    */
@@ -111,7 +111,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable codetabs.
    *
-   * 是否启用代码组。
+   * 是否啟用程式碼組。
    *
    * @default false
    */
@@ -120,7 +120,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable align support
    *
-   * 是否启用自定义对齐支持。
+   * 是否啟用自定義對齊支持。
    *
    * @default false
    */
@@ -129,7 +129,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable attr support
    *
-   * 是否启用属性支持。
+   * 是否啟用屬性支持。
    *
    * @default false
    */
@@ -138,7 +138,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable superscript format support
    *
-   * 是否启用上角标格式支持。
+   * 是否啟用上標格式支持。
    *
    * @default false
    */
@@ -147,7 +147,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable subscript format support
    *
-   * 是否启用下角标格式支持。
+   * 是否啟用下標格式支持。
    *
    * @default false
    */
@@ -156,7 +156,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether render figure with standalone imag
    *
-   * 是否将单独的图片渲染为 figure
+   * 是否將單独的圖片渲染為 figure
    *
    * @default false
    */
@@ -165,7 +165,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable footnote format support
    *
-   * 是否启用脚注格式支持。
+   * 是否啟用註解格式支持。
    *
    * @default false
    */
@@ -174,7 +174,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether enable native image lazy loading
    *
-   * 是否启用原生的图片懒加载。
+   * 是否啟用原生的圖片懒加載。
    *
    * @default false
    */
@@ -183,7 +183,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable gfm image id mark support
    *
-   * 是否启用 GFM 图片 ID 标记。
+   * 是否啟用 GFM 圖片 ID 標記。
    *
    * @default false
    */
@@ -192,7 +192,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable image size mark support
    *
-   * 是否启用图片大小标记支持。
+   * 是否啟用圖片大小標記支持。
    *
    * @default false
    */
@@ -201,7 +201,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable obsidian image size mark support
    *
-   * 是否启用 obsidian 图片大小标记支持。
+   * 是否啟用 obsidian 圖片大小標記支持。
    *
    * @default false
    */
@@ -210,7 +210,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable mark format support
    *
-   * 是否启用标注支持。
+   * 是否啟用標注支持。
    *
    * @default false
    */
@@ -219,7 +219,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable spoiler support
    *
-   * 是否启用剧透支持
+   * 是否啟用遮蔽支持
    *
    * @default false
    */
@@ -228,7 +228,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable tasklist format support
    *
-   * 是否启用任务列表支持
+   * 是否啟用任務列表支持
    *
    * @default false
    */
@@ -237,7 +237,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable include syntax support
    *
-   * 是否启用导入语法支持
+   * 是否啟用導入語法支持
    *
    * @default false
    */
@@ -248,7 +248,7 @@ export interface MarkdownEnhancePluginOptions {
    *
    * @see https://katex.org/docs/options.html
    *
-   * 是否启用 katex 语法支持
+   * 是否啟用 katex 語法支持
    *
    * @see https://katex.org/docs/options.html
    *
@@ -270,7 +270,7 @@ export interface MarkdownEnhancePluginOptions {
    *
    * @see http://docs.mathjax.org/en/latest/options/index.html
    *
-   * 是否启用 mathjax 语法支持
+   * 是否啟用 mathjax 語法支持
    *
    * @see http://docs.mathjax.org/en/latest/options/index.html
    *
@@ -281,7 +281,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable component support
    *
-   * 是否启用组件支持
+   * 是否啟用元件支持
    *
    * @default false
    */
@@ -290,7 +290,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable chart support
    *
-   * 是否启用 chart 图表支持
+   * 是否啟用 chart 圖表支持
    *
    * @default false
    */
@@ -299,7 +299,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable echarts support
    *
-   * 是否启用 echarts 图表支持
+   * 是否啟用 echarts 圖表支持
    *
    * @default false
    */
@@ -308,7 +308,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable flowchart support
    *
-   * 是否启用 flowchart 流程图支持
+   * 是否啟用 flowchart 流程圖支持
    *
    * @default false
    */
@@ -317,7 +317,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable markmap support
    *
-   * 是否启用 markmap 流程图支持
+   * 是否啟用 markmap 流程圖支持
    *
    * @default false
    */
@@ -326,7 +326,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable mermaid support
    *
-   * 是否启用 Mermaid 流程图支持
+   * 是否啟用 Mermaid 流程圖支持
    *
    * @default false
    */
@@ -335,7 +335,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether enable plantuml support
    *
-   * 是否启用 plantuml 支持
+   * 是否啟用 plantuml 支持
    *
    * @default false
    */
@@ -344,7 +344,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable code-demo support
    *
-   * 是否启用代码示例功能
+   * 是否啟用程式碼範例功能
    *
    * @default false
    */
@@ -353,7 +353,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable reveal.js support
    *
-   * 是否启用 Reveal.js 支持
+   * 是否啟用 Reveal.js 支持
    *
    * @default false
    */
@@ -362,21 +362,21 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Keyword enhancement
    *
-   * 关键词显示增强选项
+   * 關鍵詞顯示增强選項
    */
   stylize?: StylizeOptions;
 
   /**
    * Whether to enable playground support
    *
-   * 是否启用 playground 支持
+   * 是否啟用 playground 支持
    */
   playground?: PlaygroundGlobalOptions;
 
   /**
    * Whether to enable kotlin playground support
    *
-   * 是否启用 kotlin Playground 支持
+   * 是否啟用 kotlin Playground 支持
    *
    * @default false
    */
@@ -385,7 +385,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable vue playground support
    *
-   * 是否启用 Vue Playground 支持
+   * 是否啟用 Vue Playground 支持
    *
    * @default false
    */
@@ -394,7 +394,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Whether to enable sandpack support
    *
-   * 是否启用 Sandpack 支持
+   * 是否啟用 Sandpack 支持
    *
    * @default false
    */
@@ -405,9 +405,9 @@ export interface MarkdownEnhancePluginOptions {
    *
    * If the theme you are using has a switching animation, it is recommended to configure this option to `Switch animation duration + 200`
    *
-   * 操作页面 DOM 的延时，单位 ms
+   * 操作頁面 DOM 的延時，單位 ms
    *
-   * 如果你使用的主题有切换动画，建议配置此选项为 `切换动画时长 + 200`
+   * 如果你使用的主題有切換動畫，建議配置此選項為 `切換動畫時長 + 200`
    *
    * @default 800
    */
@@ -416,7 +416,7 @@ export interface MarkdownEnhancePluginOptions {
   /**
    * Locale config
    *
-   * 国际化配置选项
+   * 國際化配置選項
    */
   locales?: LocaleConfig<MarkdownEnhanceLocaleData>;
 }

@@ -1,7 +1,7 @@
 /**
  * Type of page information
  *
- * 页面信息类型
+ * 頁面資訊類型
  */
 export type PageInfoType =
   | "Author"

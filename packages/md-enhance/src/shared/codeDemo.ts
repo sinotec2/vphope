@@ -5,7 +5,7 @@ export interface CodeDemoOptions {
   /**
    * Whether to use babel to transpile to es5
    *
-   * 是否使用 Babel 转义到 ES5
+   * 是否使用 Babel 轉義到 ES5
    *
    * @default false
    */
@@ -14,21 +14,21 @@ export interface CodeDemoOptions {
   /**
    * JS Library links
    *
-   * 引入的 JS 外部库链接
+   * 引入的 JS 外部庫連結
    */
   jsLib: string[];
 
   /**
    * CSS Library links
    *
-   * 引入的 CSS 外部库链接
+   * 引入的 CSS 外部庫連結
    */
   cssLib: string[];
 
   /**
    * Whether to display JSFiddle button
    *
-   * 是否显示 JSFiddle 按钮
+   * 是否顯示 JSFiddle 按鈕
    *
    * @default true
    */
@@ -37,7 +37,7 @@ export interface CodeDemoOptions {
   /**
    * Whether to display CodePen button
    *
-   * 是否显示 CodePen 按钮
+   * 是否顯示 CodePen 按鈕
    *
    * @default true
    */
@@ -46,7 +46,7 @@ export interface CodeDemoOptions {
   /**
    * CodePen editor layout
    *
-   * CodePen 编辑器布局
+   * CodePen 編輯器布局
    *
    * @default "left"
    */
@@ -55,7 +55,7 @@ export interface CodeDemoOptions {
   /**
    * CodePen Editor Display
    *
-   * CodePen 编辑器显示情况
+   * CodePen 編輯器顯示情况
    *
    * @default "101"
    */
@@ -64,7 +64,7 @@ export interface CodeDemoOptions {
   /**
    * Babel lib address
    *
-   * Babel 库的地址
+   * Babel 庫的地址
    *
    * @default "https://unpkg.com/@babel/standalone/babel.min.js"
    */
@@ -73,7 +73,7 @@ export interface CodeDemoOptions {
   /**
    * Vue lib address
    *
-   * Vue 库的地址
+   * Vue 庫的地址
    *
    * @default "https://unpkg.com/vue/dist/vue.global.prod.js"
    */
@@ -82,7 +82,7 @@ export interface CodeDemoOptions {
   /**
    * React lib address
    *
-   * React 库的地址
+   * React 庫的地址
    *
    * @default "https://unpkg.com/react/umd/react.production.min.js"
    */
@@ -91,7 +91,7 @@ export interface CodeDemoOptions {
   /**
    * ReactDOM lib address
    *
-   * ReactDOM 库的地址
+   * ReactDOM 庫的地址
    *
    * @default "https://unpkg.com/react-dom/umd/react-dom.production.min.js"
    */

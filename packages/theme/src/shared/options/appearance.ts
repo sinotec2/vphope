@@ -29,21 +29,21 @@ export interface AppearanceLocaleData {
     /**
      * Theme Color
      *
-     * 主题色
+     * 主題色
      */
     themeColor: string;
 
     /**
      * Theme mode
      *
-     * 夜间模式
+     * 夜間模式
      */
     darkmode: string;
 
     /**
      * Fullscreen text
      *
-     * 全屏文字
+     * 全螢幕文字
      */
     fullscreen: string;
   };
@@ -56,7 +56,7 @@ export interface AppearanceOptions {
   /**
    * Whether enable pure mode
    *
-   * 是否开启纯净模式
+   * 是否開啟纯净模式
    *
    * @default false
    */
@@ -71,13 +71,13 @@ export interface AppearanceOptions {
    * - `"enable"`: only dark mode
    * - `"disable"`: disable dark mode
    *
-   * 深色模式支持选项:
+   * 深色模式支持選項:
    *
-   * - `"switch"`: 在深色模式，浅色模式和自动之间切换 (默认)
-   * - `"toggle"`: 在深色模式和浅色模式之间切换
-   * - `"auto"`: 自动根据用户设备主题或当前时间决定是否应用深色模式
+   * - `"switch"`: 在深色模式，淺色模式和自動之間切換 (內設)
+   * - `"toggle"`: 在深色模式和淺色模式之間切換
+   * - `"auto"`: 自動根據用户設備主題或當前時間决定是否應用深色模式
    * - `"enable"`: 强制深色模式
-   * - `"disable"`: 禁用深色模式
+   * - `"disable"`: 停用深色模式
    *
    * @default "auto-switch"
    */
@@ -86,7 +86,7 @@ export interface AppearanceOptions {
   /**
    * Whether enable theme color picker
    *
-   * 是否启用主题色选择器
+   * 是否啟用主題色選擇器
    *
    * @default false
    */
@@ -95,7 +95,7 @@ export interface AppearanceOptions {
   /**
    * Whether display print button in desktop mode
    *
-   * 是否在桌面模式下显示打印按钮
+   * 是否在桌面模式下顯示列印按鈕
    *
    * @default true
    */
@@ -104,7 +104,7 @@ export interface AppearanceOptions {
   /**
    * Full screen button
    *
-   * 全屏按钮
+   * 全螢幕按鈕
    *
    * @default false
    */
@@ -113,7 +113,7 @@ export interface AppearanceOptions {
   /**
    * Link of font icon asset
    *
-   * 字体图标资源链接
+   * 字體圖標資源連結
    *
    * @description `"iconify"`, `"fontawesome"` and `"fontawesome-with-brands"` keywords are supported
    */
@@ -122,7 +122,7 @@ export interface AppearanceOptions {
   /**
    * Font Icon class prefix
    *
-   * 字体图标 class 前缀
+   * 字體圖標 class 前缀
    *
    * @default ""
    */

@@ -1,23 +1,24 @@
 ---
-title: 主题行为选项
+title: 主題行為選項
 icon: circle-info
 order: -1
 category:
   - 配置
 tag:
-  - 行为选项
+  - 行為選項
 ---
 
-`hopeTheme()` 接受可选的第二个参数，即行为选项。行为选项控制主题的行为。
+`hopeTheme()` 的參數可以接受2個，第二個參數即**行為選項**。**行為選項**將會控制主題的外表及行為。
 
-行为选项也可接受一个布尔值:
+**行為選項**也可接受**一個**布爾值、或分開個別設定:
 
-- `false`: 意味着所有选项都设置为 `false`
-- `true`: 意味着 `{ check: true, compact:true, custom: false, debug: false }`
+- `false`: 意味著所有選項都設置為 `false`
+- `true`: 意味著同時打開檢核、精簡、客製、與偵錯的行為功能 `{ check: true, compact:true, custom: false, debug: false }`
+- **行為選項**`.vuepress/config.ts`(或`.js`)的設定方式如下
 
 <!-- more -->
 
-::: code-tabs#language
+::: code-tabs#language  
 
 @tab TS
 
@@ -26,16 +27,16 @@ import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
 
 export default defineUserConfig({
-  // 站点选项
+  // 網站選項
   // ...
 
   theme: hopeTheme(
     {
-      // 主题选项
+      // 主題選項
       // ...
     },
     {
-      // 主题行为选项 (可选)
+      // 主題行為選項 (可選)
     },
   ),
 });
@@ -47,16 +48,16 @@ export default defineUserConfig({
 import { hopeTheme } from "vuepress-theme-hope";
 
 export default {
-  // 站点选项
+  // 網站選項
   // ...
 
   theme: hopeTheme(
     {
-      // 主题选项
+      // 主題選項
       // ...
     },
     {
-      // 主题行为选项 (可选)
+      // 主題行為選項 (可選)
     },
   ),
 };
@@ -64,59 +65,59 @@ export default {
 
 :::
 
-## check
+## 檢核(check)
 
-- 类型: `boolean`
-- 默认值: `true`
+- 類型: `boolean`
+- 內設值: `true`
 
-是否执行附加检查。
+是否執行附加檢查。
 
-检查包括运行时检查和 frontmatter 检查。不兼容的值将被警告。
+檢查項目包括：運行實時檢查、和 frontmatter 檢查。不兼容的值將被警告。
 
 ::: note
 
-此选项将在稳定版本中恢复为 `false` 作为默认值。
+此選項將在穩定版本中恢復為 `false` 作為內設值。
 
 :::
 
-## compact
+## 精簡(compact)
 
-- 类型: `boolean`
-- 默认值: `true`
+- 類型: `boolean`
+- 內設值: `true`
 
-是否兼容历史版本 (v1 最新版本和 v2 beta 版本)。
+是否兼容歷史版本 (v1 最新版本和 v2 beta 版本)。
 
-- 仍然可以兼容的选项将继续工作，同时在控制台中留下警告。
-- 移除的选项将在控制台中留下错误。
+- 仍然可以兼容的選項將繼續工作，同時在控制台中留下警告。
+- 移除的選項將在控制台中留下錯誤。
 
 ::: note
 
-此选项将在稳定版本中恢复为 `false` 作为默认值。
+此選項的內設值將在穩定版本中恢復為 `false` 。
 
 :::
 
-## custom
+## 客製(custom)
 
-- 类型: `boolean`
-- 默认值: `false`
+- 類型: `boolean`
+- 內設值: `false`
 
-是否启用通过别名导入组件的自定义支持。
+是否啟用通過别名導入自定義的元件。
 
-默认情况下，主题将在性能模式下运行，所有文件都被捆绑并直接导入。
+內設情况下，主題將在性能模式下運行，所有文件都會被限制不讓使用客製化元件，並直接導入既有設定。
 
-如果你想通过覆盖组件和布局来自定义主题，请将此选项设置为 `true`，主题将加载带有 `@theme-hope` 别名的组件和布局。
+如果你想通過覆蓋元件和布局來自定義主題，請將此選項設置為 `true`，主題將加載帶有 `@theme-hope` 别名的元件和布局。
 
-## debug
+## 偵錯(debug)
 
-- 类型: `boolean`
-- 默认值: `false`
+- 類型: `boolean`
+- 內設值: `false`
 
-是否在调试模式下运行。
+是否在調試(偵錯)模式下運行。
 
 ::: note
 
-这只是通过将 `app.env.isDebug` 设置为 `true` 来实现的。
+這只是通過將 `app.env.isDebug` 設置為 `true` 來實現的。
 
-你还可以在运行 `vuepress dev` 或 `vuepress build` 时添加 `--debug` 标志以启用调试模式。(推荐)
+你還可以在運行 `vuepress dev` 或 `vuepress build` 時增加 `--debug` 標籤以啟用調試模式。(推荐)
 
 :::

@@ -8,39 +8,39 @@ category:
   - 教程
   - VuePress
 tag:
-  - 介绍
+  - 介紹
   - VuePress
 prev: ../markdown/demo.html
 ---
 
-VuePress 是一个以 Markdown 为中心的静态网站生成器。你可以使用 [Markdown](https://zh.wikipedia.org/wiki/Markdown) 来书写内容 (如文档、博客等) ，然后 VuePress 会帮助你生成一个静态网站来展示它们。
+VuePress 是一個以 Markdown 為中心的静態網站生成器。你可以使用 [Markdown](https://zh.wikipedia.org/wiki/Markdown) 來書寫内容 (如文檔、網誌等) ，然後 VuePress 會幫助你生成一個静態網站來展示它們。
 
 <!-- more -->
 
 ## VuePress 工作原理
 
-一个 VuePress 站点本质上是一个由 [Vue](https://v3.vuejs.org/) 和 [Vue Router](https://next.router.vuejs.org) 驱动的单页面应用 (SPA)。
+一個 VuePress 網站本质上是一個由 [Vue](https://v3.vuejs.org/) 和 [Vue Router](https://next.router.vuejs.org) 驱動的單頁面應用 (SPA)。
 
-路由会根据你的 Markdown 文件的相对路径来自动生成。每个 Markdown 文件都通过 [markdown-it](https://github.com/markdown-it/markdown-it) 编译为 HTML ，然后将其作为 Vue 组件的模板。因此，你可以在 Markdown 文件中直接使用 Vue 语法，便于你嵌入一些动态内容。
+路由會根據你的 Markdown 文件的相對路徑來自動生成。每個 Markdown 文件都通過 [markdown-it](https://github.com/markdown-it/markdown-it) 編譯為 HTML ，然後將其作為 Vue 元件的模板。因此，你可以在 Markdown 文件中直接使用 Vue 語法，便於你嵌入一些動態内容。
 
-- 在开发过程中，我们启动一个常规的开发服务器 (dev-server) ，并将 VuePress 站点作为一个常规的 SPA。
+- 在開發過程中，我們啟動一個常規的開發服務器 (dev-server) ，並將 VuePress 網站作為一個常規的 SPA。
 
-- 在构建过程中，我们会为 VuePress 站点创建一个服务端渲染 (SSR) 的版本，然后通过虚拟访问每一条路径来渲染对应的 HTML。
+- 在構建過程中，我們會為 VuePress 網站創建一個服務端渲染 (SSR) 的版本，然後通過虚拟訪問每一條路徑來渲染對應的 HTML。
 
-## VuePress 介绍
+## VuePress 介紹
 
-- [页面](page.md)
+- [頁面](page.md)
 
 - [Markdown](markdown.md)
 
-- [文件结构简介](file.md)
+- [文件結構簡介](file.md)
 
 - [配置](config.md)
 
-- [插件](plugin.md)
+- [外掛程式](plugin.md)
 
-- [主题](theme.md)
+- [主題](theme.md)
 
-## VuePress 官方文档
+## VuePress 官方文檔
 
 - [VuePress](https://vuejs.press/zh/)

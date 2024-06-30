@@ -26,7 +26,7 @@ export default defineComponent({
     /**
      * Notice path
      *
-     * 通知路径
+     * 通知路徑
      */
     path: {
       type: String,
@@ -36,7 +36,7 @@ export default defineComponent({
     /**
      * Notice match RegExp
      *
-     * 通知路径匹配
+     * 通知路徑匹配
      */
     match: {
       type: String,
@@ -46,7 +46,7 @@ export default defineComponent({
     /**
      * Notice title
      *
-     * 通知标题
+     * 通知標題
      */
     title: {
       type: String,
@@ -86,21 +86,21 @@ export default defineComponent({
     /**
      * Whether show notice only showOnce
      *
-     * 是否仅展示一次通知
+     * 是否僅展示一次通知
      */
     showOnce: Boolean,
 
     /**
      * Whether the notice shall be confirmed
      *
-     * 通知是否需要确认
+     * 通知是否需要確認
      */
     confirm: Boolean,
 
     /**
      * Whether display notice fullscreen
      *
-     * 是否全屏显示通知
+     * 是否全螢幕顯示通知
      */
     fullscreen: Boolean,
   },

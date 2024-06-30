@@ -15,7 +15,7 @@ export interface BlogOptions
   /**
    * Path of article list
    *
-   * 文章列表的路径
+   * 文章列表的路徑
    *
    * @default "/article/"
    */
@@ -24,7 +24,7 @@ export interface BlogOptions
   /**
    * Path of category map
    *
-   * 分类地图页的地址
+   * 分類地圖頁的地址
    *
    * @default "/category/"
    */
@@ -35,9 +35,9 @@ export interface BlogOptions
    *
    * `:name` will be automatically replaced by current category name
    *
-   * 点击分类标签时跳转的路径。
+   * 點擊分類標籤時跳轉的路徑。
    *
-   * 其中 `:name` 会被自动替换为当前分类名称
+   * 其中 `:name` 會被自動替換為當前分類名稱
    *
    * @default "/category/:name/"
    */
@@ -46,7 +46,7 @@ export interface BlogOptions
   /**
    * Path of tag map
    *
-   * 标签地图页的地址
+   * 標籤地圖頁的地址
    *
    * @default "/tag/"
    */
@@ -57,9 +57,9 @@ export interface BlogOptions
    *
    * `:name` will be automatically replaced by current tag name
    *
-   * 点击标签跳转的路径。
+   * 點擊標籤跳轉的路徑。
    *
-   * 其中 `:name` 会被自动替换为当前分类名称
+   * 其中 `:name` 會被自動替換為當前分類名稱
    *
    * @default "/tag/:name/"
    */
@@ -68,7 +68,7 @@ export interface BlogOptions
   /**
    * Path of star article list
    *
-   * 星标文章列表的路径
+   * 星標文章列表的路徑
    *
    * @default "/star/""
    */
@@ -77,7 +77,7 @@ export interface BlogOptions
   /**
    * Path of timeline
    *
-   * 时间线路径
+   * 時間線路徑
    *
    * @default "/timeline/"
    */
@@ -97,9 +97,9 @@ export interface BlogOptions
    *
    * @description This is an advanced option, please refer to the [blog plugin documentation](https://ecosystem.vuejs.press/plugins/blog/) for details
    *
-   * 额外的文章类型
+   * 額外的文章類型
    *
-   * @description 这是一个高级选项，请参考 [blog 插件文档](https://ecosystem.vuejs.press/zh/plugins/blog/) 了解详情
+   * @description 這是一個高級選項，請參考 [blog 外掛程式文檔](https://ecosystem.vuejs.press/zh/plugins/blog/) 了解詳情
    *
    * @default []
    */

@@ -1,48 +1,38 @@
 ---
-home: true
-title: Home
-icon: home
-heroText: vuepress-shared
-tagline: Some powerful utils for VuePress2
-
-footer: Theme by <a href="https://theme-hope.vuejs.press" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
-
-copyright: false
+title: Get Started
+icon: signs-post
+star: true
+sticky: 10
+dir:
+  order: 1
+category:
+  - Cookbook
+  - Tutorial
+  - Get Started
 ---
 
-## Install
-
-::: code-tabs#shell
-
-@tab pnpm
-
-```bash
-pnpm add -D vuepress-shared
+```component VPBanner
+title: Step-by-step tutorial
+content: This section is for newcomers which is not familiar with Frontend, Vue or VuePress.<br> If you already have experience with them, get started with guide.
+background: var(--bg-10)
+color: var(--banner-text)
+actions:
+  - text: Guide
+    link: ../guide/intro/intro.html
 ```
 
-@tab yarn
+## Tutorial Chapters
 
-```bash
-yarn add -D vuepress-shared
-```
+1. [Runtime Setup](env.md)
 
-@tab npm
+1. [Create project](create.md)
 
-```bash
-npm i -D vuepress-shared
-```
+1. [Project command](command.md)
 
-:::
+1. [Project Content](content.md)
 
-## Usage
+1. [Project configuration](config.md)
 
-::: warning
+1. [Project Structure](structure.md)
 
-VuePress is running on both Node.js Side and Browser Side, we called it `node` and `client`.
-
-So you should be aware to import the correct file, as Node.js has built-in modules and has ability to access file system, and browser has global variables like `window` or `navigator`.
-
-:::
-
-- At Node Side, you should import functions from `vuepress-shared/node`.
-- At Client Side, you should import functions from `vuepress-shared/client`.
+1. [Project Deployment](deploy.md)

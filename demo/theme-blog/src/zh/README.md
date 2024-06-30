@@ -2,47 +2,47 @@
 home: true
 layout: BlogHome
 icon: home
-title: 博客主页
+title: 網誌主頁
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+heroText: 你網誌的名稱
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 你可以在這裡放置你的口號與標語
 projects:
   - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+    name: 項目名稱
+    desc: 項目詳細描述
+    link: https://你的項目連結
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: 連結名稱
+    desc: 連結詳細描述
+    link: https://連結地址
 
   - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+    name: 書籍名稱
+    desc: 書籍詳細描述
+    link: https://你的書籍連結
 
   - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+    name: 文章名稱
+    desc: 文章詳細描述
+    link: https://你的文章連結
 
   - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+    name: 伙伴名稱
+    desc: 伙伴詳細介紹
+    link: https://你的伙伴連結
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+    name: 自定義項目
+    desc: 自定義詳細介紹
+    link: https://你的自定義連結
 
-footer: 自定义你的页脚文字
+footer: 自定義你的頁尾文字
 ---
 
-这是一个博客主页的案例。
+這是一個網誌主頁的案例。
 
-要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
+要使用此布局，你應該在頁面前端設置 `layout: BlogHome` 和 `home: true`。
 
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。
+相關配置文檔請見 [網誌主頁](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。

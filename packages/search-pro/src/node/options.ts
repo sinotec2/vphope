@@ -10,13 +10,13 @@ export interface SearchProIndexOptions {
   /**
    * Function to tokenize the index field item.
    *
-   * 用于对索引字段项进行分词的函数。
+   * 用於對索引字段項進行分詞的函數。
    */
   tokenize?: (text: string, fieldName?: string) => string[];
   /**
    * Function to process or normalize terms in the index field.
    *
-   * 用于处理或规范索引字段中的术语的函数。
+   * 用於處理或規範索引字段中的術語的函數。
    */
   processTerm?: (term: string) => string | string[] | null | undefined | false;
 }
@@ -25,7 +25,7 @@ export interface SearchProCustomFieldOptions {
   /**
    * Custom field getter
    *
-   * 自定义项目的获取器
+   * 自定義項目的獲取器
    */
   getter: <
     ExtraPageData extends Record<string, unknown> = Record<never, never>,
@@ -45,7 +45,7 @@ export interface SearchProCustomFieldOptions {
    *
    * 展示的内容
    *
-   * @description `$content` 会被 `getter` 返回的内容替换
+   * @description `$content` 會被 `getter` 返回的内容替換
    *
    * @default `$content`
    */
@@ -78,7 +78,7 @@ export interface SearchProPluginOptions
    *
    * 是否索引正文内容
    *
-   * @description 默认情况下，只会索引页面的标题和摘要，不会索引页面的正文内容。如果需要索引页面的正文内容，可以将该选项设置为 `true`
+   * @description 內設情况下，只會索引頁面的標題和摘要，不會索引頁面的正文内容。如果需要索引頁面的正文内容，可以將該選項設置為 `true`
    *
    * @default false
    */
@@ -87,7 +87,7 @@ export interface SearchProPluginOptions
   /**
    * Whether provide auto suggestions while typing
    *
-   * 是否在输入时提供自动建议
+   * 是否在輸入時提供自動建議
    *
    * @default true
    */
@@ -98,9 +98,9 @@ export interface SearchProPluginOptions
    *
    * @description You can set it to `0` to disable it
    *
-   * 存储查询历史的最大数量
+   * 儲存查詢歷史的最大數量
    *
-   * @description 可以将其设置为 `0` 来禁用
+   * @description 可以將其設置為 `0` 來停用
    *
    * @default 5
    */
@@ -111,9 +111,9 @@ export interface SearchProPluginOptions
    *
    * @description You can set it to `0` to disable it
    *
-   * 存储结果历史的最大数量
+   * 儲存結果歷史的最大數量
    *
-   * @description 可以将其设置为 `0` 来禁用
+   * @description 可以將其設置為 `0` 來停用
    *
    * @default 5
    */
@@ -122,7 +122,7 @@ export interface SearchProPluginOptions
   /**
    * Delay to start searching after input
    *
-   * 结束输入到开始搜索的延时
+   * 結束輸入到開始搜索的延時
    *
    * @default 150
    */
@@ -131,7 +131,7 @@ export interface SearchProPluginOptions
   /*
    * Delay to start auto-suggesting after input
    *
-   * 结束输入到开始自动建议的延时
+   * 結束輸入到開始自動建議的延時
    *
    * @default 0
    */
@@ -147,9 +147,9 @@ export interface SearchProPluginOptions
    *
    * @description When hotkeys are pressed, the search box input will be focused. Set to an empty array to disable hotkeys
    *
-   * 指定热键的 [event.key](http://keycode.info/)
+   * 指定熱鍵的 [event.key](http://keycode.info/)
    *
-   * @description 当热键被按下时，搜索框的输入框会被聚焦，设置为空数组以禁用热键
+   * @description 當熱鍵被按下時，搜索框的輸入框會被聚焦，設置為空數組以停用熱鍵
    *
    * @default [
    *   { key: "k", ctrl: true },
@@ -161,7 +161,7 @@ export interface SearchProPluginOptions
   /**
    * Output worker filename
    *
-   * Worker 输出文件名
+   * Worker 輸出文件名
    *
    * @default "search-pro.worker.js"
    */
@@ -170,7 +170,7 @@ export interface SearchProPluginOptions
   /**
    * Whether enable hmr
    *
-   * 是否启用 hmr
+   * 是否啟用 hmr
    *
    * @default false
    */
@@ -181,9 +181,9 @@ export interface SearchProPluginOptions
    *
    * @see [default config](https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/main/packages/search-pro/src/node/locales.ts)
    *
-   * 多语言选项
+   * 多語言選項
    *
-   * @see [默认配置](https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/main/packages/search-pro/src/node/locales.ts)
+   * @see [內設配置](https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/main/packages/search-pro/src/node/locales.ts)
    */
   locales?: LocaleConfig<SearchProLocaleData>;
 
@@ -192,9 +192,9 @@ export interface SearchProPluginOptions
    *
    * @description When there are multiple matched results, the result will be sorted by the strategy. `max` means that page having higher total score will be placed in front. `total` means that page having higher max score will be placed in front.
    *
-   * 结果排序策略
+   * 結果排序策略
    *
-   * @description 当有多个匹配的结果时，会按照策略对结果进行排序。`max` 表示最高分更高的页面会排在前面。`total` 表示总分更高的页面会排在前面
+   * @description 當有多個匹配的結果時，會按照策略對結果進行排序。`max` 表示最高分更高的頁面會排在前面。`total` 表示總分更高的頁面會排在前面
    *
    * @default "max"
    */
@@ -203,21 +203,21 @@ export interface SearchProPluginOptions
   /**
    * Create Index option
    *
-   * 创建索引选项
+   * 創建索引選項
    */
   indexOptions?: SearchProIndexOptions;
 
   /**
    * Create Index option per locale
    *
-   * 按语言的创建索引选项
+   * 按語言的創建索引選項
    */
   indexLocaleOptions?: Record<string, SearchProIndexOptions>;
 
   /**
    * Filter pages to be indexed
    *
-   * 过滤需要索引的页面
+   * 過濾需要索引的頁面
    *
    * @param page Page
    * @returns whether the page should be indexed

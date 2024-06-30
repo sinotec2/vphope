@@ -83,7 +83,7 @@ export interface TransparentNavbarOptions {
   /**
    * Transparent threshold
    *
-   * 透明的临界距离
+   * 透明的临界距離
    *
    * @default 50
    */
@@ -92,7 +92,7 @@ export interface TransparentNavbarOptions {
   /**
    * Text color in lightmode
    *
-   * 浅色模式下字体颜色
+   * 淺色模式下字體顏色
    *
    * @default '#fff'
    */
@@ -101,7 +101,7 @@ export interface TransparentNavbarOptions {
   /**
    * Text color in darkmode
    *
-   * 深色模式下字体颜色
+   * 深色模式下字體顏色
    *
    * @default '#bbb'
    */
@@ -111,7 +111,7 @@ export interface TransparentNavbarOptions {
 /**
  * Transparent navbar if needed
  *
- * 将导航栏设置为透明
+ * 將導航欄設置為透明
  */
 export const setupTransparentNavbar = ({
   type,

@@ -15,20 +15,20 @@ export default defineComponent({
     /**
      * Number of total items
      *
-     * 项目总数
+     * 項目總數
      */
     total: { type: Number, default: 10 },
     /**
      * Items per page
      *
-     * 每页项目数
+     * 每頁項目數
      */
     perPage: { type: Number, default: 10 },
 
     /**
      * Current page number
      *
-     * 当前页面
+     * 當前頁面
      */
     current: { type: Number, default: 1 },
   },

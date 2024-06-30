@@ -7,7 +7,7 @@
 
 <h4 align="center">
 
-[中文简介](README-zh.md) | [Russian README](https://github.com/vuepress-theme-hope/theme-ru-docs)
+[中文簡介](README-zh.md) | [Russian README](https://github.com/vuepress-theme-hope/theme-ru-docs)
 
 </h4>
 

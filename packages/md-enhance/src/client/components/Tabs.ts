@@ -18,7 +18,7 @@ export default defineComponent({
     /**
      * Active tab index
      *
-     * 激活的标签页序号
+     * 激活的標籤頁序號
      */
     active: {
       type: Number,
@@ -28,7 +28,7 @@ export default defineComponent({
     /**
      * Tab data
      *
-     * 标签页数据
+     * 標籤頁數據
      */
     data: {
       type: Array as PropType<TabProps[]>,
@@ -38,7 +38,7 @@ export default defineComponent({
     /**
      * Tab id
      *
-     * 标签页 id
+     * 標籤頁 id
      */
     id: {
       type: String,
@@ -48,7 +48,7 @@ export default defineComponent({
     /**
      * Tab id
      *
-     * 标签页 id
+     * 標籤頁 id
      */
     tabId: {
       type: String,

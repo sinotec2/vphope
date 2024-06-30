@@ -27,7 +27,7 @@ export default defineComponent({
     /**
      * Threshold distance in pixels to display the button
      *
-     * 显示按钮的阈值距离，单位为像素
+     * 顯示按鈕的阈值距離，單位為像素
      */
     threshold: {
       type: Number,
@@ -35,7 +35,7 @@ export default defineComponent({
     },
 
     /**
-     * 是否隐藏浏览进度条
+     * 是否隱藏瀏覽進度條
      */
     noProgress: Boolean,
   },

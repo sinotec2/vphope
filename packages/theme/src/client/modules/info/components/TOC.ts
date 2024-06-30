@@ -16,7 +16,7 @@ export default defineComponent({
     /**
      * TOC items config
      *
-     * TOC 项目配置
+     * TOC 項目配置
      */
     items: {
       type: Array as PropType<PageHeader[]>,
@@ -26,11 +26,11 @@ export default defineComponent({
     /**
      * Max header nesting depth
      *
-     * 最大的标题嵌套深度
+     * 最大的標題嵌套深度
      */
     headerDepth: {
       type: Number,
-      default: 2,
+      default: 5,
     },
   },
 

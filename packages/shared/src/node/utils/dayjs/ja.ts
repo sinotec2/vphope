@@ -31,7 +31,7 @@ const locale: Locale = {
   relativeTime: {
     future: "%s以内",
     past: "%s前",
-    s: "数秒",
+    s: "數秒",
     m: "1 分",
     mm: "%d 分",
     h: "1 時間",

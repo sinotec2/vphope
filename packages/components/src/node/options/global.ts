@@ -13,14 +13,14 @@ export interface ComponentGlobalOptions {
   /**
    * FontIcon config
    *
-   * 图标配置
+   * 圖標配置
    */
   fontIcon?: FontIconOptions;
 
   /**
    * PDF viewer config
    *
-   * PDF 阅读器配置
+   * PDF 閱讀器配置
    */
   pdf?: {
     /**

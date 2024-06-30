@@ -1,5 +1,5 @@
 ---
-title: 图表
+title: 圖表
 icon: chart-simple
 dir:
   collapsible: false
@@ -9,31 +9,31 @@ index: false
 
 <!-- #region intro -->
 
-此插件提供了 6 种方法让您将图表插入到 Markdown 文件中。
+此外掛程式提供了 6 種方法讓您將圖表插入到 Markdown 文件中。
 
-- Chart.js：一个轻量级、易于使用、高度可定制的图表库。
+- Chart.js：一個輕量級、易於使用、高度可定制的圖表庫。
 
-  与 ECharts 相比，Chart.js 更轻量。
+  與 ECharts 相比，Chart.js 更輕量。
 
-- ECharts：一个强大的、交互式的浏览器图表和可视化库。
+- ECharts：一個强大的、互動式的瀏覽器圖表和可視化庫。
 
-  与 Chart.js 相比，ECharts 更强大。
+  與 Chart.js 相比，ECharts 更强大。
 
-- flowchart: Markdown 扩展，用于生成流程图和序列图。
+- flowchart: Markdown 擴展，用於生成流程圖和序列圖。
 
-  轻量级，只关注流程图。
+  輕量級，只關注流程圖。
 
-- Markmap: 从 Markdown 生成思维导图
+- Markmap: 從 Markdown 生成思维導圖
 
-  运行环境非常重，不推荐使用。
+  運行環境非常重，不推荐使用。
 
-- Mermaid：从 Markdown 生成图表和流程图。
+- Mermaid：從 Markdown 生成圖表和流程圖。
 
-  常用图表的强大集合。
+  常用圖表的强大集合。
 
-- Plantuml: 基于 Java 的 UML 图表
+- Plantuml: 基於 Java 的 UML 圖表
 
-  没有任何运行时，极其轻量。
+  没有任何運行時，極其輕量。
 
 <!-- #endregion intro -->
 
@@ -45,7 +45,7 @@ index: false
 
 ### Chart.js
 
-::: chart 一个散点图案例
+::: chart 一個散布圖案例
 
 ```json
 {
@@ -53,7 +53,7 @@ index: false
   "data": {
     "datasets": [
       {
-        "label": "散点数据集",
+        "label": "散點數據集",
         "data": [
           { "x": -10, "y": 0 },
           { "x": 0, "y": 10 },
@@ -77,11 +77,11 @@ index: false
 
 :::
 
-- [查看详情](./chartjs.md)
+- [查看詳情](./chartjs.md)
 
 ### ECharts
 
-::: echarts 一个折线图案例
+::: echarts 一個折線圖案例
 
 ```json
 {
@@ -103,20 +103,20 @@ index: false
 
 :::
 
-- [查看详情](./echarts.md)
+- [查看詳情](./echarts.md)
 
-### 流程图
+### 流程圖
 
 ```flow
-cond=>condition: 是否执行操作?
+cond=>condition: 是否執行操作?
 process=>operation: 操作
-e=>end: 结束
+e=>end: 結束
 
 cond(yes)->process->e
 cond(no)->e
 ```
 
-- [查看详情](./flowchart.md)
+- [查看詳情](./flowchart.md)
 
 ### Markmap
 
@@ -128,30 +128,30 @@ markmap:
 
 # markmap
 
-## 链接
+## 連結
 
 - <https://markmap.js.org/>
 - [GitHub](https://github.com/markmap/markmap)
 
 ## 功能
 
-- 链接
-- **强调** ~~删除线~~ *斜体* ==高亮==
+- 連結
+- **强調** ~~删除線~~ *斜體* ==高亮==
 - 多行
   文字
-- `行内代码`
+- `行内程式碼`
 -
     ```js
     console.log('code block');
     ```
 - Katex
   - $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-- 现在我们可以通过 `maxWidth` 选项自动换行非常非常非常非常非常非常非常非常非常非常长的内容
+- 現在我們可以通過 `maxWidth` 選項自動換行非常非常非常非常非常非常非常非常非常非常長的内容
 ````
 
-- [查看详情](./markmap.md)
+- [查看詳情](./markmap.md)
 
-### Mermaid 图表
+### Mermaid 圖表
 
 ```mermaid
 ---
@@ -173,7 +173,7 @@ flowchart TB
     two --> c2
 ```
 
-- [查看详情](./mermaid.md)
+- [查看詳情](./mermaid.md)
 
 ### Plantuml
 
@@ -181,11 +181,11 @@ flowchart TB
 scale 5 as 150 pixels
 
 clock clk with period 1
-binary "启用" as en
-binary "读/写" as rw
-binary "数据有效" as dv
-concise "数据总线" as db
-concise "地址总线" as addr
+binary "啟用" as en
+binary "讀/寫" as rw
+binary "數據有效" as dv
+concise "數據總線" as db
+concise "地址總線" as addr
 
 @6 as :write_beg
 @10 as :write_end
@@ -228,13 +228,13 @@ dv is low
 @21
 db is "0x0"
 
-highlight :write_beg to :write_end #Gold:写
-highlight :read_beg to :read_end #lightBlue:读
+highlight :write_beg to :write_end #Gold:寫
+highlight :read_beg to :read_end #lightBlue:讀
 
-db@:write_beg-1 <-> @:write_end : 设置时间
+db@:write_beg-1 <-> @:write_end : 設置時間
 db@:write_beg-1 -> addr@:write_end+1 : 保持
 @enduml
 
-- [查看详情](./plantuml.md)
+- [查看詳情](./plantuml.md)
 
 <!-- #endregion demo -->

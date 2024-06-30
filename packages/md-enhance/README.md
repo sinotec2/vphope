@@ -3,7 +3,7 @@
   <img width="240" src="https://plugin-md-enhance.vuejs.press/logo.svg" style="text-align: center;">
 </p>
 <h1 align="center">vuepress-plugin-md-enhance</h1>
-<h4 align="center">Markdown enhancement plugin📄 / Markdown 增强插件📄</h4>
+<h4 align="center">Markdown enhancement plugin📄 / Markdown 增强外掛程式📄</h4>
 
 [![Author: Mr.Hope](https://img.shields.io/badge/Author-Mr.Hope-blue.svg?style=for-the-badge)](https://mister-hope.com)
 
@@ -11,9 +11,9 @@
 
 [![Version](https://img.shields.io/npm/v/vuepress-plugin-md-enhance.svg?style=flat-square&logo=npm) ![Downloads](https://img.shields.io/npm/dm/vuepress-plugin-md-enhance.svg?style=flat-square&logo=npm)](https://www.npmjs.com/package/vuepress-plugin-md-enhance)
 
-Markdown enhancement plugin📄 / Markdown 增强插件 📄
+Markdown enhancement plugin📄 / Markdown 增强外掛程式 📄
 
-## [Official Docs](https://plugin-md-enhance.vuejs.press/) | [官方文档](https://plugin-md-enhance.vuejs.press/zh/)
+## [Official Docs](https://plugin-md-enhance.vuejs.press/) | [官方文檔](https://plugin-md-enhance.vuejs.press/zh/)
 
 ## Install
 
@@ -50,7 +50,7 @@ yarn add -D vuepress-plugin-md-enhance
 
 ---
 
-## 安装
+## 安裝
 
 ```bash
 # pnpm
@@ -61,24 +61,24 @@ npm i -D vuepress-plugin-md-enhance
 yarn add -D vuepress-plugin-md-enhance
 ```
 
-## 从 V1 迁移
+## 從 V1 遷移
 
 - 移除 FlowChart 支持 ![移除](https://img.shields.io/badge/-移除-red)
 
-  我们已经添加了 Mermaid 支持，而 Mermaid 支持流程图
+  我們已經增加了 Mermaid 支持，而 Mermaid 支持流程圖
 
-- 移除 `imageFix` 选项 ![移除](https://img.shields.io/badge/-移除-red)
+- 移除 `imageFix` 選項 ![移除](https://img.shields.io/badge/-移除-red)
 
-  图片链接已经在 V2 中得到修正
+  圖片連結已經在 V2 中得到修正
 
-- 选项 `hint` ![新增](https://img.shields.io/badge/-新增-brightgreen)
+- 選項 `hint` ![新增](https://img.shields.io/badge/-新增-brightgreen)
 
-  决定是否启用默认主题提供的自定义容器
+  决定是否啟用內設主題提供的自定義容器
 
-- 选项 `delay`，控制页面加载和切换后进行 DOM 操作的延迟 ![新增](https://img.shields.io/badge/-新增-brightgreen)
+- 選項 `delay`，控制頁面加載和切換後進行 DOM 操作的延遲 ![新增](https://img.shields.io/badge/-新增-brightgreen)
 
-- 选项 `locale` 以支持国际化配置 ![新增](https://img.shields.io/badge/-新增-brightgreen)
+- 選項 `locale` 以支持國際化配置 ![新增](https://img.shields.io/badge/-新增-brightgreen)
 
-- 添加幻灯片布局，可在主题中引入使用 ![new](https://img.shields.io/badge/-new-brightgreen)
+- 增加投影片布局，可在主題中引入使用 ![new](https://img.shields.io/badge/-new-brightgreen)
 
-- 自动导入代码演示的所需 CDN ![new](https://img.shields.io/badge/-new-brightgreen)
+- 自動導入程式碼範例的所需 CDN ![new](https://img.shields.io/badge/-new-brightgreen)

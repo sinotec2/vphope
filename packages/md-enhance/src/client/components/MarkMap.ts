@@ -23,7 +23,7 @@ export default defineComponent({
     /**
      * Chart id
      *
-     * 图表 id
+     * 圖表 id
      */
     id: { type: String, required: true },
 

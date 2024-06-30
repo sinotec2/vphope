@@ -4,7 +4,7 @@ export interface ThemePageFrontmatter extends BasePageFrontMatter {
   /**
    * Whether is home page
    *
-   * 是否是主页
+   * 是否是主頁
    */
 
   home?: boolean;
@@ -12,21 +12,21 @@ export interface ThemePageFrontmatter extends BasePageFrontMatter {
   /**
    * Whether enable navbar
    *
-   * 是否启用导航栏
+   * 是否啟用導航欄
    */
   navbar?: boolean;
 
   /**
    * Sidebar configuration
    *
-   * 侧边栏配置
+   * 側邊欄配置
    */
   sidebar?: false;
 
   /**
    * Additional Class for Page container
    *
-   * 页面容器的额外类名
+   * 頁面容器的額外類名
    */
   containerClass?: string;
 }

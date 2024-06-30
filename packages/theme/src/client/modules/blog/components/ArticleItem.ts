@@ -30,7 +30,7 @@ export default defineComponent({
     /**
      * Article information
      *
-     * 文章信息
+     * 文章資訊
      */
     info: {
       type: Object as PropType<PageInfoData & ArticleInfoData>,
@@ -40,7 +40,7 @@ export default defineComponent({
     /**
      * Article path
      *
-     * 文章路径
+     * 文章路徑
      */
     path: { type: String, required: true },
   },

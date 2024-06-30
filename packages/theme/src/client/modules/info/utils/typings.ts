@@ -2,14 +2,14 @@ export interface PageCategory {
   /**
    * Category name
    *
-   * 分类名称
+   * 分類名稱
    */
   name: string;
 
   /**
    * Category path
    *
-   * 分类路径
+   * 分類路徑
    */
   path?: string;
 }

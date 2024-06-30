@@ -6,14 +6,14 @@ export interface ThemeNormalPageFrontmatter extends ThemePageFrontmatter {
   /**
    * Whether is homepage
    *
-   * 是否是主页
+   * 是否是主頁
    */
   home?: false;
 
   /**
    * Whether index current page
    *
-   * 是否索引此页面
+   * 是否索引此頁面
    *
    * @default true
    */
@@ -22,7 +22,7 @@ export interface ThemeNormalPageFrontmatter extends ThemePageFrontmatter {
   /**
    * Page order in sidebar
    *
-   * 页面在侧边栏的顺序
+   * 頁面在側邊欄的順序
    *
    * @default 0
    */
@@ -33,9 +33,9 @@ export interface ThemeNormalPageFrontmatter extends ThemePageFrontmatter {
    *
    * @description Only available at README.md
    *
-   * 目录配置
+   * 目錄配置
    *
-   * @description 仅在 README.md 中可用
+   * @description 僅在 README.md 中可用
    */
   dir?: {
     /**
@@ -43,9 +43,9 @@ export interface ThemeNormalPageFrontmatter extends ThemePageFrontmatter {
      *
      * @default title of README.md
      *
-     * 目录标题
+     * 目錄標題
      *
-     * @default README.md 标题
+     * @default README.md 標題
      */
     text?: string;
 
@@ -54,16 +54,16 @@ export interface ThemeNormalPageFrontmatter extends ThemePageFrontmatter {
      *
      * @default icon of README.md
      *
-     * 目录图标
+     * 目錄圖標
      *
-     * @default README.md 图标
+     * @default README.md 圖標
      */
     icon?: string;
 
     /**
      * Whether Dir is collapsible
      *
-     * 目录是否可折叠
+     * 目錄是否可折叠
      *
      * @default true
      */
@@ -75,9 +75,9 @@ export interface ThemeNormalPageFrontmatter extends ThemePageFrontmatter {
      *
      * @description Will set group link to link of README.md
      *
-     * 目录是否可点击
+     * 目錄是否可點擊
      *
-     * @description 将会将目录分组的链接设置为 README.md 对应的链接
+     * @description 將會將目錄分組的連結設置為 README.md 對應的連結
      *
      * @default false
      */
@@ -87,7 +87,7 @@ export interface ThemeNormalPageFrontmatter extends ThemePageFrontmatter {
     /**
      * Whether index current dir
      *
-     * 是否索引此目录
+     * 是否索引此目錄
      *
      * @default true
      */
@@ -96,7 +96,7 @@ export interface ThemeNormalPageFrontmatter extends ThemePageFrontmatter {
     /**
      * Dir order in sidebar
      *
-     * 目录在侧边栏中的顺序
+     * 目錄在側邊欄中的順序
      *
      * @default 0
      */
@@ -106,21 +106,21 @@ export interface ThemeNormalPageFrontmatter extends ThemePageFrontmatter {
   /**
    * A short title used in navbar, sidebar and breadcrumb
    *
-   * 用于导航栏，侧边栏和路径导航的短标题
+   * 用於導航欄，側邊欄和路徑導航的短標題
    */
   shortTitle?: string;
 
   /**
    * Page Heading depth
    *
-   * 页面标题深度
+   * 頁面標題深度
    */
   headerDepth?: number;
 
   /**
    * Whether display lastUpdated time
    *
-   * 是否显示最后更新事件
+   * 是否顯示最後更新事件
    */
 
   lastUpdated?: boolean;
@@ -128,42 +128,42 @@ export interface ThemeNormalPageFrontmatter extends ThemePageFrontmatter {
   /**
    * Whether display contributors
    *
-   * 是否显示贡献者
+   * 是否顯示貢獻者
    */
   contributors?: boolean;
 
   /**
    * Whether show Edit link
    *
-   * 是否显示编辑此页链接
+   * 是否顯示編輯此頁連結
    */
   editLink?: boolean;
 
   /**
    * Previous page link
    *
-   * 上一页链接
+   * 上一頁連結
    */
   prev?: string | AutoLinkOptions;
 
   /**
    * Next page link
    *
-   * 下一页链接
+   * 下一頁連結
    */
   next?: string | AutoLinkOptions;
 
   /**
    * Whether show toc list in desktop mode
    *
-   * 是否在桌面模式下展示标题列表
+   * 是否在桌面模式下展示標題列表
    */
   toc?: boolean;
 
   /**
    * PageInfo items
    *
-   * 页面信息项
+   * 頁面資訊項
    *
    * @default ["Author", "Visitor", "Time", "Category", "Tag", "ReadTime"]
    */
@@ -172,21 +172,21 @@ export interface ThemeNormalPageFrontmatter extends ThemePageFrontmatter {
   /**
    * Whether enable breadcrumb
    *
-   * 是否启用路径导航
+   * 是否啟用路徑導航
    */
   breadcrumb?: boolean;
 
   /**
    * Whether enable breadcrumb icon
    *
-   * 是否启用路径导航图标
+   * 是否啟用路徑導航圖標
    */
   breadcrumbIcon?: boolean;
 
   /**
    * Whether exclude current page in breadcrumb
    *
-   * 是否在路径导航中排除
+   * 是否在路徑導航中排除
    */
   breadcrumbExclude?: boolean;
 
@@ -196,9 +196,9 @@ export interface ThemeNormalPageFrontmatter extends ThemePageFrontmatter {
    *
    * @description Only available when using artalk or waline comment service
    *
-   * 是否启用访问量
+   * 是否啟用訪問量
    *
-   * @description 仅在使用 Artalk 或 Waline 评论服务时有效
+   * @description 僅在使用 Artalk 或 Waline 評論服務時有效
    *
    * @default true
    */
@@ -214,7 +214,7 @@ export interface ThemeNormalPageFrontmatter extends ThemePageFrontmatter {
    *
    * If a number fill in, greater number will appear in front
    *
-   * 是否置顶，如果填入数字，更大值会出现在前面
+   * 是否置頂，如果填入數字，更大值會出現在前面
    */
   sticky?: boolean | number;
 
@@ -223,14 +223,14 @@ export interface ThemeNormalPageFrontmatter extends ThemePageFrontmatter {
    *
    * If a number fill in, greater number will appear in front
    *
-   * 是否标为星标，如果填入数字，更大值会出现在前面
+   * 是否標為星標，如果填入數字，更大值會出現在前面
    */
   star?: boolean | number;
 
   /**
    * Page excerpt
    *
-   * 页面的摘要
+   * 頁面的摘要
    */
   excerpt?: string;
 }

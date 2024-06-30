@@ -19,19 +19,19 @@ export default hopeTheme({
 
   docsDir: "src",
 
-  // 导航栏
+  // 導航欄
   navbar,
 
-  // 侧边栏
+  // 側邊欄
   sidebar,
 
-  // 页脚
-  footer: "默认页脚",
+  // 頁尾
+  footer: "內設頁尾",
   displayFooter: true,
 
-  // 博客相关
+  // 網誌相關
   blog: {
-    description: "一个前端开发者",
+    description: "一個前端開發者",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",
@@ -76,20 +76,20 @@ export default hopeTheme({
     },
   },
 
-  // 多语言配置
+  // 多語言配置
   metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
+    editLink: "在 GitHub 上編輯此頁",
   },
 
-  // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
+  // 如果想要實時查看任何改變，啟用它。注: 這對更新性能有很大負面影響
   // hotReload: true,
 
-  // 在这里配置主题提供的插件
+  // 在這裡配置主題提供的外掛程式
   plugins: {
     blog: true,
 
-    // 启用之前需安装 @waline/client
-    // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
+    // 啟用之前需安裝 @waline/client
+    // 警告: 這是一個僅供範例的測試服務，在生產環境中請自行部署並使用自己的服務！
     // comment: {
     //   provider: "Waline",
     //   serverURL: "https://waline-comment.vuejs.press",
@@ -99,7 +99,7 @@ export default hopeTheme({
       components: ["Badge", "VPCard"],
     },
 
-    // 此处开启了很多功能用于演示，你应仅保留用到的功能。
+    // 此處開啟了很多功能用於範例，你應僅保留用到的功能。
     mdEnhance: {
       align: true,
       attrs: true,
@@ -130,46 +130,46 @@ export default hopeTheme({
       tasklist: true,
       vPre: true,
 
-      // 在启用之前安装 chart.js
+      // 在啟用之前安裝 chart.js
       // chart: true,
 
       // insert component easily
 
-      // 在启用之前安装 echarts
+      // 在啟用之前安裝 echarts
       // echarts: true,
 
-      // 在启用之前安装 flowchart.ts
+      // 在啟用之前安裝 flowchart.ts
       // flowchart: true,
 
       // gfm requires mathjax-full to provide tex support
       // gfm: true,
 
-      // 在启用之前安装 katex
+      // 在啟用之前安裝 katex
       // katex: true,
 
-      // 在启用之前安装 mathjax-full
+      // 在啟用之前安裝 mathjax-full
       // mathjax: true,
 
-      // 在启用之前安装 mermaid
+      // 在啟用之前安裝 mermaid
       // mermaid: true,
 
       // playground: {
       //   presets: ["ts", "vue"],
       // },
 
-      // 在启用之前安装 reveal.js
+      // 在啟用之前安裝 reveal.js
       // revealJs: {
       //   plugins: ["highlight", "math", "search", "notes", "zoom"],
       // },
 
-      // 在启用之前安装 @vue/repl
+      // 在啟用之前安裝 @vue/repl
       // vuePlayground: true,
 
       // install sandpack-vue3 before enabling it
       // sandpack: true,
     },
 
-    // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
+    // 如果你需要 PWA。安裝 @vuepress/plugin-pwa 並取消下方註解
     // pwa: {
     //   favicon: "/favicon.ico",
     //   cacheHTML: true,

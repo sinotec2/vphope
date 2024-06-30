@@ -19,7 +19,7 @@ export default defineComponent({
     /**
      * Sidebar item config
      *
-     * 侧边栏项目配置
+     * 側邊欄項目配置
      */
     config: {
       type: Object as PropType<ResolvedSidebarPageItem>,

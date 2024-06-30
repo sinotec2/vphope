@@ -17,20 +17,20 @@ export default defineComponent({
     /**
      * Icon class
      *
-     * 图标类名
+     * 圖標類名
      */
     icon: { type: String, default: "" },
     /**
      * Icon color
      *
-     * 图标颜色
+     * 圖標顏色
      */
     color: { type: String, default: "" },
 
     /**
      * Icon size
      *
-     * 图标大小
+     * 圖標大小
      */
     size: {
       type: [String, Number],

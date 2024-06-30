@@ -22,7 +22,7 @@ export const getLanguage = async (): Promise<LanguageResult> => {
     {
       name: "language",
       type: "list",
-      message: "Select a language to display / 选择显示语言",
+      message: "Select a language to display / 選擇顯示語言",
       choices: ["english (US)", "繁體中文"],
     },
   ]);

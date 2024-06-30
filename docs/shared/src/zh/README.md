@@ -1,48 +1,32 @@
 ---
-home: true
-title: 主页
-icon: home
-heroText: vuepress-shared
-tagline: VuePress2 的强大工具函数
-
-footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Hope
-
-copyright: false
+title: 快速上手
+icon: signs-post
+star: true
+sticky: true
+order: 101
+category:
+  - 快速上手
+  - 基礎知識
+  - 教程
+footer: '<script data-embed-id="0c8bf3ba-ad58-4c38-a8c4-a81b60a33809" data-base-api-url="https://eng06.sinotech-eng.com:3015/api/embed" data-window-height="550px" data-position="bottom-left" data-chat-icon="support" src="anythingllm-chat-widget.min.js"></script><script src="https://busuanzi.ibruce.info/jquery/1.11.2/jquery.min.js"></script><script src="https://busuanzi.ibruce.info/pintuer/1.0/pintuer.mini.js"></script><script src="https://busuanzi.ibruce.info/respond/1.4.2/respond.min.js"></script><script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><p class="text-small text-grey-dk-100 mb-0"><i class="fa fa-eye"></i> <span id="busuanzi_container_page_pv">  <span id="busuanzi_value_page_pv"> </span>  views &emsp;</span><i class="fa fa-earth"></i> <span id="busuanzi_container_site_pv"> <span id="busuanzi_value_site_pv"> </span>  site_visits &emsp;</span><i class="fa fa-user"></i><span id="busuanzi_container_site_uv"> <span id="busuanzi_value_site_uv"></span> visitors</span></p>' 
 ---
 
-## 安装
+## 教程章節
 
-::: code-tabs#shell
+|![](chat_pngs/2024-05-11-17-12-17.png)|
+|:-:|
+|[公司外網址](https://sinotec2.github.io/AIEE/NLP/AnythingLLM/AnyChat/)|
 
-@tab pnpm
+1. [熟悉聊天機器人的界面](AnyChat.md)
 
-```bash
-pnpm add -D vuepress-shared
-```
+1. [網頁AI小幫手](EmbChat.md)
 
-@tab yarn
+1. [翻譯小精靈](BBM.md)
 
-```bash
-yarn add -D vuepress-shared
-```
+1. [經理的權責](AnyChat_mng.md)
 
-@tab npm
+1. [管理者的權責](AnyChat_adm.md)
 
-```bash
-npm i -D vuepress-shared
-```
+1. [官方文件與名詞解釋說明](AnyChatDoc.md)
 
-:::
-
-## 用法
-
-::: warning
-
-VuePress 同时运行在 Node.js 端和浏览器端，我们称之为 `node` 和 `client`。
-
-因此，你应该注意导入正确的文件，因为 Node.js 具有内置模块并能够访问文件系统，并且浏览器具有全局变量，如 `window` 或 `navigator`。
-
-:::
-
-- 在 Node 端，你应该从 `vuepress-shared/node` 导入函数。
-- 在客户端，你应该从 `vuepress-shared/client` 导入函数。
+1. [各組應用情況動態分析](https://node01.sinotech-eng.com/chat/any_now.html)(請主管們前往[FreeIPA@node03](https://node03.sinotech-eng.com/ipa/ui/)開通帳密後、即可登入，參[FreeIPA說明]())

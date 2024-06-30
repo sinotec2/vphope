@@ -4,21 +4,21 @@ export interface ThemeProjectHomeActionOptions {
   /**
    * Action name
    *
-   * 操作名称
+   * 操作名稱
    */
   text: string;
 
   /**
    * Action link
    *
-   * 操作链接
+   * 操作連結
    */
   link: string;
 
   /**
    * Type of action
    *
-   * 操作类型
+   * 操作類型
    *
    * @default "default"
    */
@@ -27,7 +27,7 @@ export interface ThemeProjectHomeActionOptions {
   /**
    * Action icon
    *
-   * 操作图标
+   * 操作圖標
    */
   icon?: string;
 }
@@ -36,14 +36,14 @@ export interface ThemeProjectHomeHighlightItem {
   /**
    * Item name, supports HTML string
    *
-   * 项目名称，支持 HTML 字符串
+   * 項目名稱，支持 HTML 字符串
    */
   title: string;
 
   /**
    * Item description, supports HTML string
    *
-   * 项目描述，支持 HTML 字符串
+   * 項目描述，支持 HTML 字符串
    */
   details?: string;
 
@@ -52,16 +52,16 @@ export interface ThemeProjectHomeHighlightItem {
    *
    * @description image link or icon fontClass are supported
    *
-   * 项目图标
+   * 項目圖標
    *
-   * @description 支持图片链接或者图标字体类
+   * @description 支持圖片連結或者圖標字體類
    */
   icon?: string;
 
   /**
    * Item link
    *
-   * 项目链接
+   * 項目連結
    */
   link?: string;
 }
@@ -72,35 +72,35 @@ export interface ThemeProjectHomeHighlightOptions {
   /**
    * Highlight section header, supports HTML string
    *
-   * 亮点标题，支持 HTML 字符串
+   * 亮點標題，支持 HTML 字符串
    */
   header: string;
 
   /**
    * Highlight section description, supports HTML string
    *
-   * 亮点描述，支持 HTML 字符串
+   * 亮點描述，支持 HTML 字符串
    */
   description?: string;
 
   /**
    * Text color
    *
-   * 文字颜色
+   * 文字顏色
    */
   color?: string;
 
   /**
    * Highlight section image
    *
-   * 亮点图像
+   * 亮點圖像
    */
   image?: string;
 
   /**
    * Highlight section image used in darkmode
    *
-   * 夜间模式使用的亮点图片
+   * 夜間模式使用的亮點圖片
    *
    * @default image
    */
@@ -109,14 +109,14 @@ export interface ThemeProjectHomeHighlightOptions {
   /**
    * Highlight Background image
    *
-   * 亮点背景图
+   * 亮點背景圖
    */
   bgImage?: string;
 
   /**
    * Highlight Background image used in darkmode
    *
-   * 夜间模式使用的亮点背景图
+   * 夜間模式使用的亮點背景圖
    *
    * @default bgImage
    */
@@ -125,14 +125,14 @@ export interface ThemeProjectHomeHighlightOptions {
   /**
    * Highlight Background image style
    *
-   * 亮点背景图样式
+   * 亮點背景圖樣式
    */
   bgImageStyle?: Record<string, string> | string;
 
   /**
    * Highlight section list type
    *
-   * 亮点列表类型
+   * 亮點列表類型
    *
    * @default un-order
    */
@@ -141,7 +141,7 @@ export interface ThemeProjectHomeHighlightOptions {
   /**
    * Highlights
    *
-   * 亮点
+   * 亮點
    */
   highlights?: ThemeProjectHomeHighlightItem[];
 }
@@ -150,7 +150,7 @@ export interface ThemeProjectHomeFeatureOptions {
   /**
    * Feature header
    *
-   * 功能标题
+   * 功能標題
    */
   header?: string;
 
@@ -164,21 +164,21 @@ export interface ThemeProjectHomeFeatureOptions {
   /**
    * Text color
    *
-   * 文字颜色
+   * 文字顏色
    */
   color?: string;
 
   /**
    * Feature section image
    *
-   * 功能图像
+   * 功能圖像
    */
   image?: string;
 
   /**
    * Feature section image used in darkmode
    *
-   * 夜间模式使用的功能图片
+   * 夜間模式使用的功能圖片
    *
    * @default image
    */
@@ -187,14 +187,14 @@ export interface ThemeProjectHomeFeatureOptions {
   /**
    * Feature Background image
    *
-   * 功能背景图
+   * 功能背景圖
    */
   bgImage?: string;
 
   /**
    * Feature Background image used in darkmode
    *
-   * 夜间模式使用的功能背景图
+   * 夜間模式使用的功能背景圖
    *
    * @default bgImage
    */
@@ -203,7 +203,7 @@ export interface ThemeProjectHomeFeatureOptions {
   /**
    * Feature Background image style
    *
-   * 功能背景图样式
+   * 功能背景圖樣式
    */
   bgImageStyle?: Record<string, string> | string;
 

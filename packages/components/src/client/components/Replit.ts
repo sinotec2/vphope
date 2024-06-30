@@ -15,7 +15,7 @@ export default defineComponent({
     /**
      * Replit link
      *
-     * Replit 链接
+     * Replit 連結
      */
     link: {
       type: String,
@@ -45,7 +45,7 @@ export default defineComponent({
     /**
      * Component width
      *
-     * 组件宽度
+     * 元件寬度
      */
     width: {
       type: [String, Number],
@@ -55,7 +55,7 @@ export default defineComponent({
     /**
      * Component height
      *
-     * 组件高度
+     * 元件高度
      */
     height: {
       type: [String, Number],
@@ -65,7 +65,7 @@ export default defineComponent({
     /**
      * Component width / height ratio
      *
-     * 组件长宽比
+     * 元件長寬比
      */
     ratio: {
       type: [String, Number],
@@ -75,14 +75,14 @@ export default defineComponent({
     /**
      * Whether to enable dark mode
      *
-     * 是否启用暗黑模式
+     * 是否啟用暗黑模式
      */
     darkmode: Boolean,
 
     /**
      * The default file to open in the editor
      *
-     * 默认打开的文件
+     * 內設打開的文件
      */
     file: {
       type: String,
@@ -92,14 +92,14 @@ export default defineComponent({
     /**
      * Loading status
      *
-     * 加载状态
+     * 加載狀態
      */
     clickToLoad: Boolean,
 
     /**
      * Load button text
      *
-     * 加载按钮文字
+     * 加載按鈕文字
      */
     text: {
       type: String,

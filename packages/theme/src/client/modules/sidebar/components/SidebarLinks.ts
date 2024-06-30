@@ -17,7 +17,7 @@ export default defineComponent({
     /**
      * Sidebar links config
      *
-     * 侧边栏链接配置
+     * 側邊欄連結配置
      */
     config: {
       type: Array as PropType<ResolvedSidebarItem[]>,

@@ -43,21 +43,21 @@ export default defineComponent({
     /**
      * Extra class of container
      *
-     * 容器额外类名
+     * 容器額外類名
      */
     containerClass: { type: String, default: "" },
 
     /**
      * Whether disable navbar
      *
-     * 是否禁用导航栏
+     * 是否停用導航欄
      */
     noNavbar: Boolean,
 
     /**
      * Whether disable sidebar
      *
-     * 是否禁用侧边栏
+     * 是否停用側邊欄
      */
     noSidebar: Boolean,
 

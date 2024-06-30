@@ -16,7 +16,7 @@ export default defineComponent({
     /**
      * Author information
      *
-     * 作者信息
+     * 作者資訊
      */
     author: {
       type: Array as PropType<AuthorInfo[]>,
@@ -26,7 +26,7 @@ export default defineComponent({
     /**
      * Whether in pure mode
      *
-     * 是否处于纯净模式
+     * 是否處於纯净模式
      */
     pure: Boolean,
   },

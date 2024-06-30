@@ -1,5 +1,5 @@
 ---
-title: 样式化
+title: 樣式化
 icon: wand-magic-sparkles
 dir:
   collapsible: false
@@ -9,15 +9,15 @@ index: false
 
 <!-- #region intro -->
 
-此插件提供以下功能来样式化您的内容：
+此外掛程式提供以下功能來樣式化您的内容：
 
-- 警告: GFM 风格的警告
-- 自定义对齐: 自定义内容对齐方式
-- 提示容器: 将内容包裹在不同类型的提示框中
-- 属性支持: 为 Markdown 内容添加属性
-- 标记: 突出显示内容
-- 剧透: 隐藏剧透内容
-- 样式化: 可定制的字符样式器
+- 警告: GFM 風格的警告
+- 自定義對齊: 自定義内容對齊方式
+- 提示容器: 將内容包裹在不同類型的提示框中
+- 屬性支持: 為 Markdown 内容增加屬性
+- 標記: 突出顯示内容
+- 遮蔽: 隱藏遮蔽内容
+- 樣式化: 可定制的字符樣式器
 
 <!-- #endregion intro -->
 
@@ -30,11 +30,11 @@ index: false
 ### GFM 警告
 
 > [!warning]
-> 请小心！
+> 請小心！
 
-- [查看详情](./alert.md)
+- [查看詳情](./alert.md)
 
-### 自定义对齐
+### 自定義對齊
 
 ::: center
 
@@ -44,38 +44,38 @@ index: false
 
 ::: right
 
-我在右对齐
+我在右對齊
 
 :::
 
-- [查看详情](./align.md)
+- [查看詳情](./align.md)
 
-### 属性支持
+### 屬性支持
 
-一个有 id 的 **单词**{#word}。
+一個有 id 的 **單詞**{#word}。
 
-- [查看详情](./attrs.md)
+- [查看詳情](./attrs.md)
 
 ### 提示容器
 
 ::: tip
 
-这是一个提示。
+這是一個提示。
 
 :::
 
-- [查看详情](./hint.md)
+- [查看詳情](./hint.md)
 
-### 标记
+### 標記
 
-你可以标记 ==重要的内容== 。
+你可以標記 ==重要的内容== 。
 
-- [查看详情](./mark.md)
+- [查看詳情](./mark.md)
 
-### 样式化
+### 樣式化
 
-设置它<span style="color:red">没有</span>任何效果，请<span style="color:red">不要</span>这样使用
+設置它<span style="color:red">没有</span>任何效果，請<span style="color:red">不要</span>這樣使用
 
-- [查看详情](./stylize.md)
+- [查看詳情](./stylize.md)
 
 <!-- #endregion demo -->

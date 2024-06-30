@@ -11,7 +11,7 @@ export interface AuthorInfo {
   /**
    * Author website
    *
-   * 作者网站
+   * 作者網站
    */
   url?: string;
 

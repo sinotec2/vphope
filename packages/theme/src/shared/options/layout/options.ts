@@ -35,16 +35,16 @@ export interface LayoutLocaleOptions
    *
    * @description Used as the link of back-to-home and navbar logo
    *
-   * 当前语言的主页路径
+   * 當前語言的主頁路徑
    *
-   * @description 用于导航栏图标和返回主页按钮的链接
+   * @description 用於導航欄圖標和返回主頁按鈕的連結
    */
   home?: string;
 
   /**
    * Whether enable breadcrumb globally
    *
-   * 是否全局启用路径导航
+   * 是否全面啟用路徑導航
    *
    * @default true
    */
@@ -53,7 +53,7 @@ export interface LayoutLocaleOptions
   /**
    * Whether display icon in breadcrumb
    *
-   * 是否在路径导航显示图标
+   * 是否在路徑導航顯示圖標
    *
    * @default true
    */
@@ -62,7 +62,7 @@ export interface LayoutLocaleOptions
   /**
    * Whether display icon besides page title
    *
-   * 是否在页面标题旁显示图标
+   * 是否在頁面標題旁顯示圖標
    *
    * @default true
    */
@@ -73,7 +73,7 @@ export interface LayoutLocaleOptions
    *
    * @see https://theme-hope.vuejs.press/guide/feature/page-info.html
    *
-   * 文章信息配置
+   * 文章資訊配置
    *
    * @see https://theme-hope.vuejs.press/zh/guide/feature/page-info.html
    *
@@ -84,7 +84,7 @@ export interface LayoutLocaleOptions
   /**
    * Whether show toc list in desktop mode
    *
-   * 是否在桌面模式下展示标题列表
+   * 是否在桌面模式下展示標題列表
    *
    * @default true
    */
@@ -102,7 +102,7 @@ export interface LayoutLocaleOptions
   /**
    * Whether display nextLink
    *
-   * 是否显示 下一篇 链接
+   * 是否顯示 下一篇 連結
    *
    * @default true
    */
@@ -111,7 +111,7 @@ export interface LayoutLocaleOptions
   /**
    * Whether display prevLink
    *
-   * 是否显示 上一篇 链接
+   * 是否顯示 上一篇 連結
    *
    * @default true
    */
@@ -127,7 +127,7 @@ export interface LayoutOptions {
   /**
    * Sorter of structure sidebar
    *
-   * 结构化侧边栏排序器
+   * 結構化側邊欄排序器
    *
    * @default ["readme", "index", "title", "filename"]
    */

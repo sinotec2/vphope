@@ -11,13 +11,13 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "文档",
+      text: "文檔",
       icon: "book",
       prefix: "guide/",
       children: "structure",
     },
     {
-      text: "幻灯片",
+      text: "投影片",
       icon: "person-chalkboard",
       link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
     },

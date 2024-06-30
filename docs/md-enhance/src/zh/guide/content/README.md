@@ -9,12 +9,12 @@ index: false
 
 <!-- #region intro -->
 
-此插件提供以下方法来丰富您的内容。
+此外掛程式提供以下方法來豐富您的内容。
 
-- 组件: 快速创建组件
-- 脚注: 对关键内容做补充说明
-- 导入文件: 轻松拆分或复用文件
-- 幻灯片: 展示内容
+- 元件: 快速創建元件
+- 註解: 對關鍵内容做補充說明
+- 導入文件: 輕鬆拆分或复用文件
+- 投影片: 展示内容
 
 <!-- #endregion intro -->
 
@@ -24,7 +24,7 @@ index: false
 
 <!-- #region demo -->
 
-### 组件
+### 元件
 
 ```component VPCard
 title: Mr.Hope
@@ -34,40 +34,40 @@ link: https://mister-hope.com
 background: rgba(253, 230, 138, 0.15)
 ```
 
-- [查看详情](./component.md)
+- [查看詳情](./component.md)
 
-### 脚注
+### 註解
 
-此文字有脚注[^first].
+此文字有註解[^first].
 
-[^first]: 这是脚注内容
+[^first]: 這是註解内容
 
-- [查看详情](./footnote.md)
+- [查看詳情](./footnote.md)
 
-### 导入文件
+### 導入文件
 
 <!-- @include: ./demo.snippet.md{9-13} -->
 
-- [查看详情](./include.md)
+- [查看詳情](./include.md)
 
-### 幻灯片
+### 投影片
 
 @slidestart
 
-## 幻灯片 1
+## 投影片 1
 
-一个有文字和 [链接](https://mister-hope.com) 的段落
-
----
-
-## 幻灯片 2
-
-- 项目 1
-- 项目 2
+一個有文字和 [連結](https://mister-hope.com) 的段落
 
 ---
 
-## 幻灯片 3.1
+## 投影片 2
+
+- 項目 1
+- 項目 2
+
+---
+
+## 投影片 3.1
 
 ```js
 const a = 1;
@@ -75,7 +75,7 @@ const a = 1;
 
 --
 
-## 幻灯片 3.2
+## 投影片 3.2
 
 $$
 J(\theta_0,\theta_1) = \sum_{i=0}
@@ -83,9 +83,9 @@ $$
 
 @slideend
 
-- [查看详情](./revealjs/README.md)
+- [查看詳情](./revealjs/README.md)
 
-### 选项卡
+### 選項卡
 
 ::: tabs#fruit
 
@@ -103,6 +103,6 @@ Orange
 
 :::
 
-- [查看详情](./tabs.md)
+- [查看詳情](./tabs.md)
 
 <!-- #endregion demo -->

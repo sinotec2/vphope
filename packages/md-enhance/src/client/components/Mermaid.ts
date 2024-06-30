@@ -97,7 +97,7 @@ export default defineComponent({
     /**
      * Mermaid title
      *
-     * Mermaid 标题
+     * Mermaid 標題
      */
     title: { type: String, default: "" },
   },

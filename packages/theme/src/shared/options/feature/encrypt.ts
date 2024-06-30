@@ -2,28 +2,28 @@ export interface EncryptLocaleData {
   /**
    * Aria label for encrypt icon
    *
-   * 加密图标的无障碍标签
+   * 加密圖標的無障礙標籤
    */
   iconLabel: string;
 
   /**
    * Password placeholder
    *
-   * 密码输入框的默认占位符
+   * 密碼輸入框的內設占位符
    */
   placeholder: string;
 
   /**
    * Whether remember password
    *
-   * 是否记忆密码
+   * 是否記忆密碼
    */
   remember: string;
 
   /**
    * Password error hint
    *
-   * 密码错误提示
+   * 密碼錯誤提示
    */
   errorHint: string;
 }
@@ -31,7 +31,7 @@ export interface EncryptLocaleData {
 /**
  * Encrypt Options
  *
- * 加密选项
+ * 加密選項
  *
  * @kind root
  */
@@ -39,7 +39,7 @@ export interface EncryptOptions {
   /**
    * Whether encrypt globally
    *
-   * 是否全局加密
+   * 是否全面加密
    *
    * @default false
    */
@@ -48,7 +48,7 @@ export interface EncryptOptions {
   /**
    * Admin passwords, which has the highest authority
    *
-   * 最高权限密码
+   * 最高權限密碼
    */
   admin?: string | string[];
   /**
@@ -71,9 +71,9 @@ export interface EncryptOptions {
    *
    * ```json
    * {
-   *   // 这会加密整个 guide 目录，并且两个密码都是可用的
+   *   // 這會加密整個 guide 目錄，並且兩個密碼都是可用的
    *   "/guide/": ["1234", "5678"],
-   *   // 这只会加密 /config/page.html
+   *   // 這只會加密 /config/page.html
    *   "/config/page.html": "1234"
    * }
    * ```
@@ -92,7 +92,7 @@ export interface EncryptConfig {
   /**
    * Whether encrypt globally
    *
-   * 是否全局加密
+   * 是否全面加密
    *
    * @default false
    */
@@ -101,7 +101,7 @@ export interface EncryptConfig {
   /**
    * Admin passwords, which has the highest authority
    *
-   * 最高权限密码
+   * 最高權限密碼
    */
   admin?: string[];
 

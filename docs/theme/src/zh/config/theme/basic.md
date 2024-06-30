@@ -1,36 +1,36 @@
 ---
-title: 主题基本选项
+title: 主題基本選項
 icon: circle-info
 order: 1
 category:
   - 配置
 tag:
-  - 主题配置
-  - 基础
+  - 主題配置
+  - 基礎
 ---
 
 ::: caution
 
-这些选项很重要，需要你正确配置。
+這些選項很重要，需要你正確配置。
 
 :::
 
-## hostname <Badge text="仅限 Root" type="warning" />
+## hostname <Badge text="僅限 Root" type="warning" />
 
-- 类型: `string`
+- 類型: `string`
 - 必填: 是
 
-当前网站部署到的域名。
+當前網站部署到的域名。
 
 ::: tip
 
-它应该包含完整协议 (如: `https://example.com`)。
+它應該包含完整協議 (如: `https://example.com`)。
 
 :::
 
 ## author
 
-- 类型: `Author`
+- 類型: `Author`
 
   ```ts
   type AuthorName = string;
@@ -42,7 +42,7 @@ tag:
     name: string;
 
     /**
-     * 作者网站
+     * 作者網站
      */
     url?: string;
 
@@ -57,79 +57,79 @@ tag:
 
 - 必填: 否
 
-文章显示的默认作者
+文章顯示的內設作者
 
 ## license
 
-- 类型: `string`
+- 類型: `string`
 - 必填: 否
 
-站点的默认协议
+網站的內設協議
 
 ## favicon
 
-- 类型: `string`
+- 類型: `string`
 - 必填: 否
 
-站点图标
+網站圖標
 
 ## navbar
 
-- 类型: `NavbarConfig`
+- 類型: `NavbarConfig`
 
   ```ts
   interface TextItemOptions {
     /**
-     * 项目文字
+     * 項目文字
      */
     text: string;
 
     /**
-     * 项目图标
+     * 項目圖標
      */
     icon?: string;
 
     /**
-     * 项目无障碍标签
+     * 項目無障礙標籤
      */
     ariaLabel?: string;
   }
 
   interface AutoLinkOptions extends TextItemOptions {
     /**
-     * 当前页面链接
+     * 當前頁面連結
      */
     link: string;
 
     /**
-     * `<a>` 标签的 `rel` 属性
+     * `<a>` 標籤的 `rel` 屬性
      */
     rel?: string;
 
     /**
-     * `<a>` 标签的 `target` 属性
+     * `<a>` 標籤的 `target` 屬性
      */
     target?: string;
 
     /**
-     * 匹配激活的正则表达式
+     * 匹配激活的正則表達式
      */
     activeMatch?: string;
   }
 
   interface NavGroup<T> extends TextItemOptions {
     /**
-     * 当前分组的页面前缀
+     * 當前分組的頁面前缀
      */
     prefix?: string;
 
     /**
-     * 当前分组的链接
+     * 當前分組的連結
      */
     link?: string;
 
     /**
-     * 当前分组的子项
+     * 當前分組的子項
      */
     children: T[];
   }
@@ -139,50 +139,50 @@ tag:
   type NavbarConfig = (NavbarItem | NavbarGroup | string)[];
   ```
 
-- 详情: [布局 → 导航栏](../../guide/layout/navbar.md)
+- 詳情: [布局 → 導航欄](../../guide/layout/navbar.md)
 
-导航栏配置
+導航欄配置
 
 ## sidebar
 
-- 类型: `SidebarConfig`
+- 類型: `SidebarConfig`
 
   ```ts
   interface TextItemOptions {
     /**
-     * 项目文字
+     * 項目文字
      */
     text: string;
 
     /**
-     * 项目图标
+     * 項目圖標
      */
     icon?: string;
 
     /**
-     * 项目无障碍标签
+     * 項目無障礙標籤
      */
     ariaLabel?: string;
   }
 
   interface AutoLinkOptions extends TextItemOptions {
     /**
-     * 当前页面链接
+     * 當前頁面連結
      */
     link: string;
 
     /**
-     * `<a>` 标签的 `rel` 属性
+     * `<a>` 標籤的 `rel` 屬性
      */
     rel?: string;
 
     /**
-     * `<a>` 标签的 `target` 属性
+     * `<a>` 標籤的 `target` 屬性
      */
     target?: string;
 
     /**
-     * 匹配激活的正则表达式
+     * 匹配激活的正則表達式
      */
     activeMatch?: string;
   }
@@ -191,24 +191,24 @@ tag:
 
   interface SidebarGroupItem extends TextItemOptions {
     /**
-     * 当前分组的页面前缀
+     * 當前分組的頁面前缀
      */
     prefix?: string;
 
     /**
-     * 当前分组的链接
+     * 當前分組的連結
      */
     link?: string;
 
     /**
-     * 当前分组的链接是否可折叠
+     * 當前分組的連結是否可折叠
      *
      * @default false
      */
     collapsible?: boolean;
 
     /**
-     * 当前分组的子项
+     * 當前分組的子項
      */
     children: (
       | SidebarPageItem
@@ -220,17 +220,17 @@ tag:
 
   interface SidebarStructureItem extends TextItemOptions {
     /**
-     * 当前分组的页面前缀
+     * 當前分組的頁面前缀
      */
     prefix?: string;
 
     /**
-     * 当前分组的链接
+     * 當前分組的連結
      */
     link?: string;
 
     /**
-     * 当前分组的链接是否可折叠
+     * 當前分組的連結是否可折叠
      *
      * @default false
      */
@@ -255,48 +255,48 @@ tag:
   type SidebarConfig = SidebarArrayConfig | SidebarObjectConfig;
   ```
 
-- 详情: [布局 → 侧边栏](../../guide/layout/sidebar.md)
+- 詳情: [布局 → 側邊欄](../../guide/layout/sidebar.md)
 
-侧边栏配置
+側邊欄配置
 
-## locales <Badge text="仅限 Root" type="warning" />
+## locales <Badge text="僅限 Root" type="warning" />
 
-- 类型: `Record<string, ThemeLocaleOptions>`
-- 详情:
-  - [主题多语言配置](./i18n.md)
+- 類型: `Record<string, ThemeLocaleOptions>`
+- 詳情:
+  - [主題多語言配置](./i18n.md)
 
-主题的多语言配置，你可以在这里分别为每个语言设置单独的选项。
+主題的多語言配置，你可以在這裡分别為每個語言設置單独的選項。
 
-## extraLocales <Badge text="仅限 Root" type="warning" />
+## extraLocales <Badge text="僅限 Root" type="warning" />
 
-- 类型: `Record<string, string>`
+- 類型: `Record<string, string>`
 
-站点的额外语言环境，其中键名是语言名称，值是站点路径，`:route` 将替换为当前路由路径。
+網站的額外語言環境，其中鍵名是語言名稱，值是網站路徑，`:route` 將替換為當前路由路徑。
 
-## hotReload <Badge text="仅限 Root" type="warning" />
+## hotReload <Badge text="僅限 Root" type="warning" />
 
-- 类型: `boolean`
-- 默认值: 是否在使用 `--debug` 标识
+- 類型: `boolean`
+- 內設值: 是否在使用 `--debug` 標識
 
-是否需要在开发服务器启用完整功能与热更新。
-是否在开发服务器中启用热重载。
+是否需要在開發服務器啟用完整功能與熱更新。
+是否在開發服務器中啟用熱重載。
 
 ::: tip
 
-通常，你会希望:
+通常，你會希望:
 
-- 开发服务器可以被尽快启动
-- 对项目的修改可以在开发服务器上快速生效，并避免重新启动整个 VuePress 应用程序。
+- 開發服務器可以被儘快啟動
+- 對項目的修改可以在開發服務器上快速生效，並避免重新啟動整個 VuePress 應用程序。
 
-为了达到这个预期，主题需要在开发服务器启动时跳过一些耗时操作并在页面更新时绕过一些耗时功能，以提高项目启动和热更新的速度。同时，由于一些修改会改变 VuePress 的底层原始数据，这些修改会导致网页刷新并重新加载整个 VuePress 应用程序。为了避免在修改 Markdown 时频繁的页面重新加载 (即: 触发页面刷新并且获得几秒钟的白屏)，该主题禁用了开发服务器上的某些功能。
+為了達到這個預期，主題需要在開發服務器啟動時跳過一些耗時操作並在頁面更新時绕過一些耗時功能，以提高項目啟動和熱更新的速度。同時，由於一些修改會改變 VuePress 的底層原始數據，這些修改會導致網頁刷新並重新加載整個 VuePress 應用程序。為了避免在修改 Markdown 時频繁的頁面重新加載 (即: 觸發頁面刷新並且獲得幾秒鐘的白屏)，該主題停用了開發服務器上的某些功能。
 
-默认情况下，开发服务器拥有以下限制:
+內設情况下，開發服務器擁有以下限制:
 
-- 不启用基于 Git 的功能，包括贡献者、自动创建日期和最后更新时间 (调用 Git 程序以及文件 IO 会导致高耗时)
-- 结构化侧边栏只会在应用启动时生成，后续不会更新 (侧边栏排序和索引取决于每个页面 frontmatter，Markdown 内容的任何变化都会触发重新计算，因此大量页面会导致高耗时)
-- 博客文章、标签、分类和每个分类中的文章列表不会随着开发服务器更新 (Markdown 内容的任何变化都会触发重新计算，所以大量的页面会导致高耗时)
-- 博客文章信息不含阅读时间和字数信息 (Markdown 内容的任何更改都会更改页面字数信息，并因更新了 VuePress 底层原始数据导致页面刷新)
+- 不啟用基於 Git 的功能，包括貢獻者、自動創建日期和最後更新時間 (調用 Git 程序以及文件 IO 會導致高耗時)
+- 結構化側邊欄只會在應用啟動時生成，後续不會更新 (側邊欄排序和索引取决於每個頁面 frontmatter，Markdown 内容的任何變化都會觸發重新計算，因此大量頁面會導致高耗時)
+- 網誌文章、標籤、分類和每個分類中的文章列表不會隨著開發服務器更新 (Markdown 内容的任何變化都會觸發重新計算，所以大量的頁面會導致高耗時)
+- 網誌文章資訊不含閱讀時間和字數資訊 (Markdown 内容的任何更改都會更改頁面字數資訊，並因更新了 VuePress 底層原始數據導致頁面刷新)
 
-启用它意味着你接受每次修改都会触发一些高耗时计算并且整个应用程序将重新启动，这通常会导致页面刷新，并在在性能较弱的环境中获得数秒白屏。
+啟用它意味著你接受每次修改都會觸發一些高耗時計算並且整個應用程序將重新啟動，這通常會導致頁面刷新，並在在性能較弱的環境中獲得數秒白屏。
 
 :::

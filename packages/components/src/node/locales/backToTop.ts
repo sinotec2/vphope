@@ -7,7 +7,7 @@ export const backToTopLocales: BackToTopLocaleConfig = {
   },
 
   "/zh/": {
-    backToTop: "返回顶部",
+    backToTop: "返回頂部",
   },
 
   "/zh-tw/": {

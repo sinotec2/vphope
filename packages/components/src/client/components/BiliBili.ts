@@ -17,7 +17,7 @@ export default defineComponent({
     /**
      * BiliBili video id
      *
-     * B 站视频 ID
+     * B 站視頻 ID
      */
     bvid: {
       type: String,
@@ -27,7 +27,7 @@ export default defineComponent({
     /**
      * BiliBili video aid
      *
-     * B 站视频 a ID
+     * B 站視頻 a ID
      */
     aid: {
       type: String,
@@ -37,7 +37,7 @@ export default defineComponent({
     /**
      * BiliBili video cid
      *
-     * B 站视频 CID
+     * B 站視頻 CID
      */
     cid: {
       type: String,
@@ -47,7 +47,7 @@ export default defineComponent({
     /**
      * BiliBili video title
      *
-     * B 站视频标题
+     * B 站視頻標題
      */
     title: {
       type: String,
@@ -57,7 +57,7 @@ export default defineComponent({
     /**
      * BiliBili video page
      *
-     * B 站视频分页
+     * B 站視頻分頁
      */
     page: {
       type: [String, Number],
@@ -67,7 +67,7 @@ export default defineComponent({
     /**
      * Component width
      *
-     * 组件宽度
+     * 元件寬度
      */
     width: {
       type: [String, Number],
@@ -77,7 +77,7 @@ export default defineComponent({
     /**
      * Component height
      *
-     * 组件高度
+     * 元件高度
      */
     height: {
       type: [String, Number],
@@ -87,7 +87,7 @@ export default defineComponent({
     /**
      * Component width / height ratio
      *
-     * 组件长宽比
+     * 元件長寬比
      */
     ratio: {
       type: [String, Number],
@@ -97,7 +97,7 @@ export default defineComponent({
     /**
      * Start time in seconds
      *
-     * 基于秒数的开始时间
+     * 基於秒數的開始時間
      */
     time: {
       type: [String, Number],
@@ -107,7 +107,7 @@ export default defineComponent({
     /**
      * Whether autoplay
      *
-     * 是否自动播放
+     * 是否自動播放
      */
     autoplay: Boolean,
   },

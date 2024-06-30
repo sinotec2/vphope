@@ -95,7 +95,7 @@ yarn add -D vuepress-plugin-${pkgName}
 
 ---
 
-## 安装
+## 安裝
 
 \`\`\`bash
 # pnpm

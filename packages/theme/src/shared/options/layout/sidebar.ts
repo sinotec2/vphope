@@ -60,9 +60,9 @@ export interface SidebarLocaleOptions {
    * @description Set to `false` to disable sidebar in current locale
    * @see https://theme-hope.vuejs.press/guide/layout/sidebar.html
    *
-   * 侧边栏配置
+   * 側邊欄配置
    *
-   * @description 设置为 `false` 以在当前语言中禁用侧边栏
+   * @description 設置為 `false` 以在當前語言中停用側邊欄
    * @see https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html
    */
   sidebar?: SidebarOptions;
@@ -81,15 +81,15 @@ export interface SidebarLocaleOptions {
    * The default value of `markdown.headers.level` is `[2, 3]`,
    * so the default max value of `headerDepth` is `2`
    *
-   * 侧边栏和页面目录的标题深度
+   * 側邊欄和頁面目錄的標題深度
    *
-   * - 设置 `0` 来禁用所有级别的标题
-   * - 设置 `1` 来包含 `<h2>`
-   * - 设置 `2` 来包含 `<h2>` 和 `<h3>`
+   * - 設置 `0` 來停用所有級别的標題
+   * - 設置 `1` 來包含 `<h2>`
+   * - 設置 `2` 來包含 `<h2>` 和 `<h3>`
    * - ...
    *
-   * `markdown.headers.level` 的默认值是 `[2, 3]`,
-   * 所以 `headerDepth` 的默认最大值是 `2`
+   * `markdown.headers.level` 的內設值是 `[2, 3]`,
+   * 所以 `headerDepth` 的內設最大值是 `2`
    *
    * @default 2
    */

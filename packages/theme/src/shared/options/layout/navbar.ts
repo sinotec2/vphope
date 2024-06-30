@@ -4,14 +4,14 @@ export interface NavbarLocaleData {
   /**
    * Aria label of of the language selection dropdown
    *
-   * 语言下拉列表的无障碍标签
+   * 語言下拉列表的無障礙標籤
    */
   selectLangAriaLabel: string;
 
   /**
    * Language name of current locale
    *
-   * 当前语言的名称
+   * 當前語言的名稱
    */
   langName: string;
 }
@@ -19,7 +19,7 @@ export interface NavbarLocaleData {
 /**
  * Navbar component
  *
- * 导航栏组件
+ * 導航欄元件
  */
 export type NavbarComponent =
   | "Brand"
@@ -32,7 +32,7 @@ export type NavbarComponent =
 /**
  * Navbar layout options
  *
- * 导航栏布局选项
+ * 導航欄布局選項
  */
 export interface NavbarLayoutOptions {
   start?: string[];
@@ -48,9 +48,9 @@ export interface NavbarLocaleOptions {
    *
    * @see https://theme-hope.vuejs.press/guide/layout/navbar.html
    *
-   * 导航栏配置
+   * 導航欄配置
    *
-   * @description 设置 `false` 以在当前语言中禁用导航栏
+   * @description 設置 `false` 以在當前語言中停用導航欄
    *
    * @see https://theme-hope.vuejs.press/v2/zh/guide/layout/navbar.html
    */
@@ -61,9 +61,9 @@ export interface NavbarLocaleOptions {
    *
    * @description should be absolute path relative to `.vuepress/public` folder
    *
-   * 导航栏图标
+   * 導航欄圖標
    *
-   * @description 应为基于 `.vuepress/public` 文件夹的绝对路径
+   * @description 應為基於 `.vuepress/public` 文件目錄的絕對路徑
    */
   logo?: string;
 
@@ -72,16 +72,16 @@ export interface NavbarLocaleOptions {
    *
    * @description should be absolute path relative to `.vuepress/public` folder
    *
-   * 夜间模式下导航栏图标
+   * 夜間模式下導航欄圖標
    *
-   * @description 应为基于 `.vuepress/public` 文件夹的绝对路径
+   * @description 應為基於 `.vuepress/public` 文件目錄的絕對路徑
    */
   logoDark?: string;
 
   /**
    * Navbar title
    *
-   * 导航栏标题
+   * 導航欄標題
    *
    * @default $siteLocale.title
    */
@@ -90,14 +90,14 @@ export interface NavbarLocaleOptions {
   /**
    * Repository link
    *
-   * 仓库链接
+   * 倉庫連結
    */
   repo?: string;
 
   /**
    * Whether display repo link in navbar.
    *
-   * 是否在导航栏显示仓库链接。
+   * 是否在導航欄顯示倉庫連結。
    *
    * @default true
    */
@@ -106,14 +106,14 @@ export interface NavbarLocaleOptions {
   /**
    * Repository aria label of navbar
    *
-   * 导航栏仓库按钮的无障碍标签
+   * 導航欄倉庫按鈕的無障礙標籤
    */
   repoLabel?: string;
 
   /**
    * Whether to hide navbar when scrolling down
    *
-   * 是否在向下滚动时自动隐藏导航栏
+   * 是否在向下滾動時自動隱藏導航欄
    *
    * @default "mobile"
    */
@@ -122,7 +122,7 @@ export interface NavbarLocaleOptions {
   /**
    * Navbar layout config
    *
-   * 导航栏布局设置
+   * 導航欄布局設置
    *
    * @default { start: ["Brand"], center: ["Links"], end: ["Language", "Repo", "Outlook", "Search"] }
    */
@@ -131,7 +131,7 @@ export interface NavbarLocaleOptions {
   /**
    * Whether hide site title on mobile
    *
-   * 是否在移动视图下隐藏站点名称
+   * 是否在移動視圖下隱藏網站名稱
    *
    * @default true
    */

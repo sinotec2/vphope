@@ -1,9 +1,9 @@
 ---
 home: true
-title: 主页
+title: 主頁
 icon: home
 heroText: vuepress-plugin-lightgallery
-tagline: VuePress2 的 gallery 插件
+tagline: VuePress2 的 gallery 外掛程式
 actions:
   - text: 快速上手
     icon: lightbulb
@@ -14,14 +14,14 @@ actions:
     icon: tools
     link: ./config.html
 
-footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Hope
+footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主題 | MIT 協議, 版權所有 © 2019-present Mr.Hope
 
 copyright: false
 ---
 
-## 使用插件
+## 使用外掛程式
 
-### 安装
+### 安裝
 
 ::: code-tabs#shell
 
@@ -57,7 +57,7 @@ import { lightgalleryPlugin } from "vuepress-plugin-lightgallery";
 export default {
   plugins: [
     lightgalleryPlugin({
-      // 插件选项
+      // 外掛程式選項
     }),
   ],
 };
@@ -71,7 +71,7 @@ import { lightgalleryPlugin } from "vuepress-plugin-lightgallery";
 export default {
   plugins: [
     lightgalleryPlugin({
-      // 插件选项
+      // 外掛程式選項
     }),
   ],
 };
@@ -79,17 +79,17 @@ export default {
 
 :::
 
-::: caution 许可证限制
+::: caution 許可證限制
 
-请注意，虽然这个插件是在 MIT 协议下发布的，但我们目前正在通过 VuePress Theme Hope 的内置 [lightgallery 组织许可](https://www.lightgalleryjs.com/license/) 来实现这一点，并且 如果你将其用于非商业用途，我们愿意承认你是我们组织的成员。
+請注意，雖然這個外掛程式是在 MIT 協議下發布的，但我們目前正在通過 VuePress Theme Hope 的内置 [lightgallery 組織許可](https://www.lightgalleryjs.com/license/) 來實現這一點，並且 如果你將其用於非商業用途，我們願意承認你是我們組織的成員。
 
-组织许可证在非商业用途下对你没有限制，因为它支持无限的开发人员和无限的产品。你可以在任何许可下使用此插件安全地发布你的文档或项目。
+組織許可證在非商業用途下對你没有限制，因為它支持無限的開發人員和無限的產品。你可以在任何許可下使用此外掛程式安全地發布你的文檔或項目。
 
-但是请注意组织许可证只能用于单个商业产品。如果你想要以商业用途使用本插件，由于 lightgallery 是在 [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html) 下，所以你必须在没有许可证下将你的源代码置于 [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html) 协议下，或者考虑 [购买许可证](https://www.lightgalleryjs.com/license/) 以规避可能产生的问题。
+但是請注意組織許可證只能用於單個商業產品。如果你想要以商業用途使用本外掛程式，由於 lightgallery 是在 [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html) 下，所以你必須在没有許可證下將你的程式碼置於 [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html) 協議下，或者考慮 [購買許可證](https://www.lightgalleryjs.com/license/) 以規避可能產生的問題。
 
 你被警告了！
 
-如果你对此表示担忧，你可以考虑使用 [@vuepress/plugin-photo-swipe][photo-swipe]。
+如果你對此表示擔忧，你可以考慮使用 [@vuepress/plugin-photo-swipe][photo-swipe]。
 
 :::
 

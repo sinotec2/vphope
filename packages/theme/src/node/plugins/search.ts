@@ -46,42 +46,42 @@ try {
 }
 
 const DOCSEARCH_ZH_LOCALES = {
-  placeholder: "搜索文档",
+  placeholder: "搜索文檔",
   translations: {
     button: {
-      buttonText: "搜索文档",
-      buttonAriaLabel: "搜索文档",
+      buttonText: "搜索文檔",
+      buttonAriaLabel: "搜索文檔",
     },
     modal: {
       searchBox: {
-        resetButtonTitle: "清除查询条件",
-        resetButtonAriaLabel: "清除查询条件",
+        resetButtonTitle: "清除查詢條件",
+        resetButtonAriaLabel: "清除查詢條件",
         cancelButtonText: "取消",
         cancelButtonAriaLabel: "取消",
       },
       startScreen: {
-        recentSearchesTitle: "搜索历史",
-        noRecentSearchesText: "没有搜索历史",
-        saveRecentSearchButtonTitle: "保存至搜索历史",
-        removeRecentSearchButtonTitle: "从搜索历史中移除",
+        recentSearchesTitle: "搜索歷史",
+        noRecentSearchesText: "没有搜索歷史",
+        saveRecentSearchButtonTitle: "保存至搜索歷史",
+        removeRecentSearchButtonTitle: "從搜索歷史中移除",
         favoriteSearchesTitle: "收藏",
-        removeFavoriteSearchButtonTitle: "从收藏中移除",
+        removeFavoriteSearchButtonTitle: "從收藏中移除",
       },
       errorScreen: {
-        titleText: "无法获取结果",
-        helpText: "你可能需要检查你的网络连接",
+        titleText: "無法獲取結果",
+        helpText: "你可能需要檢查你的網絡连接",
       },
       footer: {
-        selectText: "选择",
-        navigateText: "切换",
-        closeText: "关闭",
+        selectText: "選擇",
+        navigateText: "切換",
+        closeText: "關閉",
         searchByText: "搜索提供者",
       },
       noResultsScreen: {
-        noResultsText: "无法找到相关结果",
-        suggestedQueryText: "你可以尝试查询",
-        reportMissingResultsText: "你认为该查询应该有结果？",
-        reportMissingResultsLinkText: "点击反馈",
+        noResultsText: "無法找到相關結果",
+        suggestedQueryText: "你可以嘗試查詢",
+        reportMissingResultsText: "你認為該查詢應該有結果？",
+        reportMissingResultsLinkText: "點擊反饋",
       },
     },
   },

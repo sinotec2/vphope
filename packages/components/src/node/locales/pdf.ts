@@ -6,7 +6,7 @@ export const pdfLocaleConfig: PDFLocaleConfig = {
   },
 
   "/zh/": {
-    hint: "<p>此浏览器不支持嵌入式 PDF。请下载 PDF 查看：<a href='[url]' target='_blank'>下载 PDF</a></p>",
+    hint: "<p>此瀏覽器不支持嵌入式 PDF。請下載 PDF 查看：<a href='[url]' target='_blank'>下載 PDF</a></p>",
   },
 
   "/zh-tw/": {

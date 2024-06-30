@@ -28,7 +28,7 @@ export default defineComponent({
     /**
      * Code demo id
      *
-     * 代码演示 id
+     * 程式碼範例 id
      */
     id: {
       type: String,
@@ -38,7 +38,7 @@ export default defineComponent({
     /**
      * Code demo type
      *
-     * 代码演示类型
+     * 程式碼範例類型
      */
     type: {
       type: String as PropType<"normal" | "vue" | "react">,
@@ -48,7 +48,7 @@ export default defineComponent({
     /**
      * Code demo title
      *
-     * 代码演示标题
+     * 程式碼範例標題
      */
     title: {
       type: String,
@@ -58,7 +58,7 @@ export default defineComponent({
     /**
      * Code demo config
      *
-     * 代码演示配置
+     * 程式碼範例配置
      */
     config: {
       type: String,
@@ -68,7 +68,7 @@ export default defineComponent({
     /**
      * Code demo code content
      *
-     * 代码演示代码内容
+     * 程式碼範例程式碼内容
      */
     code: {
       type: String,

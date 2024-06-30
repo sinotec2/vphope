@@ -1,13 +1,13 @@
 ---
-title: 组件
+title: 元件
 icon: puzzle-piece
 dir:
   order: 3
 index: false
 category:
-  - 组件
+  - 元件
 tag:
-  - 组件
+  - 元件
 ---
 
 <Catalog />

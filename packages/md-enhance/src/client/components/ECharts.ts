@@ -59,28 +59,28 @@ export default defineComponent({
     /**
      * ECharts config
      *
-     * 图表配置
+     * 圖表配置
      */
     config: { type: String, required: true },
 
     /**
      * Chart id
      *
-     * 图表 id
+     * 圖表 id
      */
     id: { type: String, required: true },
 
     /**
      * Chart title
      *
-     * 图表标题
+     * 圖表標題
      */
     title: { type: String, default: "" },
 
     /**
      * Chart config type
      *
-     * 图表配置类型
+     * 圖表配置類型
      */
     type: { type: String as PropType<"js" | "json">, default: "json" },
   },

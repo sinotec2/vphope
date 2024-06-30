@@ -19,11 +19,11 @@ export interface SearchWorker {
   /**
    * Get both suggestions and results
    *
-   * 同时获取建议和结果
+   * 同時獲取建議和結果
    *
-   * @param query - search query 搜素词
-   * @param localePath - locale path 语言路径
-   * @param options - search options 搜素选项
+   * @param query - search query 搜素詞
+   * @param localePath - locale path 語言路徑
+   * @param options - search options 搜素選項
    */
   all: (
     query: string,
@@ -34,11 +34,11 @@ export interface SearchWorker {
   /**
    * Get suggestions
    *
-   * 获取建议
+   * 獲取建議
    *
-   * @param query - search query 搜素词
-   * @param localePath - locale path 语言路径
-   * @param options - search options 搜素选项
+   * @param query - search query 搜素詞
+   * @param localePath - locale path 語言路徑
+   * @param options - search options 搜素選項
    */
   suggest: (
     query: string,
@@ -49,11 +49,11 @@ export interface SearchWorker {
   /**
    * Get search results
    *
-   * 获取搜索结果
+   * 獲取搜索結果
    *
-   * @param query - search query 搜素词
-   * @param localePath - locale path 语言路径
-   * @param options - search options 搜素选项
+   * @param query - search query 搜素詞
+   * @param localePath - locale path 語言路徑
+   * @param options - search options 搜素選項
    */
   search: (
     query: string,
@@ -64,7 +64,7 @@ export interface SearchWorker {
   /**
    * Terminate current worker
    *
-   * 终止当前 worker
+   * 終止當前 worker
    */
   terminate: () => void;
 }

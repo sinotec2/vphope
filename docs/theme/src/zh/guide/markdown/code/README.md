@@ -1,5 +1,5 @@
 ---
-title: 代码
+title: 程式碼
 icon: laptop-code
 dir:
   collapsible: false
@@ -8,23 +8,23 @@ dir:
 category:
   - Markdown
 tag:
-  - 代码
+  - 程式碼
   - Markdown
 ---
 
-主题提供以下功能来增强代码编写。
+主題提供以下功能來增强程式碼編寫。
 
-- 代码选项卡：为代码块添加选项卡。
-- 代码演示：在浏览器中显示和运行代码片段。
-- 交互演示：嵌入外部演示站点。
-- Kotlin 交互演示：响应式 Kotlin 演示。
-- Vue 交互演示：响应式 Vue 演示。
+- 程式碼選項卡：為程式碼區塊增加選項卡。
+- 程式碼範例：在瀏覽器中顯示和運行程式碼片段。
+- 互動範例：嵌入外部範例網站。
+- Kotlin 互動範例：響應式 Kotlin 範例。
+- Vue 互動範例：響應式 Vue 範例。
 
 <!-- more -->
 
 ## 案例
 
-### 代码选项卡
+### 程式碼選項卡
 
 ::: code-tabs#shell
 
@@ -48,11 +48,11 @@ npm i -D vuepress-plugin-md-enhance
 
 :::
 
-- [查看详情](./code-tabs.md)
+- [查看詳情](./code-tabs.md)
 
-### 代码演示
+### 程式碼範例
 
-::: normal-demo 一个普通 Demo
+::: normal-demo 一個普通 Demo
 
 ```html
 <h1>VuePress Theme Hope</h1>
@@ -73,9 +73,9 @@ span {
 
 :::
 
-- [查看详情](./demo.md)
+- [查看詳情](./demo.md)
 
-### 交互演示
+### 互動範例
 
 ::: playground#ts TS 案例
 
@@ -91,11 +91,11 @@ speak(msg);
 
 :::
 
-- [查看详情](./playground.md)
+- [查看詳情](./playground.md)
 
-### Kotlin 交互演示
+### Kotlin 互動範例
 
-::: kotlin-playground Kotlin 交互演示
+::: kotlin-playground Kotlin 互動範例
 
 @file main.kt
 
@@ -110,11 +110,11 @@ fun main(args: Array<String>) {
 
 :::
 
-- [查看详情](./kotlin-playground.md)
+- [查看詳情](./kotlin-playground.md)
 
-### Vue 交互演示
+### Vue 互動範例
 
-::: vue-playground Vue 交互演示
+::: vue-playground Vue 互動範例
 
 @file App.vue
 
@@ -133,11 +133,11 @@ const msg = ref("Hello World!");
 
 :::
 
-- [查看详情](./vue-playground.md)
+- [查看詳情](./vue-playground.md)
 
-### Sandpack 交互演示
+### Sandpack 互動範例
 
-::: sandpack#vue Vue 交互演示
+::: sandpack#vue Vue 互動範例
 
 @file /src/App.vue
 
@@ -156,4 +156,4 @@ const msg = ref("Hello World!");
 
 :::
 
-- [查看详情](./sandpack.md)
+- [查看詳情](./sandpack.md)

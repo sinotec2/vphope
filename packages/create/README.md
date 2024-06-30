@@ -19,7 +19,7 @@ pnpm create vuepress-theme-hope <dir>
 
 ---
 
-快速创建 vuepress-theme-hope 模板捷径。
+快速創建 vuepress-theme-hope 模板捷徑。
 
 ## 使用
 

@@ -18,7 +18,7 @@ export default sidebar({
     },
     "intro",
     {
-      text: "幻灯片",
+      text: "投影片",
       icon: "person-chalkboard",
       link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
     },

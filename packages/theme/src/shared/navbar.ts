@@ -7,21 +7,21 @@ export interface NavGroup<T> extends TextItemOptions {
   /**
    * Link prefix of current group
    *
-   * 当前分组的页面前缀
+   * 當前分組的頁面前缀
    */
   prefix?: string;
 
   /**
    * Link of current group
    *
-   * 当前分组的链接
+   * 當前分組的連結
    */
   link?: string;
 
   /**
    * Children of current group
    *
-   * 当前分组的子项
+   * 當前分組的子項
    */
   children: T[];
 }

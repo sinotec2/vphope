@@ -40,35 +40,35 @@ export interface PageInfoProps {
   /**
    * Categories of article
    *
-   * 文章分类
+   * 文章分類
    */
   category?: PageCategory[];
 
   /**
    * Tags of article
    *
-   * 文章标签
+   * 文章標籤
    */
   tag?: PageTag[];
 
   /**
    * Writing Date
    *
-   * 写作日期
+   * 寫作日期
    */
   date?: Date | null;
 
   /**
    * Writing Date
    *
-   * 写作日期
+   * 寫作日期
    */
   localizedDate?: string | null;
 
   /**
    * Whether the article is original
    *
-   * 文章是否原创
+   * 文章是否原創
    */
   isOriginal?: boolean;
 
@@ -77,23 +77,23 @@ export interface PageInfoProps {
    *
    * If the value is a string, it will use as search id
    *
-   * 是否启用访问量
+   * 是否啟用訪問量
    *
-   * 如果值为字符串，会用做查询 id
+   * 如果值為字符串，會用做查詢 id
    */
   pageview?: string | boolean;
 
   /**
    * ReadingTime info
    *
-   * 阅读时间
+   * 閱讀時間
    */
   readingTime?: ReadingTime | null;
 
   /**
    * ReadingTime Locales
    *
-   * 阅读时间多语言
+   * 閱讀時間多語言
    */
   readingTimeLocale?: ReadingTimeLocale | null;
 }
@@ -116,7 +116,7 @@ export default defineComponent({
     /**
      * Article information to display
      *
-     * 待展示的文章信息
+     * 待展示的文章資訊
      */
     items: {
       type: [Array, Boolean] as PropType<PageInfoType[] | false>,
@@ -134,7 +134,7 @@ export default defineComponent({
     /**
      * Article information
      *
-     * 文章信息配置
+     * 文章資訊配置
      */
     info: {
       type: Object as PropType<PageInfoProps>,

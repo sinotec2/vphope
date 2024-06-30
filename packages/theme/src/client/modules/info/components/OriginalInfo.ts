@@ -14,7 +14,7 @@ export default defineComponent({
     /**
      * Whether the article is original
      *
-     * 文章是否是原创
+     * 文章是否是原創
      */
     isOriginal: Boolean,
   },

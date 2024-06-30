@@ -34,7 +34,7 @@ export interface ThemeLocaleOptions
   /**
    * Global default author
    *
-   * 全局默认作者
+   * 全面內設作者
    */
   author?: Author;
 }
@@ -47,7 +47,7 @@ export interface ThemeLocaleConfig
   /**
    * Global default author
    *
-   * 全局默认作者
+   * 全面內設作者
    */
   author?: Author;
 }

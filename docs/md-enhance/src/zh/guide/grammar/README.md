@@ -1,5 +1,5 @@
 ---
-title: 语法
+title: 語法
 icon: code
 dir:
   collapsible: false
@@ -9,11 +9,11 @@ index: false
 
 <!-- #region intro -->
 
-此插件向 Markdown 引入了以下新语法。
+此外掛程式向 Markdown 引入了以下新語法。
 
-- 图像：转换为图形，根据配色方案和设置尺寸进行切换
-- 上标和下标
-- 任务列表
+- 圖像：轉換為圖形，根據配色方案和設置尺寸進行切換
+- 上標和下標
+- 任務列表
 - TeX：支持 KaTeX 和 Mathjax
 
 <!-- #endregion intro -->
@@ -24,32 +24,32 @@ index: false
 
 <!-- #region demo -->
 
-### 图片增强
+### 圖片增强
 
-支持设置标题、颜色模式和大小
+支持設置標題、顏色模式和大小
 
-- [查看详情](./image.md)
+- [查看詳情](./image.md)
 
-### 上下角标
+### 上下標
 
 19^th^ H~2~O
 
-- [查看详情](./sup-sub.md)
+- [查看詳情](./sup-sub.md)
 
-### 任务列表
+### 任務列表
 
-- [x] 计划 1
-- [ ] 计划 2
+- [x] 計划 1
+- [ ] 計划 2
 
-[查看详情](./tasklist.md)
+[查看詳情](./tasklist.md)
 
-### Tex 语法
+### Tex 語法
 
 $$
 \frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right)
 = \left(\frac {y^{\omega}} {\omega}\right) \left\{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)^{r-i}} {\omega^i} \right\}
 $$
 
-- [查看详情](./tex.md)
+- [查看詳情](./tex.md)
 
 <!-- #endregion demo -->

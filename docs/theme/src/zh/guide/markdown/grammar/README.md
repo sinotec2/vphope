@@ -1,5 +1,5 @@
 ---
-title: 语法
+title: 語法
 icon: code
 dir:
   collapsible: false
@@ -8,7 +8,7 @@ dir:
 category:
   - Markdown
 tag:
-  - 语法
+  - 語法
   - Markdown
 ---
 

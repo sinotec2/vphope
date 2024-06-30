@@ -6,7 +6,7 @@ export interface BackToTopLocaleData {
   /**
    * Back to top button label text
    *
-   * 返回顶部文字
+   * 返回頂部文字
    */
   backToTop: string;
 }
@@ -23,8 +23,8 @@ export interface PDFLocaleData {
    *
    * PDF 提示文字
    *
-   * @description 只有在浏览器不支持嵌入 PDF 且没有提供 PDFJS URL 时才会使用
-   * [url] 会被实际 PDF 链接替换
+   * @description 只有在瀏覽器不支持嵌入 PDF 且没有提供 PDFJS URL 時才會使用
+   * [url] 會被實際 PDF 連結替換
    */
   hint: string;
 }
@@ -35,7 +35,7 @@ export interface SiteInfoLocaleData {
   /**
    * Source text
    *
-   * 源代码文字
+   * 程式碼文字
    */
   source: string;
 }

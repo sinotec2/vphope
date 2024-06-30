@@ -110,7 +110,7 @@ export default defineComponent({
     /**
      * Video Source URL
      *
-     * 视频源文件地址
+     * 視頻源文件地址
      */
     src: {
       type: String,
@@ -120,7 +120,7 @@ export default defineComponent({
     /**
      * Video Type
      *
-     * 视频类型
+     * 視頻類型
      */
     type: {
       type: String,
@@ -130,7 +130,7 @@ export default defineComponent({
     /**
      * Video poster
      *
-     * 视频封面
+     * 視頻封面
      */
     poster: {
       type: String,
@@ -140,7 +140,7 @@ export default defineComponent({
     /**
      * Video title
      *
-     * 视频标题
+     * 視頻標題
      */
     title: {
       type: String,
@@ -150,7 +150,7 @@ export default defineComponent({
     /**
      * Component width
      *
-     * 组件宽度
+     * 元件寬度
      */
     width: {
       type: [String, Number],
@@ -160,7 +160,7 @@ export default defineComponent({
     /**
      * Component height
      *
-     * 组件高度
+     * 元件高度
      */
     height: {
       type: [String, Number],
@@ -170,7 +170,7 @@ export default defineComponent({
     /**
      * Component width / height ratio
      *
-     * 组件长宽比
+     * 元件長寬比
      */
     ratio: {
       type: [String, Number],
@@ -190,7 +190,7 @@ export default defineComponent({
     /**
      * Customize Artplayer
      *
-     * 对 Artplayer 进行自定义
+     * 對 Artplayer 進行自定義
      */
     customPlayer: {
       type: Function as PropType<

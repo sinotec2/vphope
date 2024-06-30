@@ -3,7 +3,7 @@ export interface BackToTopOptions {
   /**
    * Scroll threshold distance to display back to top button (in pixels)
    *
-   * 滚动距离阈值，用于显示返回顶部按钮 (单位: 像素)
+   * 滾動距離阈值，用於顯示返回頂部按鈕 (單位: 像素)
    *
    * @default 100
    */
@@ -12,7 +12,7 @@ export interface BackToTopOptions {
   /**
    * Whether display scroll progress
    *
-   * 是否显示滚动进度
+   * 是否顯示滾動進度
    *
    * @default true
    */

@@ -6,7 +6,7 @@ export interface SandpackData
   /**
    * Title of sandpack
    *
-   * 交互演示标题
+   * 互動範例標題
    */
   title?: string;
 }

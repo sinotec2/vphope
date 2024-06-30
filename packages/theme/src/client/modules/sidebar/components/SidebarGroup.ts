@@ -18,7 +18,7 @@ export default defineComponent({
     /**
      * Sidebar group item config
      *
-     * 侧边栏分组配置
+     * 側邊欄分組配置
      */
     config: {
       type: Object as PropType<ResolvedSidebarGroupItem>,
@@ -28,7 +28,7 @@ export default defineComponent({
     /**
      * Whether current group is open
      *
-     * 当前分组是否展开
+     * 當前分組是否展開
      */
     open: {
       type: Boolean,
