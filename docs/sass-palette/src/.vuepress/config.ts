@@ -13,8 +13,8 @@ export default config("sass-palette", {
 
     "/zh/": {
       lang: "zh-TW",
-      title: "Sass 调色板",
-      description: "VuePress2 的 Sass 调色板插件",
+      title: "Sass 調色板",
+      description: "VuePress2 的 Sass 調色板外掛程式",
     },
   },
 

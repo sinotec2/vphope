@@ -19,8 +19,8 @@ export default defineUserConfig({
     },
     "/zh/": {
       lang: "zh-TW",
-      title: "博客演示",
-      description: "vuepress-theme-hope 的博客演示",
+      title: "網誌範例",
+      description: "vuepress-theme-hope 的網誌範例",
     },
   },
 

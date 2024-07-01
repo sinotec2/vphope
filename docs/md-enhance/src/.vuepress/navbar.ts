@@ -43,7 +43,7 @@ export const enNavbar = navbar([
 export const zhNavbar = navbar([
   "/zh/",
   {
-    text: "指南",
+    text: "指引",
     prefix: "/zh/guide/",
     icon: "lightbulb",
     children: [
@@ -64,7 +64,7 @@ export const zhNavbar = navbar([
     children: [
       "/zh/migration",
       {
-        text: "V1 文档",
+        text: "V1 文檔",
         link: "https://vuepress-theme-hope.github.io/v1/md-enhance/zh/",
       },
     ],

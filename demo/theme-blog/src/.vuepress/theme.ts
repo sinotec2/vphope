@@ -102,12 +102,12 @@ export default hopeTheme(
         // Sidebar
         sidebar: zhSidebar,
 
-        footer: "默认页脚",
+        footer: "內設頁尾",
 
         displayFooter: true,
 
         blog: {
-          description: "一个前端开发者",
+          description: "一個前端開發者",
           intro: "/zh/intro.html",
         },
 
@@ -117,7 +117,7 @@ export default hopeTheme(
 
         // Page meta
         metaLocales: {
-          editLink: "在 GitHub 上编辑此页",
+          editLink: "在 GitHub 上編輯此頁",
         },
       },
     },

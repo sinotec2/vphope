@@ -17,7 +17,7 @@ export default config("md-enhance", {
     "/zh/": {
       lang: "zh-TW",
       title: "Markdown 增强",
-      description: "VuePress 的 Markdown 增强插件",
+      description: "VuePress 的 Markdown 增强外掛程式",
     },
   },
 

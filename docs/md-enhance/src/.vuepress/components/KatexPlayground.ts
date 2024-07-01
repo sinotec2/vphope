@@ -12,8 +12,8 @@ const locales = {
     output: "Output",
   },
   "/zh/": {
-    input: "输入",
-    output: "输出",
+    input: "輸入",
+    output: "輸出",
   },
 };
 

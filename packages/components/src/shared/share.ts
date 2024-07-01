@@ -51,17 +51,17 @@ export interface ShareServiceConfig {
    * - `cover` will be replaced with the cover/banner of the page
    * - `image` will be replaced with the first image of the page
    *
-   * 分享链接
+   * 分享連結
    *
-   * @description 你可以使用 `[` 和 `]` 包裹变量名，变量将会被替换为页面的值：
+   * @description 你可以使用 `[` 和 `]` 包裹變量名，變量將會被替換為頁面的值：
    *
-   * - `title` 将会被替换为页面的标题
-   * - `description` 将会被替换为页面的描述
-   * - `url` 将会被替换为页面的链接
-   * - `summary` 将会被替换为页面的综述
-   * - `tags` 将会被替换为页面的标签
-   * - `cover` 将会被替换为页面的封面
-   * - `image` 将会被替换为页面的第一张图片
+   * - `title` 將會被替換為頁面的標題
+   * - `description` 將會被替換為頁面的描述
+   * - `url` 將會被替換為頁面的連結
+   * - `summary` 將會被替換為頁面的综述
+   * - `tags` 將會被替換為頁面的標籤
+   * - `cover` 將會被替換為頁面的封面
+   * - `image` 將會被替換為頁面的第一张圖片
    */
   link: string;
 
@@ -74,13 +74,13 @@ export interface ShareServiceConfig {
    * - `popup` will open a popup window
    * - `qrcode` will show a QR code with link
    *
-   * 分享按钮的行为
+   * 分享按鈕的行為
    *
    * @description
-   * - `open` 将会在新标签页打开链接
-   * - `navigate` 将会跳转到链接
-   * - `popup` 将会打开一个弹窗
-   * - `qrcode` 将会显示一个二维码
+   * - `open` 將會在新標籤頁打開連結
+   * - `navigate` 將會跳轉到連結
+   * - `popup` 將會打開一個弹窗
+   * - `qrcode` 將會顯示一個二维碼
    *
    * @default "popup"
    */
@@ -89,7 +89,7 @@ export interface ShareServiceConfig {
   /**
    * Theme color of icon
    *
-   * 图标的主题色
+   * 圖標的主題色
    *
    * @default 'currentColor'
    */
@@ -98,14 +98,14 @@ export interface ShareServiceConfig {
   /**
    * Plain icon shape
    *
-   * 纯色图标的形状
+   * 纯色圖標的形狀
    */
   shape: string;
 
   /**
    * Colorful icon
    *
-   * 彩色图标
+   * 彩色圖標
    */
   icon?: string;
 }
@@ -114,7 +114,7 @@ export interface ShareServiceOptions extends ShareServiceConfig {
   /**
    * Service name
    *
-   * 服务名称
+   * 服務名稱
    */
   name: string;
 }

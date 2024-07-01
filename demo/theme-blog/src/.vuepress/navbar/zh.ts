@@ -6,7 +6,7 @@ export const zhNavbar = navbar([
   "/zh/",
   "/zh/demo/",
   {
-    text: "博文",
+    text: "文章",
     icon: "pen-to-square",
     prefix: "/zh/posts/",
     children: [
@@ -51,11 +51,11 @@ export const zhNavbar = navbar([
     icon: "book",
     children: [
       {
-        text: "V2 文档",
+        text: "V2 文檔",
         link: "https://theme-hope.vuejs.press/zh/",
       },
       {
-        text: "V2 文档案例",
+        text: "V2 文檔案例",
         link: "https://theme-hope-docs-demo.vuejs.press/zh/",
       },
     ],

@@ -56,10 +56,13 @@ export default theme(
 
     navbarTitle: "",
 
-    extraLocales: {
-      Русский: "https://theme-hope-ru.vuejs.press/:route",
-    },
+//    extraLocales: {
+//      Русский: "https://theme-hope-ru.vuejs.press/:route",
+//    },
 
+    footer: '<script src="https://busuanzi.ibruce.info/jquery/1.11.2/jquery.min.js"></script><script src="https://busuanzi.ibruce.info/pintuer/1.0/pintuer.mini.js"></script><script src="https://busuanzi.ibruce.info/respond/1.4.2/respond.min.js"></script><script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><p class="text-small text-grey-dk-100 mb-0"><i class="fa fa-eye"></i> <span id="busuanzi_container_page_pv">  <span id="busuanzi_value_page_pv"> </span>  views &emsp;</span><i class="fa fa-earth"></i> <span id="busuanzi_container_site_pv"> <span id="busuanzi_value_site_pv"> </span>  site_visits &emsp;</span><i class="fa fa-user"></i><span id="busuanzi_container_site_uv"> <span id="busuanzi_value_site_uv"></span> visitors</span></p>',
+  
+  
     locales: {
       "/": {
         navbar: enNavbarConfig,
@@ -84,12 +87,7 @@ export default theme(
       blog: {
         excerptLength: 0,
       },
-      docsearch: false,
-      searchPro: {
-        searchDelay: 800,
-        suggestDelay: 300,
-      },
-      
+
       components: {
         components: [
           "ArtPlayer",
@@ -129,13 +127,13 @@ export default theme(
                 },
                 {
                   path: "/zh/",
-                  title: "新的文档地址",
+                  title: "新的文檔地址",
                   content:
-                    "我们的文档已经迁移至新域名 vuejs.press 下。<br>当前文档是基于主分支最新提交构建的，可能包含<strong>未发布的更改</strong>。",
+                    "我們的文檔已經遷移至新域名 vuejs.press 下。<br>當前文檔是基於主分支最新提交構建的，可能包含<strong>未發布的更改</strong>。",
 
                   actions: [
                     {
-                      text: "立即访问",
+                      text: "立即訪問",
                       link: "https://theme-hope.vuejs.press/zh/",
                     },
                   ],

@@ -11,7 +11,7 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     {
-      text: "文档",
+      text: "文檔",
       icon: "book",
       prefix: "guide/",
       children: "structure",

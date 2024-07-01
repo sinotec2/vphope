@@ -35,9 +35,9 @@ const locales = {
     result: "Render Result",
   },
   "/zh/": {
-    config: "流程图配置",
-    preset: "流程图预设",
-    result: "渲染结果",
+    config: "流程圖配置",
+    preset: "流程圖預設",
+    result: "渲染結果",
   },
 };
 

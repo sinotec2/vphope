@@ -8,7 +8,7 @@ export const zhNavbarConfig = navbar([
   "/zh/faq/",
   "/zh/demo/",
   {
-    text: "项目",
+    text: "項目",
     icon: "circle-info",
     prefix: "/zh/",
     children: [
@@ -19,7 +19,7 @@ export const zhNavbarConfig = navbar([
         children: ["markdown/", "vuepress/"],
       },
       {
-        text: "项目",
+        text: "項目",
         children: ["changelog", "related", "contribution"],
       },
     ],

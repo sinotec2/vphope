@@ -27,7 +27,7 @@ export default config("", {
     "/zh/": {
       lang: "zh-TW",
       title: "vuepress-theme-hope",
-      description: "一个具有强大功能的 vuepress 主题✨",
+      description: "一個具有强大功能的 vuepress 主題✨",
     },
   },
 

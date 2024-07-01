@@ -14,8 +14,8 @@ export default config("lightgallery", {
 
     "/zh/": {
       lang: "zh-TW",
-      title: "LightGallery 插件",
-      description: "VuePress2 的 LightGallery 插件",
+      title: "LightGallery 外掛程式",
+      description: "VuePress2 的 LightGallery 外掛程式",
     },
   },
 

@@ -14,6 +14,8 @@ const IS_NETLIFY = "NETLIFY" in process.env;
 
 // The theme wrapper is located in <root>/docs-shared/src/theme-wrapper.ts
 export default theme("components", {
+  footer: '<script src="https://busuanzi.ibruce.info/jquery/1.11.2/jquery.min.js"></script><script src="https://busuanzi.ibruce.info/pintuer/1.0/pintuer.mini.js"></script><script src="https://busuanzi.ibruce.info/respond/1.4.2/respond.min.js"></script><script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><p class="text-small text-grey-dk-100 mb-0"><i class="fa fa-eye"></i> <span id="busuanzi_container_page_pv">  <span id="busuanzi_value_page_pv"> </span>  views &emsp;</span><i class="fa fa-earth"></i> <span id="busuanzi_container_site_pv"> <span id="busuanzi_value_site_pv"> </span>  site_visits &emsp;</span><i class="fa fa-user"></i><span id="busuanzi_container_site_uv"> <span id="busuanzi_value_site_uv"></span> visitors</span></p>',
+
   locales: {
     "/": {
       navbar: [
@@ -56,7 +58,7 @@ export default theme("components", {
           icon: "bookmark",
           children: [
             {
-              text: "V1 文档",
+              text: "V1 文檔",
               link: "https://vuepress-theme-hope.github.io/v1/components/zh/",
             },
           ],
@@ -67,7 +69,7 @@ export default theme("components", {
         "/zh/",
         {
           icon: "puzzle-piece",
-          text: "组件",
+          text: "元件",
           prefix: "/zh/guide/",
           children: "structure",
         },
@@ -126,11 +128,11 @@ export default theme("components", {
                 },
                 {
                   path: "/zh/",
-                  title: "新的文档地址",
-                  content: "我们的文档已经迁移至新域名 vuejs.press 下。",
+                  title: "新的文檔地址",
+                  content: "我們的文檔已經遷移至新域名 vuejs.press 下。",
                   actions: [
                     {
-                      text: "立即访问",
+                      text: "立即訪問",
                       link: "https://plugin-components.vuejs.press/zh/",
                     },
                   ],
