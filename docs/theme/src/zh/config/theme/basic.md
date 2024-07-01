@@ -11,24 +11,24 @@ tag:
 
 ::: caution
 
-這些選項很重要，需要你正確配置。
+這些選項關乎主題是否能夠正確運行，每個設定都重要，需要正確配置。
 
 :::
 
-## hostname <Badge text="僅限 Root" type="warning" />
+## 主機名稱hostname <Badge text="僅限 Root" type="warning" />
 
 - 類型: `string`
 - 必填: 是
 
-當前網站部署到的域名。
+技術文件部署平台的網域名稱。
 
 ::: tip
 
-它應該包含完整協議 (如: `https://example.com`)。
+它應該包含完整的網域名稱協議，`http`或`https`，主機、以及REALM名稱 (如: `https://host1.example.com`)。
 
 :::
 
-## author
+## 內設作者訊息author
 
 - 類型: `Author`
 
@@ -42,7 +42,7 @@ tag:
     name: string;
 
     /**
-     * 作者網站
+     * 作者詳細訊息的網址
      */
     url?: string;
 
@@ -59,22 +59,26 @@ tag:
 
 文章顯示的內設作者
 
-## license
+## 許可證license
 
 - 類型: `string`
 - 必填: 否
 
-網站的內設協議
+網站內設的許可協議
 
-## favicon
+## 偏好圖標favicon
 
 - 類型: `string`
 - 必填: 否
 
 網站圖標
 
-## navbar
+## 導航navbar
 
+- 有關檔案：
+  - `docs/theme/src/.vuepress/theme.ts`開啟模組
+  - `docs/theme/src/.vuepress/navbar/en.ts`英文版導航選單
+  - `docs/theme/src/.vuepress/navbar/zh.ts`中文版導航選單
 - 類型: `NavbarConfig`
 
   ```ts
@@ -141,7 +145,7 @@ tag:
 
 - 詳情: [布局 → 導航欄](../../guide/layout/navbar.md)
 
-導航欄配置
+
 
 ## sidebar
 
